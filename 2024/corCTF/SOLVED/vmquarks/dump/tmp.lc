@@ -1,0 +1,450 @@
+λa.(λd.(λa.(λx.λy.y (λn.λf.λx1.n (λg.λh.h (g f ))(λu.x1 )(λx1.x1 ))x (λv.False)(True)(x (λn.λf.λx.n (λg.λh.h (g f ))(λu.x )(λx.x ))y (λv.False)(True))(False))
+((λl.(λb.b l )
+((λg.g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g ((λr.g (r r ))
+(λr.g (r r ))
+)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+(λb.λl.(λc.c (λe.λg.False)(λe.e (True)))
+l 
+(0)(+
+(1)
+(b ((λc.c (λe.λf.f )((λx.x x )
+(λx.x x )
+))
+l 
+))))
+)
+)
+((λf.λl.(λb.b f l )
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λb.λf.λl.(λc.c (λe.λg.False)(λe.e (True)))
+l 
+(λc.λn.n (λx.x ))((λe.λh.f h ((λf.λg.λc.λn.c f g )
+h 
+e )e )
+(b f ((λc.c (λe.λf.f )((λx.x x )
+(λx.x x )
+))
+l 
+))
+((λc.c (λe.λf.e )((λx.x x )
+(λx.x x )
+))
+l 
+)))
+)
+)
+(λb.b )
+a )
+)
+(11)((λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(865)
+((λf.λi.λl.(λb.b f i l )
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λb.λf.λc.λl.(λe.e (λg.λh.False)(λg.g (True)))
+l 
+c (b f (f c ((λe.e (λf.λg.f )((λx.x x )
+(λx.x x )
+))
+l 
+))((λe.e (λf.λg.g )((λx.x x )
+(λx.x x )
+))
+l 
+)))
+)
+)
++
+(0)d ))(False))
+((λf.λl.(λa.a f l )
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λa.λf.λl.(λb.b (λc.λe.False)(λc.c (True)))
+l 
+(λc.λn.n (λx.x ))((λb.λe.λc.λn.c b e )
+(f ((λb.b (λc.λe.c )((λx.x x )
+(λx.x x )
+))
+l 
+))
+(a f ((λb.b (λc.λe.e )((λx.x x )
+(λx.x x )
+))
+l 
+))))
+)
+)
+(λp.(λa.λe.(λl.λi.(λb.b l i )
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λb.λl.λi.(λn.n (λv.False)(True))
+i 
+((λc.c (λf.λg.f )((λx.x x )
+(λx.x x )
+))
+l 
+)(b ((λc.c (λf.λg.g )((λx.x x )
+(λx.x x )
+))
+l 
+)(-
+i 
+(1))))
+)
+)
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(+ c (20))
+(95))
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(100)
+(+
+c 
+(1)))
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(64)
+c )
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+c 
+(85))
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(14)
+(-
+(95)
+c ))
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+c 
+(77))
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(86)
+c )
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+c 
+((λn.λm.(λw.w n m )
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λw.λn.λm.(λx.λy.(False)
+(True)
+((λx.λy.(True)
+((λb.b (False)(True))
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+x 
+y )(True)((λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+x 
+y ))
+n 
+m (+
+(1)
+(w (-
+n 
+m )m ))(0))
+)
+)
+(102)
+(2)))
+((λb.λf.λc.λn.c b f )
+(λc.(λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+((λn.λm.(λw.w n m )
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λw.λn.λm.(λx.λy.(False)
+(True)
+((λx.λy.(True)
+((λb.b (False)(True))
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+x 
+y )(True)((λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+x 
+y ))
+n 
+m (+
+(1)
+(w (-
+n 
+m )m ))(0))
+)
+)
+(164)
+(2))
+c )
+((λb.λf.λc.λn.c b f )
+(λc.(True)
+((λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λb.b (False)(True))
+((λn.n (λv.False)(True))
+(-
+y 
+x )
+)
+)(False))
+(84)
+c )
+(False)((λx.λy.(True)
+((λb.b (False)(True))
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(86)
+c )(False))
+((λb.λf.λc.λn.c b f )
+(λc.(True)
+((λx.λy.(True)
+((λb.b (False)(True))
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+)
+(False)((λn.n (λv.False)(True))
+(-
+y 
+x )
+)(False))
+(81)
+c )
+(False)((λx.λy.(True)
+((λn.n (λv.False)(True))
+(-
+x 
+y )
+)
+(False)((λb.b (False)(True))
+((λn.n (λv.False)(True))
+(-
+y 
+x )
+)
+)(False))
+(79)
+c )(False))
+(λc.λn.n (λx.x )))))))))))))
+a e )
+((λa.a (λb.λc.b )((λx.x x )
+(λx.x x )
+))
+p 
+)
+((λa.a (λb.λc.c )((λx.x x )
+(λx.x x )
+))
+p 
+))
+((λl.(λa.a l (0))
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λa.λl.λi.(λb.b (λc.λe.False)(λc.c (True)))
+l 
+(λc.λn.n (λx.x ))((λb.λe.λc.λn.c b e )
+((λb.λe.λc.λn.c b e )
+i 
+((λb.b (λc.λe.c )((λx.x x )
+(λx.x x )
+))
+l 
+))
+(a ((λb.b (λc.λe.e )((λx.x x )
+(λx.x x )
+))
+l 
+)(+
+i 
+(1)))))
+)
+)
+((λl.(λf.λi.λl.(λa.a f i l )
+((λg.(λr.g (r r ))
+(λr.g (r r ))
+)
+(λa.λf.λb.λl.(λc.c (λe.λg.False)(λe.e (True)))
+l 
+b (a f (f b ((λc.c (λe.λf.e )((λx.x x )
+(λx.x x )
+))
+l 
+))((λc.c (λe.λf.f )((λx.x x )
+(λx.x x )
+))
+l 
+)))
+)
+)
+(λa.λe.(λb.λe.λc.λn.c b e )
+e 
+a )
+(λc.λn.n (λx.x ))l )
+d 
+)
+))
+)
+a 
+
+
