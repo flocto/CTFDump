@@ -1,0 +1,167 @@
+ExifTool Version Number         : 12.40
+File Name                       : DSCF3911.RAF
+Directory                       : .
+File Size                       : 19 MiB
+File Modification Date/Time     : 2024:09:06 00:16:30-05:00
+File Access Date/Time           : 2024:09:07 13:14:33-05:00
+File Inode Change Date/Time     : 2024:09:06 23:13:43-05:00
+File Permissions                : -rwxrwxrwx
+File Type                       : RAF
+File Type Extension             : raf
+MIME Type                       : image/x-fujifilm-raf
+RAF Version                     : 0214
+Exif Byte Order                 : Little-endian (Intel, II)
+Make                            : FUJIFILM
+Camera Model Name               : X-T5
+Orientation                     : Rotate 270 CW
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Software                        : Digital Camera X-T5 Ver2.14
+Modify Date                     : 2024:08:07 19:07:16
+Y Cb Cr Positioning             : Co-sited
+Copyright                       : 
+Exposure Time                   : 1/1250
+F Number                        : 1.2
+Exposure Program                : Aperture-priority AE
+ISO                             : 1600
+Sensitivity Type                : Standard Output Sensitivity
+Exif Version                    : 0230
+Date/Time Original              : 2024:08:07 19:07:16
+Create Date                     : 2024:08:07 19:07:16
+Components Configuration        : Y, Cb, Cr, -
+Compressed Bits Per Pixel       : 2.5
+Shutter Speed Value             : 1/1226
+Aperture Value                  : 1.2
+Brightness Value                : 2.4
+Exposure Compensation           : 0
+Max Aperture Value              : 1.2
+Metering Mode                   : Multi-segment
+Light Source                    : Unknown
+Flash                           : No Flash
+Focal Length                    : 75.0 mm
+Version                         : 0130
+Internal Serial Number          : FFDT24456429     Y54142 2019:09:09 AA902021CAEE
+Quality                         : NORMAL
+White Balance                   : Auto
+Saturation                      : 0 (normal)
+White Balance Fine Tune         : Red +0, Blue +0
+Noise Reduction                 : 0 (normal)
+Fuji Flash Mode                 : Manual
+Flash Exposure Comp             : 0
+Focus Mode                      : Auto
+AF Mode                         : Single Point
+Focus Pixel                     : 961 708
+AF-S Priority                   : Release
+AF-C Priority                   : Release
+Focus Mode 2                    : AF-S
+Pre AF                          : Off
+AF Area Mode                    : Single Point
+AF Area Point Size              : 6
+AF Area Zone Size               : n/a
+AF-C Setting                    : Set 2 (ignore obstacles)
+AF-C Tracking Sensitivity       : 3
+AF-C Speed Tracking Sensitivity : 0
+AF-C Zone Area Switching        : Center
+Slow Sync                       : Off
+Picture Mode                    : Aperture-priority AE
+Exposure Count                  : 1
+Shadow Tone                     : 0 (normal)
+Highlight Tone                  : 0 (normal)
+Lens Modulation Optimizer       : On
+Grain Effect                    : Off
+Color Chrome Effect             : Off
+Shutter Type                    : Mechanical
+Auto Bracketing                 : On
+Sequence Number                 : 1
+Drive Mode                      : Continuous Low
+Drive Speed                     : 5 fps
+Blur Warning                    : None
+Focus Warning                   : Good
+Exposure Warning                : Good
+Dynamic Range                   : Standard
+Film Mode                       : Pro Neg. Hi
+Dynamic Range Setting           : Manual
+Development Dynamic Range       : 400
+Min Focal Length                : 75
+Max Focal Length                : 75
+Max Aperture At Min Focal       : 1.2
+Max Aperture At Max Focal       : 1.2
+Image Stabilization             : Sensor-shift; On (mode 1, continuous); 0
+Rating                          : 0
+Image Generation                : Original Image
+Image Count                     : 3085
+Flicker Reduction               : Off (0x00f1)
+Faces Detected                  : 0
+Num Face Elements               : 0
+User Comment                    : 
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 1920
+Exif Image Height               : 1280
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+Focal Plane X Resolution        : 820
+Focal Plane Y Resolution        : 820
+Focal Plane Resolution Unit     : cm
+Sensing Method                  : One-chip color area
+File Source                     : Digital Camera
+Scene Type                      : Directly photographed
+Custom Rendered                 : Normal
+Exposure Mode                   : Auto
+Focal Length In 35mm Format     : 113 mm
+Scene Capture Type              : Standard
+Sharpness                       : Normal
+Subject Distance Range          : Unknown
+Serial Number                   : 93A50950
+Lens Info                       : 75mm f/1.2
+Lens Make                       : Viltrox
+Lens Model                      : AF 75/1.2 XF
+Lens Serial Number              : 00000500
+PrintIM Version                 : 0250
+Compression                     : JPEG (old-style)
+Artist                          : 
+Thumbnail Offset                : 3808
+Thumbnail Length                : 5511
+XMP Toolkit                     : Image::ExifTool 12.87
+Location Shown Sublocation      : 40.704384, -73.990265
+Image Width                     : 1920
+Image Height                    : 1280
+Encoding Process                : Baseline DCT, Huffman coding
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:2 (2 1)
+Preview Image                   : (Binary data 415479 bytes, use -b option to extract)
+Raw Image Full Size             : 6048x4038
+Raw Image Crop Top Left         : 21 16
+Raw Image Cropped Size          : 6000x4000
+Raw Image Aspect Ratio          : 3:2
+Fuji Layout                     : 12 12 12 12
+X-Trans Layout                  : GRBGBR BGGRGG RGGBGG GBRGRB RGGBGG BGGRGG
+Raw Exposure Bias               : -2.7
+Raw Image Width                 : 6032
+Raw Image Height                : 4032
+Raw Image Full Width            : 6048
+Raw Image Full Height           : 4038
+Bits Per Sample                 : 14
+Strip Offsets                   : 439780
+Strip Byte Counts               : 19844560
+Black Level                     : 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021 1021
+Geometric Distortion Params     : 400.5555556 0.3535211268 0.5 0.6126760563 0.7070422535 0.7908450704 0.8661971831 0.9352112676 1 1.06056338 0 0 0 0 0 0 0 0 0
+WB GRB Levels Standard          : 302 378 884 17 302 643 512 21
+WB GRB Levels Auto              : 302 679 475
+WB GRB Levels                   : 302 679 475
+Chromatic Aberration Params     : 400.5555556 0.3535211268 0.5 0.6126760563 0.7070422535 0.7908450704 0.8661971831 0.9352112676 1 1.06056338 0.0001831054688 0.0001831054688 0.0001831054688 0.0001525878906 0.0001525878906 0.0001525878906 0.0001525878906 0.0001220703125 0.0001220703125 -0.0001525878906 -0.0001220703125 -9.155273438e-05 -6.103515625e-05 -3.051757812e-05 0 3.051757812e-05 6.103515625e-05 6.103515625e-05 400.5555556
+Vignetting Params               : 400.5555556 0.3535211268 0.5 0.6126760563 0.7070422535 0.7908450704 0.8661971831 0.9352112676 1 1.06056338 90.22021484 83.93408203 79.22607422 74.90820312 71.38330078 68.24365234 65.09814453 61.96630859 61.96630859
+Aperture                        : 1.2
+Blue Balance                    : 1.572848
+Image Size                      : 6000x4000
+Megapixels                      : 24.0
+Red Balance                     : 2.248344
+Scale Factor To 35 mm Equivalent: 1.5
+Shutter Speed                   : 1/1250
+Thumbnail Image                 : (Binary data 5511 bytes, use -b option to extract)
+Circle Of Confusion             : 0.020 mm
+Field Of View                   : 18.1 deg
+Focal Length                    : 75.0 mm (35 mm equivalent: 113.0 mm)
+Hyperfocal Distance             : 235.05 m
+Light Value                     : 6.8

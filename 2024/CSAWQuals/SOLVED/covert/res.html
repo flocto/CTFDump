@@ -1,0 +1,22 @@
+<html><body>
+    # ez covert transfer...
+    from scapy.all import IP, TCP, send
+
+    key = ??
+
+    dst_ip = &#34;X.X.X.X&#34;
+    dst_port = ?????
+
+    src_ip = &#34;X.X.X.X&#34;
+    src_port = ?????
+
+    def encode_message(message):
+        for letter in message:
+            ip = IP(dst=dst_ip, src=src_ip, id=ord(letter)*key)
+
+            tcp = TCP(sport=src_port, dport=dst_port)
+
+            send(ip/tcp)
+
+    encode_message(&#34;????????????&#34;)
+        </body></html>
