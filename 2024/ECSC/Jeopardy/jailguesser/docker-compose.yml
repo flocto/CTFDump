@@ -1,0 +1,15 @@
+services:
+  chall:
+    build: .
+    container_name: jailguesser
+    restart: unless-stopped
+    init: true
+    privileged: true
+    volumes:
+      - './jailguesser.sh:/root/jailguesser.sh:ro'
+      - './jailguesser.py:/root/jailguesser.py:ro'
+    ports:
+      - '47019:1337'
+    environment:
+      - 'FLAG=ECSC{redacted}'
+      - 'TIMEOUT=300'

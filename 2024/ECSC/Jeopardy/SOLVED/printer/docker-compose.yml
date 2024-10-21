@@ -1,0 +1,16 @@
+services:
+  chall:
+    build: src
+    restart: unless-stopped
+    init: true
+    privileged: true
+    ports:
+      - '1337:1337'
+    volumes:
+      - './src/printer:/home/user/printer:ro' # 
+      - './src/server.py:/home/user/chall:ro' # Challenge executable
+    environment:
+      - "FLAG=ECSC{REDACTED}"         # default: unset, no flag
+      - 'FLAG_IN_ENV=true'
+      - 'TEMPDIRS=/tmp:/home/user/.config'                             # default: unset
+      - 'LOG_STDERR=true'
