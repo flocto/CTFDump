@@ -1,0 +1,1056 @@
+0000: pop_reg  01
+0001: pop_reg  02
+0002: pop_reg  03
+0003: pop_reg  04
+0004: pop_reg  05
+0005: pop_reg  06
+0006: pop_reg  07
+0007: pop_reg  08
+0008: pop_reg  09
+0009: pop_reg  0a
+000a: pop_reg  0b
+000b: pop_reg  0c
+000c: pop_reg  0d
+000d: pop_reg  0e
+000e: pop_reg  0f
+000f: pop_reg  10
+0010: push_reg 01
+0011: push_imm aa
+0012: push_reg 02
+0013: push_imm ed
+0014: push_reg 03
+0015: push_imm ec
+0016: push_reg 04
+0017: push_imm 5d
+0018: push_reg 05
+0019: push_imm 8e
+001a: push_reg 06
+001b: push_imm 87
+001c: push_reg 07
+001d: push_imm 41
+001e: push_reg 08
+001f: push_imm ff
+0020: push_reg 09
+0021: push_imm a6
+0022: push_reg 0a
+0023: push_imm a6
+0024: push_reg 0b
+0025: push_imm 10
+0026: push_reg 0c
+0027: push_imm 5b
+0028: push_reg 0d
+0029: push_imm c6
+002a: push_reg 0e
+002b: push_imm 01
+002c: push_reg 0f
+002d: push_imm 7a
+002e: push_reg 10
+002f: push_imm fd
+0030: mul     
+0031: mul     
+0032: mul     
+0033: mul     
+0034: mul     
+0035: mul     
+0036: mul     
+0037: mul     
+0038: mul     
+0039: mul     
+003a: mul     
+003b: mul     
+003c: mul     
+003d: mul     
+003e: mul     
+003f: mul     
+0040: add     
+0041: add     
+0042: add     
+0043: add     
+0044: add     
+0045: add     
+0046: add     
+0047: add     
+0048: add     
+0049: add     
+004a: add     
+004b: add     
+004c: add     
+004d: add     
+004e: add     
+004f: pop_reg  11
+0050: push_reg 01
+0051: push_imm 3d
+0052: push_reg 02
+0053: push_imm 71
+0054: push_reg 03
+0055: push_imm ae
+0056: push_reg 04
+0057: push_imm 5a
+0058: push_reg 05
+0059: push_imm 4f
+005a: push_reg 06
+005b: push_imm dc
+005c: push_reg 07
+005d: push_imm 30
+005e: push_reg 08
+005f: push_imm eb
+0060: push_reg 09
+0061: push_imm 8d
+0062: push_reg 0a
+0063: push_imm 97
+0064: push_reg 0b
+0065: push_imm fe
+0066: push_reg 0c
+0067: push_imm 28
+0068: push_reg 0d
+0069: push_imm 40
+006a: push_reg 0e
+006b: push_imm 4c
+006c: push_reg 0f
+006d: push_imm 83
+006e: push_reg 10
+006f: push_imm 7f
+0070: mul     
+0071: mul     
+0072: mul     
+0073: mul     
+0074: mul     
+0075: mul     
+0076: mul     
+0077: mul     
+0078: mul     
+0079: mul     
+007a: mul     
+007b: mul     
+007c: mul     
+007d: mul     
+007e: mul     
+007f: mul     
+0080: add     
+0081: add     
+0082: add     
+0083: add     
+0084: add     
+0085: add     
+0086: add     
+0087: add     
+0088: add     
+0089: add     
+008a: add     
+008b: add     
+008c: add     
+008d: add     
+008e: add     
+008f: pop_reg  12
+0090: push_reg 01
+0091: push_imm 73
+0092: push_reg 02
+0093: push_imm cc
+0094: push_reg 03
+0095: push_imm a8
+0096: push_reg 04
+0097: push_imm e1
+0098: push_reg 05
+0099: push_imm e9
+009a: push_reg 06
+009b: push_imm f2
+009c: push_reg 07
+009d: push_imm 8d
+009e: push_reg 08
+009f: push_imm 66
+00a0: push_reg 09
+00a1: push_imm 50
+00a2: push_reg 0a
+00a3: push_imm af
+00a4: push_reg 0b
+00a5: push_imm 20
+00a6: push_reg 0c
+00a7: push_imm 75
+00a8: push_reg 0d
+00a9: push_imm 1e
+00aa: push_reg 0e
+00ab: push_imm 0f
+00ac: push_reg 0f
+00ad: push_imm d5
+00ae: push_reg 10
+00af: push_imm 5b
+00b0: mul     
+00b1: mul     
+00b2: mul     
+00b3: mul     
+00b4: mul     
+00b5: mul     
+00b6: mul     
+00b7: mul     
+00b8: mul     
+00b9: mul     
+00ba: mul     
+00bb: mul     
+00bc: mul     
+00bd: mul     
+00be: mul     
+00bf: mul     
+00c0: add     
+00c1: add     
+00c2: add     
+00c3: add     
+00c4: add     
+00c5: add     
+00c6: add     
+00c7: add     
+00c8: add     
+00c9: add     
+00ca: add     
+00cb: add     
+00cc: add     
+00cd: add     
+00ce: add     
+00cf: pop_reg  13
+00d0: push_reg 01
+00d1: push_imm 3c
+00d2: push_reg 02
+00d3: push_imm 23
+00d4: push_reg 03
+00d5: push_imm 3d
+00d6: push_reg 04
+00d7: push_imm ff
+00d8: push_reg 05
+00d9: push_imm 85
+00da: push_reg 06
+00db: push_imm d4
+00dc: push_reg 07
+00dd: push_imm 4b
+00de: push_reg 08
+00df: push_imm 6e
+00e0: push_reg 09
+00e1: push_imm 51
+00e2: push_reg 0a
+00e3: push_imm 23
+00e4: push_reg 0b
+00e5: push_imm 9f
+00e6: push_reg 0c
+00e7: push_imm 6f
+00e8: push_reg 0d
+00e9: push_imm 92
+00ea: push_reg 0e
+00eb: push_imm ed
+00ec: push_reg 0f
+00ed: push_imm d7
+00ee: push_reg 10
+00ef: push_imm 8e
+00f0: mul     
+00f1: mul     
+00f2: mul     
+00f3: mul     
+00f4: mul     
+00f5: mul     
+00f6: mul     
+00f7: mul     
+00f8: mul     
+00f9: mul     
+00fa: mul     
+00fb: mul     
+00fc: mul     
+00fd: mul     
+00fe: mul     
+00ff: mul     
+0100: add     
+0101: add     
+0102: add     
+0103: add     
+0104: add     
+0105: add     
+0106: add     
+0107: add     
+0108: add     
+0109: add     
+010a: add     
+010b: add     
+010c: add     
+010d: add     
+010e: add     
+010f: pop_reg  14
+0110: push_reg 01
+0111: push_imm b3
+0112: push_reg 02
+0113: push_imm 44
+0114: push_reg 03
+0115: push_imm aa
+0116: push_reg 04
+0117: push_imm d7
+0118: push_reg 05
+0119: push_imm ff
+011a: push_reg 06
+011b: push_imm 30
+011c: push_reg 07
+011d: push_imm fa
+011e: push_reg 08
+011f: push_imm 3a
+0120: push_reg 09
+0121: push_imm 4d
+0122: push_reg 0a
+0123: push_imm 27
+0124: push_reg 0b
+0125: push_imm 31
+0126: push_reg 0c
+0127: push_imm 16
+0128: push_reg 0d
+0129: push_imm 53
+012a: push_reg 0e
+012b: push_imm 5d
+012c: push_reg 0f
+012d: push_imm 49
+012e: push_reg 10
+012f: push_imm 60
+0130: mul     
+0131: mul     
+0132: mul     
+0133: mul     
+0134: mul     
+0135: mul     
+0136: mul     
+0137: mul     
+0138: mul     
+0139: mul     
+013a: mul     
+013b: mul     
+013c: mul     
+013d: mul     
+013e: mul     
+013f: mul     
+0140: add     
+0141: add     
+0142: add     
+0143: add     
+0144: add     
+0145: add     
+0146: add     
+0147: add     
+0148: add     
+0149: add     
+014a: add     
+014b: add     
+014c: add     
+014d: add     
+014e: add     
+014f: pop_reg  15
+0150: push_reg 01
+0151: push_imm 82
+0152: push_reg 02
+0153: push_imm 2f
+0154: push_reg 03
+0155: push_imm c3
+0156: push_reg 04
+0157: push_imm 5d
+0158: push_reg 05
+0159: push_imm c0
+015a: push_reg 06
+015b: push_imm b2
+015c: push_reg 07
+015d: push_imm 0c
+015e: push_reg 08
+015f: push_imm 2b
+0160: push_reg 09
+0161: push_imm 97
+0162: push_reg 0a
+0163: push_imm 1d
+0164: push_reg 0b
+0165: push_imm 1d
+0166: push_reg 0c
+0167: push_imm 37
+0168: push_reg 0d
+0169: push_imm 56
+016a: push_reg 0e
+016b: push_imm 4c
+016c: push_reg 0f
+016d: push_imm a1
+016e: push_reg 10
+016f: push_imm 37
+0170: mul     
+0171: mul     
+0172: mul     
+0173: mul     
+0174: mul     
+0175: mul     
+0176: mul     
+0177: mul     
+0178: mul     
+0179: mul     
+017a: mul     
+017b: mul     
+017c: mul     
+017d: mul     
+017e: mul     
+017f: mul     
+0180: add     
+0181: add     
+0182: add     
+0183: add     
+0184: add     
+0185: add     
+0186: add     
+0187: add     
+0188: add     
+0189: add     
+018a: add     
+018b: add     
+018c: add     
+018d: add     
+018e: add     
+018f: pop_reg  16
+0190: push_reg 01
+0191: push_imm 80
+0192: push_reg 02
+0193: push_imm 6b
+0194: push_reg 03
+0195: push_imm 6b
+0196: push_reg 04
+0197: push_imm 70
+0198: push_reg 05
+0199: push_imm d6
+019a: push_reg 06
+019b: push_imm 33
+019c: push_reg 07
+019d: push_imm 24
+019e: push_reg 08
+019f: push_imm 84
+01a0: push_reg 09
+01a1: push_imm cf
+01a2: push_reg 0a
+01a3: push_imm d5
+01a4: push_reg 0b
+01a5: push_imm 19
+01a6: push_reg 0c
+01a7: push_imm a6
+01a8: push_reg 0d
+01a9: push_imm fe
+01aa: push_reg 0e
+01ab: push_imm ce
+01ac: push_reg 0f
+01ad: push_imm f8
+01ae: push_reg 10
+01af: push_imm 62
+01b0: mul     
+01b1: mul     
+01b2: mul     
+01b3: mul     
+01b4: mul     
+01b5: mul     
+01b6: mul     
+01b7: mul     
+01b8: mul     
+01b9: mul     
+01ba: mul     
+01bb: mul     
+01bc: mul     
+01bd: mul     
+01be: mul     
+01bf: mul     
+01c0: add     
+01c1: add     
+01c2: add     
+01c3: add     
+01c4: add     
+01c5: add     
+01c6: add     
+01c7: add     
+01c8: add     
+01c9: add     
+01ca: add     
+01cb: add     
+01cc: add     
+01cd: add     
+01ce: add     
+01cf: pop_reg  17
+01d0: push_reg 01
+01d1: push_imm 15
+01d2: push_reg 02
+01d3: push_imm 48
+01d4: push_reg 03
+01d5: push_imm 81
+01d6: push_reg 04
+01d7: push_imm e4
+01d8: push_reg 05
+01d9: push_imm c0
+01da: push_reg 06
+01db: push_imm be
+01dc: push_reg 07
+01dd: push_imm 6d
+01de: push_reg 08
+01df: push_imm cb
+01e0: push_reg 09
+01e1: push_imm 13
+01e2: push_reg 0a
+01e3: push_imm 23
+01e4: push_reg 0b
+01e5: push_imm 38
+01e6: push_reg 0c
+01e7: push_imm ca
+01e8: push_reg 0d
+01e9: push_imm f9
+01ea: push_reg 0e
+01eb: push_imm 5f
+01ec: push_reg 0f
+01ed: push_imm b0
+01ee: push_reg 10
+01ef: push_imm 9f
+01f0: mul     
+01f1: mul     
+01f2: mul     
+01f3: mul     
+01f4: mul     
+01f5: mul     
+01f6: mul     
+01f7: mul     
+01f8: mul     
+01f9: mul     
+01fa: mul     
+01fb: mul     
+01fc: mul     
+01fd: mul     
+01fe: mul     
+01ff: mul     
+0200: add     
+0201: add     
+0202: add     
+0203: add     
+0204: add     
+0205: add     
+0206: add     
+0207: add     
+0208: add     
+0209: add     
+020a: add     
+020b: add     
+020c: add     
+020d: add     
+020e: add     
+020f: pop_reg  18
+0210: push_reg 01
+0211: push_imm 27
+0212: push_reg 02
+0213: push_imm 42
+0214: push_reg 03
+0215: push_imm da
+0216: push_reg 04
+0217: push_imm 73
+0218: push_reg 05
+0219: push_imm a8
+021a: push_reg 06
+021b: push_imm 19
+021c: push_reg 07
+021d: push_imm 20
+021e: push_reg 08
+021f: push_imm 89
+0220: push_reg 09
+0221: push_imm 49
+0222: push_reg 0a
+0223: push_imm b9
+0224: push_reg 0b
+0225: push_imm 50
+0226: push_reg 0c
+0227: push_imm d5
+0228: push_reg 0d
+0229: push_imm 45
+022a: push_reg 0e
+022b: push_imm 44
+022c: push_reg 0f
+022d: push_imm 3b
+022e: push_reg 10
+022f: push_imm 10
+0230: mul     
+0231: mul     
+0232: mul     
+0233: mul     
+0234: mul     
+0235: mul     
+0236: mul     
+0237: mul     
+0238: mul     
+0239: mul     
+023a: mul     
+023b: mul     
+023c: mul     
+023d: mul     
+023e: mul     
+023f: mul     
+0240: add     
+0241: add     
+0242: add     
+0243: add     
+0244: add     
+0245: add     
+0246: add     
+0247: add     
+0248: add     
+0249: add     
+024a: add     
+024b: add     
+024c: add     
+024d: add     
+024e: add     
+024f: pop_reg  19
+0250: push_reg 01
+0251: push_imm 0c
+0252: push_reg 02
+0253: push_imm c5
+0254: push_reg 03
+0255: push_imm d6
+0256: push_reg 04
+0257: push_imm f9
+0258: push_reg 05
+0259: push_imm d7
+025a: push_reg 06
+025b: push_imm a5
+025c: push_reg 07
+025d: push_imm ab
+025e: push_reg 08
+025f: push_imm b0
+0260: push_reg 09
+0261: push_imm 4f
+0262: push_reg 0a
+0263: push_imm 41
+0264: push_reg 0b
+0265: push_imm fb
+0266: push_reg 0c
+0267: push_imm 10
+0268: push_reg 0d
+0269: push_imm 8e
+026a: push_reg 0e
+026b: push_imm 70
+026c: push_reg 0f
+026d: push_imm 06
+026e: push_reg 10
+026f: push_imm 11
+0270: mul     
+0271: mul     
+0272: mul     
+0273: mul     
+0274: mul     
+0275: mul     
+0276: mul     
+0277: mul     
+0278: mul     
+0279: mul     
+027a: mul     
+027b: mul     
+027c: mul     
+027d: mul     
+027e: mul     
+027f: mul     
+0280: add     
+0281: add     
+0282: add     
+0283: add     
+0284: add     
+0285: add     
+0286: add     
+0287: add     
+0288: add     
+0289: add     
+028a: add     
+028b: add     
+028c: add     
+028d: add     
+028e: add     
+028f: pop_reg  1a
+0290: push_reg 01
+0291: push_imm cd
+0292: push_reg 02
+0293: push_imm fb
+0294: push_reg 03
+0295: push_imm bd
+0296: push_reg 04
+0297: push_imm 46
+0298: push_reg 05
+0299: push_imm fe
+029a: push_reg 06
+029b: push_imm 8c
+029c: push_reg 07
+029d: push_imm b5
+029e: push_reg 08
+029f: push_imm d5
+02a0: push_reg 09
+02a1: push_imm fc
+02a2: push_reg 0a
+02a3: push_imm 70
+02a4: push_reg 0b
+02a5: push_imm 6a
+02a6: push_reg 0c
+02a7: push_imm f3
+02a8: push_reg 0d
+02a9: push_imm 42
+02aa: push_reg 0e
+02ab: push_imm c1
+02ac: push_reg 0f
+02ad: push_imm 93
+02ae: push_reg 10
+02af: push_imm b4
+02b0: mul     
+02b1: mul     
+02b2: mul     
+02b3: mul     
+02b4: mul     
+02b5: mul     
+02b6: mul     
+02b7: mul     
+02b8: mul     
+02b9: mul     
+02ba: mul     
+02bb: mul     
+02bc: mul     
+02bd: mul     
+02be: mul     
+02bf: mul     
+02c0: add     
+02c1: add     
+02c2: add     
+02c3: add     
+02c4: add     
+02c5: add     
+02c6: add     
+02c7: add     
+02c8: add     
+02c9: add     
+02ca: add     
+02cb: add     
+02cc: add     
+02cd: add     
+02ce: add     
+02cf: pop_reg  1b
+02d0: push_reg 01
+02d1: push_imm 95
+02d2: push_reg 02
+02d3: push_imm cd
+02d4: push_reg 03
+02d5: push_imm 50
+02d6: push_reg 04
+02d7: push_imm c0
+02d8: push_reg 05
+02d9: push_imm ae
+02da: push_reg 06
+02db: push_imm 6e
+02dc: push_reg 07
+02dd: push_imm a0
+02de: push_reg 08
+02df: push_imm 79
+02e0: push_reg 09
+02e1: push_imm 67
+02e2: push_reg 0a
+02e3: push_imm 4e
+02e4: push_reg 0b
+02e5: push_imm ae
+02e6: push_reg 0c
+02e7: push_imm 5a
+02e8: push_reg 0d
+02e9: push_imm cd
+02ea: push_reg 0e
+02eb: push_imm 63
+02ec: push_reg 0f
+02ed: push_imm 02
+02ee: push_reg 10
+02ef: push_imm ae
+02f0: mul     
+02f1: mul     
+02f2: mul     
+02f3: mul     
+02f4: mul     
+02f5: mul     
+02f6: mul     
+02f7: mul     
+02f8: mul     
+02f9: mul     
+02fa: mul     
+02fb: mul     
+02fc: mul     
+02fd: mul     
+02fe: mul     
+02ff: mul     
+0300: add     
+0301: add     
+0302: add     
+0303: add     
+0304: add     
+0305: add     
+0306: add     
+0307: add     
+0308: add     
+0309: add     
+030a: add     
+030b: add     
+030c: add     
+030d: add     
+030e: add     
+030f: pop_reg  1c
+0310: push_reg 01
+0311: push_imm 4f
+0312: push_reg 02
+0313: push_imm 90
+0314: push_reg 03
+0315: push_imm a1
+0316: push_reg 04
+0317: push_imm f3
+0318: push_reg 05
+0319: push_imm 8c
+031a: push_reg 06
+031b: push_imm 37
+031c: push_reg 07
+031d: push_imm 95
+031e: push_reg 08
+031f: push_imm 12
+0320: push_reg 09
+0321: push_imm 3c
+0322: push_reg 0a
+0323: push_imm c9
+0324: push_reg 0b
+0325: push_imm 95
+0326: push_reg 0c
+0327: push_imm d8
+0328: push_reg 0d
+0329: push_imm 02
+032a: push_reg 0e
+032b: push_imm e2
+032c: push_reg 0f
+032d: push_imm 31
+032e: push_reg 10
+032f: push_imm 51
+0330: mul     
+0331: mul     
+0332: mul     
+0333: mul     
+0334: mul     
+0335: mul     
+0336: mul     
+0337: mul     
+0338: mul     
+0339: mul     
+033a: mul     
+033b: mul     
+033c: mul     
+033d: mul     
+033e: mul     
+033f: mul     
+0340: add     
+0341: add     
+0342: add     
+0343: add     
+0344: add     
+0345: add     
+0346: add     
+0347: add     
+0348: add     
+0349: add     
+034a: add     
+034b: add     
+034c: add     
+034d: add     
+034e: add     
+034f: pop_reg  1d
+0350: push_reg 01
+0351: push_imm 72
+0352: push_reg 02
+0353: push_imm bc
+0354: push_reg 03
+0355: push_imm 8b
+0356: push_reg 04
+0357: push_imm 05
+0358: push_reg 05
+0359: push_imm 3c
+035a: push_reg 06
+035b: push_imm ee
+035c: push_reg 07
+035d: push_imm 07
+035e: push_reg 08
+035f: push_imm 72
+0360: push_reg 09
+0361: push_imm ca
+0362: push_reg 0a
+0363: push_imm 2c
+0364: push_reg 0b
+0365: push_imm 4b
+0366: push_reg 0c
+0367: push_imm 76
+0368: push_reg 0d
+0369: push_imm 82
+036a: push_reg 0e
+036b: push_imm 64
+036c: push_reg 0f
+036d: push_imm 08
+036e: push_reg 10
+036f: push_imm 5b
+0370: mul     
+0371: mul     
+0372: mul     
+0373: mul     
+0374: mul     
+0375: mul     
+0376: mul     
+0377: mul     
+0378: mul     
+0379: mul     
+037a: mul     
+037b: mul     
+037c: mul     
+037d: mul     
+037e: mul     
+037f: mul     
+0380: add     
+0381: add     
+0382: add     
+0383: add     
+0384: add     
+0385: add     
+0386: add     
+0387: add     
+0388: add     
+0389: add     
+038a: add     
+038b: add     
+038c: add     
+038d: add     
+038e: add     
+038f: pop_reg  1e
+0390: push_reg 01
+0391: push_imm 12
+0392: push_reg 02
+0393: push_imm 5b
+0394: push_reg 03
+0395: push_imm 99
+0396: push_reg 04
+0397: push_imm be
+0398: push_reg 05
+0399: push_imm 2c
+039a: push_reg 06
+039b: push_imm df
+039c: push_reg 07
+039d: push_imm 92
+039e: push_reg 08
+039f: push_imm c1
+03a0: push_reg 09
+03a1: push_imm fa
+03a2: push_reg 0a
+03a3: push_imm 18
+03a4: push_reg 0b
+03a5: push_imm 19
+03a6: push_reg 0c
+03a7: push_imm 33
+03a8: push_reg 0d
+03a9: push_imm 9e
+03aa: push_reg 0e
+03ab: push_imm 66
+03ac: push_reg 0f
+03ad: push_imm 7a
+03ae: push_reg 10
+03af: push_imm a4
+03b0: mul     
+03b1: mul     
+03b2: mul     
+03b3: mul     
+03b4: mul     
+03b5: mul     
+03b6: mul     
+03b7: mul     
+03b8: mul     
+03b9: mul     
+03ba: mul     
+03bb: mul     
+03bc: mul     
+03bd: mul     
+03be: mul     
+03bf: mul     
+03c0: add     
+03c1: add     
+03c2: add     
+03c3: add     
+03c4: add     
+03c5: add     
+03c6: add     
+03c7: add     
+03c8: add     
+03c9: add     
+03ca: add     
+03cb: add     
+03cc: add     
+03cd: add     
+03ce: add     
+03cf: pop_reg  1f
+03d0: push_reg 01
+03d1: push_imm d3
+03d2: push_reg 02
+03d3: push_imm cd
+03d4: push_reg 03
+03d5: push_imm 22
+03d6: push_reg 04
+03d7: push_imm 34
+03d8: push_reg 05
+03d9: push_imm e3
+03da: push_reg 06
+03db: push_imm 51
+03dc: push_reg 07
+03dd: push_imm 4c
+03de: push_reg 08
+03df: push_imm 46
+03e0: push_reg 09
+03e1: push_imm 93
+03e2: push_reg 0a
+03e3: push_imm cb
+03e4: push_reg 0b
+03e5: push_imm 42
+03e6: push_reg 0c
+03e7: push_imm b0
+03e8: push_reg 0d
+03e9: push_imm be
+03ea: push_reg 0e
+03eb: push_imm c7
+03ec: push_reg 0f
+03ed: push_imm 22
+03ee: push_reg 10
+03ef: push_imm 30
+03f0: mul     
+03f1: mul     
+03f2: mul     
+03f3: mul     
+03f4: mul     
+03f5: mul     
+03f6: mul     
+03f7: mul     
+03f8: mul     
+03f9: mul     
+03fa: mul     
+03fb: mul     
+03fc: mul     
+03fd: mul     
+03fe: mul     
+03ff: mul     
+0400: add     
+0401: add     
+0402: add     
+0403: add     
+0404: add     
+0405: add     
+0406: add     
+0407: add     
+0408: add     
+0409: add     
+040a: add     
+040b: add     
+040c: add     
+040d: add     
+040e: add     
+040f: pop_reg  20
+0410: push_reg 11
+0411: push_reg 12
+0412: push_reg 13
+0413: push_reg 14
+0414: push_reg 15
+0415: push_reg 16
+0416: push_reg 17
+0417: push_reg 18
+0418: push_reg 19
+0419: push_reg 1a
+041a: push_reg 1b
+041b: push_reg 1c
+041c: push_reg 1d
+041d: push_reg 1e
+041e: push_reg 1f
+041f: push_reg 20
