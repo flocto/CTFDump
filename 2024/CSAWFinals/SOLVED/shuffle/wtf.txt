@@ -1,0 +1,10 @@
+4 6 15 14 1 7 2 5 10 11 12 0 8 13 9 3
+Processing...
+cat flag.txt
+
+Moves: 100
+bash: cannot set terminal process group (1): Inappropriate ioctl for device
+bash: no job control in this shell
+[?2004h]0;ctf@shuffling-7c9d9c44b4-4hd8k: ~ctf@shuffling-7c9d9c44b4-4hd8k:~$ cat flag.txt
+[?2004lcsawctf{5huffl3_5huffl3_701l_4nd_7r0ubl3}
+[?2004h]0;ctf@shuffling-7c9d9c44b4-4hd8k: ~ctf@shuffling-7c9d9c44b4-4hd8k:~$ 

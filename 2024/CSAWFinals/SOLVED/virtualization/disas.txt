@@ -1,0 +1,79 @@
+17 b'Please enter your password\n'
+33 b'bad password\n'
+49 b'I_LOVE_KOTLIN'
+65 b"\xb5\xb6'\x15\xa0\xb8\xb3\xec\x1e\xe9*/\x01"
+16 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  0: mov r16, r7
+  1: mov r1, 0x1
+  2: mov r6, 0x1
+  3: mov r5, b'Please enter your password\n'
+  4: mov r4, 0x1b
+  5: syscall
+  6: mov r1, 0x0
+  7: mov r6, 0x0
+  8: mov r5, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  9: mov r4, 0x20
+ 10: syscall
+ 11: mov r3, r1
+ 12: dec r3
+ 13: mov r18, decoded_value(rhsMode=1, rhsVal=3, signBit=0, lhsMode=2, lhsVal=16)
+ 14: cmp opm=1, lhs=18, rhs=0
+ 15: jne lhs=17
+ 16: mov mem(decoded_lhs=(BitFields(rhsMode=1, rhsVal=3, signBit=0, lhsMode=2, lhsVal=16)), rhs=0)
+ 17: mov r3, 0x14
+ 18: xor r2, r2
+ 19: mov r18, decoded_value(rhsMode=1, rhsVal=2, signBit=0, lhsMode=2, lhsVal=16)
+ 20: xor r18, decoded_rhs(fields=BitFields(rhsMode=1, rhsVal=2, signBit=0, lhsMode=2, lhsVal=65))
+ 21: mov mem(decoded_lhs=(BitFields(rhsMode=1, rhsVal=2, signBit=0, lhsMode=2, lhsVal=16)), reg18, rhs_val=18)
+ 22: inc r2
+ 23: loop lhs=19
+ 24: mov r5, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+ 25: mov r6, b'I_LOVE_KOTLIN'
+ 26: mov r3, 0x14
+ 27: repe
+ 28: jne lhs=31
+ 29: call 52
+ 30: call 36
+ 31: mov r1, 0x1
+ 32: mov r6, 0x1
+ 33: mov r5, b'bad password\n'
+ 34: mov r4, 0xd
+ 35: syscall
+
+ 36: mov r1, 0x3c
+ 37: xor r6, r6
+ 38: syscall
+
+ 39: push r16
+ 40: mov r16, r7
+ 41: mov mem(decoded_lhs=(BitFields(rhsMode=3, rhsVal=24, signBit=1, lhsMode=1, lhsVal=16)), reg6, rhs_val=6)
+ 42: mov r1, decoded_value(rhsMode=3, rhsVal=24, signBit=1, lhsMode=1, lhsVal=16)
+ 43: mov mem(decoded_lhs=(BitFields(rhsMode=3, rhsVal=8, signBit=1, lhsMode=1, lhsVal=16)), reg1, rhs_val=1)
+ 44: mov r1, 0x5a5a5a5a5a5a5a5a
+ 45: xor mem(decoded_lhs=(BitFields(rhsMode=3, rhsVal=8, signBit=1, lhsMode=1, lhsVal=16)), reg1, rhsSize=8)
+ 46: ror [r16 - 8], 5
+ 47: mov r1, 0xa5a5a5a5a5a5a5a5
+ 48: xor mem(decoded_lhs=(BitFields(rhsMode=3, rhsVal=8, signBit=1, lhsMode=1, lhsVal=16)), reg1, rhsSize=8)
+ 49: mov r1, decoded_value(rhsMode=3, rhsVal=8, signBit=1, lhsMode=1, lhsVal=16)
+ 50: pop r16
+ 51: ret
+ 
+ 52: push r16
+ 53: mov r16, r7
+ 54: mov r6, 0xe145c86788e5048e
+ 55: call 39
+ 56: push r1
+ 57: mov r6, 0xc50728c76468e788
+ 58: call 39
+ 59: push r1
+ 60: mov r6, 0x8220628002c08281
+ 61: call 39
+ 62: push r1
+ 63: mov r1, 0x1
+ 64: mov r6, 0x1
+ 65: mov r5, r7
+ 66: mov r4, 0x18
+ 67: syscall
+ 68: mov r7, r16
+ 69: pop r16
+ 70: ret
