@@ -1,0 +1,1185 @@
+    
+true
+    
+true
+    
+true
+    
+fals
+    
+true
+    
+fals
+zh-C
+zh-C
+zh-C
+zh-C
+SHA1
+SHA2
+SHA3
+SHA5
+"(CXa
+"7CO[|
+ !"#$%&'(((()((*+,-./0
+6789:;<(=>?@ABC??D(EF?????GHIJK?(L?????MNO?PQ?RST?UV?WX??Y(Z([\\]^_`abcdefghijcdklmnopqdrsthuvcdwxyhz{|}~
+\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\
+\\\\
+((((
+777:::
+\\\\
+\\\\
+\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\
+\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\
+??????
+?????????????????????
+????
+???????
+\\\\\\\
+\\\t
+\\\\
+\\\\\\\\\\\\\\\\\\\
+????
+\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\
+\\\\
+\\\\
+\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\
+????????????
+\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\t
+\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+(((((((((((((((
+$,4<DLT\dlt|
+.NET TP P Worker
+xxxxxxxx
+SHA3-256SHA3-384SHA3-512CSHAKE12SHAKE128CSHAKE25SHAKE256
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}
+ --->
+ + 0
+ --->
+ Init parameters must contain a KeyParameter (or null for re-init
+ Init requires an I
+ KeyParameter can not be null for first initialisatio
+ at offset
+ bytes of I
+ in file:line:column
+ not a valid OI
+ not a valid relative OI
+ not recognised
+ not supported for SHA-
+ not supported for SHAK
+ requires 128 bit or 256 bit ke
+ requires exactly
+!<BaseAddress>+0
+'handle' has already been bound to the thread pool, or was not opened for asynchronous I/O
+'min' may not be greater than 'max
+'overlapped' has already been freed
+'overlapped' was not allocated by this ThreadPoolBoundHandle instance
+'rounds' must be a positive, even numbe
+'{0}' Client can only accept InterNetwork or InterNetworkV6 addresses
+'{0}' from assembly '{1}' has too many dimensions
+'{0}' is missing native code or metadata. This can happen for code that is not compatible with trimming or AOT. Inspect and fix trimming and AOT related warnings that were generated when the app was published. For more information see https://aka.ms/nativeaot-compatibilit
+(# $
+($ #
+(Parameter '{0}'
+(UTC)
+, ContentType=WindowsRuntim
+, Culture
+, PublicKeyToken
+, Retargetable=Ye
+, Version
+--- End of inner exception stack trace --
+--- End of stack trace from previous location --
+-Infinit
+.3.2.
+.NET TP Worke
+0000
+00000
+000000
+0001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989
+0123456789ABCDE
+1.1.
+1.1.
+1.1.3.1.
+1.1.3.1.
+1.1.3.1.
+1.1.3.10.
+1.1.3.10.
+1.1.3.10.
+1.1.3.2.
+1.1.3.2.
+1.1.3.2.
+1.1.3.3.
+1.1.3.3.
+1.1.3.3.
+1.1.3.4.
+1.1.3.4.
+1.1.3.4.
+1.1.3.5.
+1.1.3.5.
+1.1.3.5.
+1.1.3.6.
+1.1.3.6.
+1.1.3.6.
+1.1.3.7.
+1.1.3.7.
+1.1.3.7.
+1.1.3.8.
+1.1.3.8.
+1.1.3.8.
+1.1.3.9.
+1.1.3.9.
+1.1.3.9.
+1.2.156.10197.
+1.2.156.11235.1.1.
+1.2.156.11235.1.1.2.
+1.2.
+1.2.2.
+1.2.2.
+1.2.2.
+1.2.2.
+1.2.2.
+1.2.2.
+1.2.
+1.2.643.2.
+1.2.643.
+1.2.804.2.1.1.
+1.2.840.113533.
+1.2.840.113549.1.
+1.2.840.113549.1.12.1.
+1.2.840.113549.1.12.1.
+1.2.840.113549.1.12.1.
+1.2.840.113549.1.12.1.
+1.2.840.113549.1.12.1.
+1.2.840.113549.1.12.1.
+1.2.840.113549.1.12.10.1.
+1.2.840.113549.1.12.10.1.
+1.2.840.113549.1.12.10.1.
+1.2.840.113549.1.12.10.1.
+1.2.840.113549.1.12.10.1.
+1.2.840.113549.1.12.10.1.
+1.2.840.113549.1.3.
+1.2.840.113549.1.5.
+1.2.840.113549.1.5.1
+1.2.840.113549.1.5.1
+1.2.840.113549.1.5.1
+1.2.840.113549.1.5.1
+1.2.840.113549.1.5.
+1.2.840.113549.1.5.
+1.2.840.113549.1.5.
+1.2.840.113549.1.7.
+1.2.840.113549.1.7.
+1.2.840.113549.1.7.
+1.2.840.113549.1.7.
+1.2.840.113549.1.7.
+1.2.840.113549.1.7.
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.1
+1.2.840.113549.1.9.1
+1.2.840.113549.1.9.1
+1.2.840.113549.1.9.1
+1.2.840.113549.1.9.16.1.
+1.2.840.113549.1.9.16.1.2
+1.2.840.113549.1.9.16.1.3
+1.2.840.113549.1.9.16.1.
+1.2.840.113549.1.9.16.1.
+1.2.840.113549.1.9.16.
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.1
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.2
+1.2.840.113549.1.9.16.2.
+1.2.840.113549.1.9.16.2.4
+1.2.840.113549.1.9.16.2.
+1.2.840.113549.1.9.16.2.
+1.2.840.113549.1.9.16.5.
+1.2.840.113549.1.9.16.5.
+1.2.840.113549.1.9.16.6.
+1.2.840.113549.1.9.16.6.
+1.2.840.113549.1.9.16.6.
+1.2.840.113549.1.9.16.6.
+1.2.840.113549.1.9.16.6.
+1.2.840.113549.1.9.16.6.
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.2
+1.2.840.113549.1.9.2
+1.2.840.113549.1.9.22.
+1.2.840.113549.1.9.22.
+1.2.840.113549.1.9.23.
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.5
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.
+1.2.840.113549.1.9.
+1.2.840.113549.2.1
+1.2.840.113549.2.1
+1.2.840.113549.2.
+1.2.840.113549.2.
+1.2.840.113549.2.
+1.2.840.113549.2.
+1.2.840.113549.2.
+1.2.840.113549.2.
+1.2.840.113549.3.
+1.2.840.113549.3.
+1.2.840.113549.3.
+1.3.1.
+1.3.1.1.1.
+1.3.14.3.2.1
+1.3.14.3.2.
+1.3.14.3.2.2
+1.3.14.3.2.2
+1.3.14.3.2.2
+1.3.14.3.2.
+1.3.14.3.2.
+1.3.14.3.2.
+1.3.14.3.2.
+1.3.14.3.2.
+1.3.14.3.2.
+1.3.14.7.2.1.
+1.3.
+1.3.
+1.3.36.
+1.3.6.1.4.1.11591.4.1
+1.3.6.1.4.1.1722.12.
+1.3.6.1.4.1.18227.2.
+1.3.6.1.4.1.188.7.1.1.
+1.3.6.1.4.1.302
+1.3.6.1.5.5.8.1.
+1.4.
+1.4.
+1.9.4.
+101.
+101.
+101.
+101.
+102.
+102.
+102.
+102.
+102.
+102.
+103.
+103.
+103.
+103.
+103.
+103.
+104.
+104.1
+104.10
+104.1
+104.1
+104.
+104.
+104.
+104.
+104.
+104.
+104.
+104.
+143444c8c3577c89194db804ac3e8243e2c0955fc46a781c1857dec5187b85d1e7d3e0b935241aabed6b8d22480d2e3204ee372e32039738bd7d28e5b84876f9d5a35185d043ef480e5b7bc6ec231352f380071958216cdd881d1954013b9f9
+143540cbc0512c8f4c4db803f8698447e4c5905b90617c1f1c5d88934879d4d7b4d5e0eb60714cafec6dd8231809246704e5307b30019c3fbc7d28b3e81974f7d4f5008b8011ec4f0c0d78c3b8294407a485501b50213cdfdc1d48530839949
+143f41d2c05427964848a505f9698c43e4c5905
+153e449ec4047a8b1c1bbd50aa3cd540b0c69458c3667f4e1b5c8b9c1a7281d6e183e7ba65244faeea678f22100924670ce0677f630bcd6cbb7b22b3e91e21a2ddf307898344ef4c0c582d92b82e1456a5d35a4d00256adcd81b4f505f33c39
+183b4edc950b6dcb5d43b60
+183b4edc970b73dd0e5eb609f
+1c604acfc8012f8a1c49e950fe3cd442e3c5c258c2312a1c1c58dd901a7fd0d5e3d4ebb861214eabec6b88204f0a74620de4652f60049838b42f2ee2e04c70a6dca501898041e61d585a2ecdec784652f4d7501d57223dd9db191d050c399f9
+2.1.
+2.1.
+2.16.840.1.101.3.
+2.16.840.1.11371
+2.16.840.1.113730.
+2.16.840.1.113733.
+2.16.840.1.113894.746875.1.
+2.16.840.1.114027.80.4.
+2.5.1.
+2^70 byte limit per IV; Change I
+301.
+301.10
+301.
+301.
+302.
+302.
+302.
+40740
+407e1a8
+443644c595002f80181fb900fe6a8445e59592549366771f4f5b8bc24e7dd7d7e182e7ea307747f9ec3ada22195c71670ce43a7b6551cc31ef287ae0ef4921a3dcf052848041eb1904097ec2bd2b4608f482531f5223698ddd4818550a3890c
+463f43cdc15079d91c4ab352f862d545b097c05dc765794a4f5a8bc54828de86e7d6b7e4657348a9ef3c89711a5f226502e0627b60079931ba7878b6bb4b22a384f20484811be84e080c73c7e87b4707ad835b1f04236aded81f4c565839c1c
+46670
+476717dc920f7
+4b731f9
+4c681
+51691cdc9d0d71d
+53630195971
+53630195971b3fde1c17e751a
+66.1
+<filename unknown
+<null
+<offset unknown
+<unknown
+<unknown>
+?\UNC
+@loc
+A WaitHandle with system-wide name '{0}' cannot be created. A WaitHandle of a different type might have the same name
+A datatype misalignment was detected in a load or store instruction
+A prior operation on this collection was interrupted by an exception. Collection's state is no longer trusted
+A task may only be disposed if it is in a completion state (RanToCompletion, Faulted or Canceled)
+A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property
+A valid high surrogate character is between 0xd800 and 0xdbff, inclusive
+A valid low surrogate character is between 0xdc00 and 0xdfff, inclusive
+APP_CONTEXT_BASE_DIRECTOR
+Access Violation: Attempted to read or write protected memory. This is often an indication that other memory is corrupt. The application will be terminated since this platform does not support throwing an AccessViolationException
+Access to the path '{0}' is denied
+Access to the path is denied
+Access to the registry key '{0}' is denied
+Actual value was {0}
+AllowFileWrite
+Already outputtin
+Ambiguity in binding of UnsafeAccessorAttribute
+Ambiguous implementation found
+Ambiguous match found for assembly '{0}'
+An action was attempted during deserialization that could lead to a security vulnerability. The action has been aborted. To allow the action, set the '{0}' AppContext switch to true
+An attempt was made to transition a task to a final state when it had already completed
+An exception was not handled in an AsyncLocal<T> notification callback
+An invalid IP address was specified
+An item with the same key has already been added
+An item with the same key has already been added. Key: {0
+An undefined NumberStyles value is being used
+Append access can be requested only in write-only mode
+Apri
+Argument must be between {0} and {1}
+Arithmetic operation resulted in an overflow
+Array cannot be null
+Array of type '{0}' from assembly '{1}' cannot be created because base value type is too large
+Array was not a one-dimensional array
+Array was not a three-dimensional array
+Array was not a two-dimensional array
+Array.ConstrainedCopy will only work on array types that are provably compatible, without any form of boxing, unboxing, widening, or casting of each array element.  Change the array types (i.e., copy a Derived[] to a Base[]), or use a mitigation strategy in the CER for Array.Copy's less powerful reliability contract, such as cloning the array or throwing away the potentially corrupt destination array
+Arrays larger than 2GB are not supported
+Arrays with non-zero lower bounds are not supported
+At least one element in the source array could not be cast down to the destination array type
+Attempted to access an element as a type incompatible with the array
+Attempted to divide by zero
+Attempted to perform an unauthorized operation
+Augus
+BLAKE2B-16
+BLAKE2B-25
+BLAKE2B-38
+BLAKE2B-51
+BLAKE2S-12
+BLAKE2S-16
+BLAKE2S-22
+BLAKE2S-25
+BLAKE2b digest bit length must be a multiple of 8 and not greater than 51
+BLAKE2s digest bit length must be a multiple of 8 and not greater than 25
+BLAKE3-25
+Bad character in radix 2 string:
+Bad character in radix 8 string:
+BigInteger not invertibl
+BigInteger: modulus not positiv
+BindHandle for ThreadPool failed on this handle
+Bit position must not be negativ
+Cannot access a closed Stream
+Cannot access a closed file
+Cannot access a disposed object
+Cannot block a call on this socket while an earlier asynchronous call is in progress
+Cannot call Set on a null contex
+Cannot create '{0}' because a file or directory with the same name already exists
+Cannot create a byref of a byref: {0
+Cannot create a pointer to a byref: {0
+Cannot extract a Unicode scalar value from the specified index in the input
+Cannot find a matching quote character for the character '{0}'
+Cannot load assembly '{0}'. No metadata found for this assembly
+Cannot load assembly '{0}'. The assembly exists but its version {1} is lower than the requested version {2}
+Cannot write to a closed TextWriter
+Capacity exceeds maximum capacity
+ChaCh
+CharUnknownLo
+Codepage -
+Collection is read-only
+Collection was modified; enumeration operation may not execute
+Collection was of a fixed size
+Combining FileMode: {0} with FileAccess: {1} is invalid
+Common Language Runtime detected an invalid program
+Common Language Runtime detected an invalid program. The body of method '{0}' is invalid
+CompareInfo -
+CompareOption.Ordinal cannot be used with other options
+Constructor on type '{0}' not found
+Conversion buffer overflow
+Coordinated Universal Tim
+Could not find a part of the path '{0}'
+Could not find a part of the path
+Could not find file '{0}'
+Could not load the file '{0}'
+Could not load the specified file
+Could not load type '{0}' from assembly '{1}' because generic types cannot have explicit layout
+Could not load type '{0}' from assembly '{1}' because it contains an object field at offset '{2}' that is incorrectly aligned or overlapped by a non-object field
+Could not load type '{0}' from assembly '{1}' because the format is invalid
+Could not load type '{0}' from assembly '{1}'
+Count must be positive and count must refer to a location within the string/array/collection
+Current module queried in wrong enumerator stat
+D-TES
+DOTNET_SYSTEM_BUFFERS_SHAREDARRAYPOOL_MAXARRAYSPERPARTITIO
+DOTNET_SYSTEM_BUFFERS_SHAREDARRAYPOOL_MAXPARTITIONCOUN
+DOTNET_SYSTEM_NET_DISABLEIPV
+DSTU7564-25
+DSTU7564-38
+DSTU7564-51
+DateTime value may not be before the epoc
+Decembe
+Defaul
+DefaultDomai
+Delegate to an instance method cannot have null 'this'
+Destination array is not long enough to copy all the items in the collection. Check array index and length
+Destination array was not long enough. Check the destination index, length, and the array's lower bounds
+Destination is too short
+Detached points must be in affine coordinate
+Diagnostics.DisableMetadataStackTraceResolutio
+Digest
+Displa
+Division by zero erro
+Duplicate objects in argument
+DynamicInterfaceCastableImplementationAttribut
+E-TES
+Either the IAsyncResult object did not come from the corresponding async method on this type, or the End method was called multiple times with the same IAsyncResult
+Entry point was not found
+Enum value was out of legal range
+Enumeration already finished
+Enumeration has either not started or has already finished
+Enumeration has not started. Call MoveNext
+Environment.FailFast was calle
+Equals() on Span and ReadOnlySpan is not supported. Use operator== instead
+Error in the application
+Error occurred during a cryptographic operation
+Exactly one of the field elements is nul
+Exception has been thrown by the target of an invocation
+Exception of type '{0}' was thrown
+Exceptions must derive from the System.Exception clas
+Expected an ASCII digit
+Failed allocating GC static base
+Failed to compare two elements in the array
+Failed to create '{0}' with allocation size '{1}' because the disk was full
+Failed to create '{0}' with allocation size '{1}' because the file was too large
+Failed to register frozen object segment for the module
+Failed to set the specified COM apartment state. Current apartment state '{0}'
+Failure has occurred while loading a type
+Fals
+Februar
+Field not found: '{0}'
+File name: '{0}
+FirstEntr
+FlagsAttribut
+Format item ends prematurely
+Format of the executable (.exe) or library (.dll) is invalid
+Format specifier was invalid
+Format string can be only "G", "g", "X", "x", "F", "f", "D" or "d"
+Fp q value not prim
+Fp q value out of rang
+Frida
+GOST341
+GOST3411-2012-25
+GOST3411-2012-51
+Generic methods with UnmanagedCallersOnlyAttribute are invalid
+GetHashCode() on Span and ReadOnlySpan is not supported
+GetIPv6MulticastOp
+GetLingerOp
+GetMulticastOp
+GetSocketOptio
+GetSystemTimeAsFileTim
+GetSystemTimePreciseAsFileTim
+Gost28147 engine not initialise
+Gregorian Calenda
+HH:m
+HH:mm:s
+Handle is not initialized
+Hash size is not recommended. Use 256/384/512 instea
+HashDigestLengt
+Hashtable's capacity overflowed and went negative. Check load factor, capacity and the current size of the table
+Hour, Minute, and Second parameters describe an un-representable DateTime
+IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address
+Illegal enum value: {0}
+Index (zero based) must be greater than or equal to zero and less than the size of the argument list
+Index and count must refer to a location within the buffer
+Index and count must refer to a location within the string
+Index and length must refer to a location within the string
+Index must be within the bounds of the List
+Index was out of range. Must be non-negative and less than or equal to the size of the collection
+Index was out of range. Must be non-negative and less than the size of the collection
+Index was outside the bounds of the array
+Indices length does not match the array rank
+Infinit
+InlineArrayAttribute cannot be applied to a type with explicit layout. Type: '{0}'.  Assembly: '{1}'
+InlineArrayAttribute requires that the length argument is greater than 0. Type: '{0}'.  Assembly: '{1}'
+InlineArrayAttribute requires that the target type has a single instance field. Type: '{0}'.  Assembly: '{1}'
+Input string was not in a correct format
+Input string was not in a correct format. Failure to parse near offset {0}. {1
+Insufficient bytes remainin
+Insufficient memory to continue the execution of the program
+IntPt
+International Monetary Fun
+Invalid Base
+Invalid DateTimeKind value
+Invalid assembly public key
+Invalid cast from '{0}' to '{1}'
+Invalid handle
+Invalid module requested in enumeration:
+Invalid point coordinate
+Invalid resul
+Invalid sign valu
+InvalidOperation_EnumFailedVersio
+InvalidOperation_EnumOpCantHappe
+Invariant Countr
+Invariant Languag
+Invariant Language (Invariant Country
+Januar
+KECCAK-22
+KECCAK-25
+KECCAK-28
+KECCAK-38
+KECCAK-51
+KECCAK22
+KECCAK25
+KECCAK28
+KECCAK38
+KECCAK51
+Key length invalid. Key needs to be 32 byte - 256 bit!!
+Keys > 32 bytes are not supporte
+Larger than collection size
+LastEntr
+Length of items must be same as length of keys
+Load factor needs to be between 0.1 and 1.0
+Loca
+MM/dd/yyy
+MMMM d
+MUI_Displa
+MUI_Dl
+MUI_St
+Mac OS X
+Marc
+Marshaling directives are invalid
+Measures the time taken to perform a DNS lookup
+Member '{0}.{1}' not found
+Memory stream is not expandable
+MemoryStream's internal buffer cannot be accessed
+Method '{0}' has a variable argument list. Variable argument lists are not supported in .NET Core
+Method '{0}.{1}' not found
+Method not found: '{0}'
+Microsoft Win32S
+Microsoft Windows 95
+Microsoft Windows 98
+Microsoft Windows CE
+Microsoft Windows NT
+Microsoft-Windows-DotNETRuntim
+Modulus must be positiv
+Monda
+Month must be between one and twelve
+Multiple unmanaged calling conventions are specified. Only a single calling convention is supported
+Must be >= 
+Must complete Convert() operation or call Encoder.Reset() before calling GetBytes() or GetByteCount(). Encoder '{0}' fallback '{1}'
+Must not be greater than the length of the buffer
+Must provide at least one rank
+Must specify valid information for parsing in the string
+Mutating a key collection derived from a dictionary is not allowed
+Mutating a value collection derived from a dictionary is not allowed
+NONNULLSENTINE
+Name
+Need curve with known group orde
+Negating the minimum value of a twos complement number is invalid
+Negative exponen
+No data is available for encoding {0}. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method
+Non-blittable parameter types are invalid for UnmanagedCallersOnly methods
+Non-negative number required
+Non-static methods with UnmanagedCallersOnlyAttribute are invalid
+None of the discovered or specified addresses match the socket address family
+Novembe
+Null character in path
+Nullable object must have a value
+Number of lengths and lowerBounds must match
+Number of rounds must be eve
+Number was less than the array's lower bound in the first dimension
+Numbers not relatively prime
+OSVersion's call to GetVersionEx failed
+Object contains references
+Object must be an array of primitives
+Object name: '{0}'
+Object reference not set to an instance of an object
+Object synchronization method was called from an unsynchronized block of code
+Object.Finalize() can not be called directly. It is only callable by the runtime
+Octobe
+Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection
+Once the socket has been disconnected, you can only reconnect again asynchronously, and only to a different EndPoint.  BeginConnect must be called on a thread that won't exit until the operation has been completed
+One of the serialized keys is null
+Only bases 2, 8, 10, 16 are allowe
+Only bases 2, 8, 10, or 16 allowe
+Only single dimension arrays are supported here
+Only single dimensional arrays are supported for the requested action
+Only the invariant culture is supported in globalization-invariant mode. See https://aka.ms/GlobalizationInvariantMode for more information
+Operation is not supported on this platform
+Operation is not valid due to the current state of the object
+Operations that change non-concurrent collections must have exclusive access. A concurrent update was performed on this collection and corrupted its state. The collection's state is no longer correct
+OrdinalCompare
+Org.BouncyCastle.EC.Fp_Certaint
+Org.BouncyCastle.EC.Fp_MaxSiz
+Other
+Overflow or underflow in the arithmetic operation
+Personalization length must be exactly 8 byte
+Pointer startIndex and length do not refer to a valid string
+Preallocation size can be requested only for new files
+Preallocation size can be requested only in write mode
+Process terminated.
+Queue empty
+RIPEMD-12
+RIPEMD-16
+RIPEMD-25
+RIPEMD-32
+RIPEMD12
+RIPEMD16
+RIPEMD25
+RIPEMD32
+Recursive fallback not allowed for bytes {0}
+Recursive fallback not allowed for character \\u{0:X4}
+RegistryKey.GetValue does not support values with more than Int32.MaxValue bytes
+Requested registry access is not allowed
+Requested value '{0}' was not found
+Result too larg
+RunSynchronously may not be called on a continuation task
+RunSynchronously may not be called on a task not bound to a delegate, such as the task returned from an asynchronous method
+RunSynchronously may not be called on a task that has already completed
+RunSynchronously may not be called on a task that was already started
+Runtime internal erro
+SHA-
+SHA-22
+SHA-25
+SHA-38
+SHA-51
+SHA-512(224
+SHA-512(256
+SHA-512/22
+SHA-512/25
+SHA22
+SHA25
+SHA3-22
+SHA3-25
+SHA3-38
+SHA3-51
+SHA38
+SHA51
+SHA512(224
+SHA512(256
+SHA512/22
+SHA512/25
+SHAKE12
+SHAKE128-25
+SHAKE25
+SHAKE256-51
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zone
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones\UT
+SYSLIB000
+SafeHandle cannot be null
+Salsa2
+Salt length must be exactly 8 byte
+Saturda
+Second path fragment must not be a drive or UNC name
+Septembe
+SetSocketOptio
+Source array type cannot be assigned to destination array type
+Source array was not long enough. Check the source index, length, and the array's lower bounds
+Specified argument was out of the range of valid values
+Specified cast is not valid
+Specified method is not supported
+Specified type is not supporte
+Start may not be called on a continuation task
+Start may not be called on a promise-style task
+Start may not be called on a task that has completed
+Start may not be called on a task that was already started
+Stream does not support reading
+Stream does not support seeking
+Stream does not support writing
+Stream length must be non-negative and less than 2^31 - 1 - origin
+Stream was not writable
+Stream was too long
+String contains invalid Unicode code points
+String length exceeded supported range
+Sunda
+Support for UTF-7 is disabled. See {0} for more information
+Switch.System.Runtime.Serialization.SerializationGuard
+Syste
+System.Buffers.ArrayPoolEventSourc
+System.Diagnostics.Metrics.Meter.IsSupporte
+System.Net.DisableIPv
+System.Net.NameResolutio
+System.OutOfMemoryExceptio
+System.Resources.UseSystemResourceKey
+System.Span
+TextInfo -
+The AdjustmentRule array cannot contain null elements
+The CancellationTokenSource has been disposed
+The DateStart property must come before the DateEnd property
+The Day parameter must be in the range 1 through 31
+The DayOfWeek enumeration must be in the range 0 through 6
+The DaylightTransitionStart property must not equal the DaylightTransitionEnd property
+The Keys for this Hashtable are missing
+The Month parameter must be in the range 1 through 12
+The SyncRoot property may not be used for the synchronization of concurrent collections
+The TimeSpan parameter cannot be specified more precisely than whole minutes
+The TimeSpan parameter must be within plus or minus 14.0 hours
+The WaitHandle cannot be signaled because it would exceed its maximum count
+The Week parameter must be in the range 1 through 5
+The added or subtracted value results in an un-representable DateTime
+The alignment must be a power of two
+The array starting from the specified index is not long enough to read a value of the specified type
+The arrays' lower bounds must be identical
+The body of this instance method was removed by the AOT compiler. This can happen if the owning type was not seen as allocated by the AOT compiler
+The body of this method was removed by the AOT compiler because it's not callable
+The buffer is not associated with this pool and may not be returned to it
+The builder was not properly initialized
+The concurrencyLevel argument must be positive, or -1 to indicate a default level
+The conversion could not be completed because the supplied DateTime did not have the Kind property set correctly.  For example, when the Kind property is DateTimeKind.Local, the source time zone must be TimeZoneInfo.Local
+The current thread attempted to reacquire a mutex that has reached its maximum acquire count
+The elements of the AdjustmentRule array must be in chronological order and must not overlap
+The exceptions collection included at least one null element
+The exceptions collection was empty
+The file '{0}' already exists
+The file is too long. This operation is currently limited to supporting files less than 2 gigabytes in size
+The handle is invalid
+The input is not a valid hex string as it contains a non-hex character
+The input is not a valid hex string as its length is not a multiple of 2
+The input string '{0}' was not in a correct format
+The length cannot be greater than the capacity
+The lower bound of target array must be zero
+The method or operation is not implemented
+The number of WaitHandles on a STA thread must be less than or equal to 63
+The number of specified IP addresses has to be greater than 0
+The object is not an array with the same number of elements as the array to compare it to
+The operation cannot be performed when TimeProvider.LocalTimeZone is null
+The operation cannot be performed when TimeProvider.TimestampFrequency is zero or negative
+The operation is not allowed on a non-blocking Socket
+The operation is not allowed on non-connected sockets
+The operation is not allowed on non-stream oriented sockets
+The operation was canceled
+The output byte buffer is too small to contain the encoded data, encoding '{0}' fallback '{1}'
+The output byte buffer is too small to contain the encoded data, encoding codepage '{0}' and fallback '{1}'
+The output char buffer is too small to contain the decoded characters, encoding '{0}' fallback '{1}'
+The output char buffer is too small to contain the decoded characters, encoding codepage '{0}' and fallback '{1}'
+The parameter {0} must not be of type DnsEndPoint
+The path '{0}' is too long, or a component of the specified path is too long
+The path is empty
+The process cannot access the file '{0}' because it is being used by another process
+The process cannot access the file because it is being used by another process
+The runtime requires an exception for a case that this class library does not understand
+The size of {0} is too long. It cannot be longer than {1} characters
+The specified TaskContinuationOptions combined LongRunning and ExecuteSynchronously.  Synchronous continuations should not be long running
+The specified TaskContinuationOptions excluded all continuation kinds
+The specified arrays must have the same number of dimensions
+The specified file name or path is too long, or a component of the specified path is too long
+The specified registry key does not exist
+The stream does not support reading
+The stream does not support writing
+The stream is currently in use by a previous operation on the stream
+The string comparison type passed in is currently not supported
+The string must be null-terminated
+The sum of the BaseUtcOffset and DaylightDelta properties must within plus or minus 14.0 hours
+The supplied DateTime includes a TimeOfDay setting.   This is not supported
+The supplied DateTime must have the Kind property set to DateTimeKind.Unspecified or DateTimeKind.Utc
+The supplied DateTime must have the Kind property set to DateTimeKind.Unspecified
+The supplied DateTime must have the Year, Month, and Day properties set to 1.  The time cannot be specified more precisely than whole milliseconds
+The supplied DateTime represents an invalid time.  For example, when the clock is adjusted forward, any time in the period that is skipped is invalid
+The task has been disposed
+The tasks argument contains no tasks
+The tasks argument included a null value
+The tasks array included at least one null element
+The type '{0}' may not be used as a type argument
+The type '{0}' may not be used as an array element type
+The underlying array is null
+The value cannot be an empty string
+The value needs to be either -1 (signifying an infinite timeout), 0 or a positive integer
+The value needs to translate in milliseconds to -1 (signifying an infinite timeout), 0, or a positive integer less than or equal to the maximum allowed timer duration
+The wait completed due to an abandoned mutex
+There are no context policies
+This operation is invalid on overlapping buffers
+This protocol version is not supported
+This stream does not support seek operations
+Thread is dead; priority cannot be accessed
+Thread is dead; state cannot be accessed
+Thread was in an invalid state for the operation being executed
+Thursda
+Ticks must be between DateTime.MinValue.Ticks and DateTime.MaxValue.Ticks
+TimeSpan overflowed because the duration is too long
+Too many bytes. The resulting number of chars is larger than what can be returned as an int
+Too many characters. The resulting number of bytes is larger than what can be returned as an int
+Too many outstanding Win32ThreadPoolNativeOverlapped instance
+Tuesda
+Type '{0}' returned by IDynamicInterfaceCastable does not have the attribute '{1}'
+Type '{0}' returned by IDynamicInterfaceCastable does not implement the requested interface '{1}'
+Type '{0}' returned by IDynamicInterfaceCastable is not an interface
+Type is not supported
+Type must be a type provided by the runtime
+Type of argument is not compatible with the generic comparer
+Type provided must be an Enum
+TypeHandles are not supported for types that return true for ContainsGenericParameters
+US-ASCI
+Unable to find an entry point named '{0}' in native library '{1}'
+Unable to find an entry point named '{0}' in native library
+Unable to find the specified file
+Unable to load DLL '{0}' or one of its dependencies: {1
+Unable to read beyond the end of the stream
+Unable to read data from the transport connection: {0}
+Unable to set thread priority
+Unable to sort because the IComparer.Compare() method returns inconsistent results. Either a value does not compare equal to itself, or one value repeatedly compared to another value yields different results. IComparer: '{0}'
+Unable to translate Unicode character \\u{0:X4} at index {1} to specified code page
+Unable to translate bytes {0} at index {1} from specified code page to Unicode
+Unable to write data to the transport connection: {0}
+Unexpected closing brace without a corresponding opening brace
+Unhandled Exception:
+Unhandled exception: a managed exception was not handled before reaching unmanaged cod
+Unhandled exception: an unmanaged exception was thrown out of a managed-to-native transitio
+Unicod
+Unicode (Big-Endian
+Unicode (UTF-32 Big-Endian
+Unicode (UTF-32
+Unicode (UTF-7
+Unicode (UTF-8
+Unix
+Unknown S-Box - possible types: "Default", "E-Test", "E-A", "E-B", "E-C", "E-D", "D-Test", "D-A"
+Unknown enum type
+Unknown error (0
+Unknown reason
+Use the Blocking property to change the status of the Socket
+Valid values are between {0} and {1}, inclusive
+Value cannot be null
+Value does not fall within the expected range
+Value of flags is invalid
+Value to add was out of range
+Value was either too large or too small for a UInt64
+Value was either too large or too small for an Int32
+Value was either too large or too small for an Int64
+WaitAll for multiple handles on a STA thread is not supported
+Wednesda
+Western European (ISO
+With the AllowHexSpecifier or AllowBinarySpecifier bit set in the enum bit field, the only other valid bits that can be combined into the enum value must be AllowLeadingWhite and AllowTrailingWhite
+Xbox
+Year must be between 1 and 9999
+Year, Month, and Day parameters describe an un-representable DateTime
+Years value must be between +/-10000
+You may not perform this operation after calling the Listen method
+Zero length BigIntege
+\Dynamic DS
+\\?\UNC
+acces
+actio
+addres
+address_family_not_supporte
+addresse
+algorith
+anyO
+arra
+arrayInde
+assemblyFullNam
+asyncResul
+attempt to absorb while squeezin
+attempt to absorb with odd length queu
+baseUtcOffse
+bc_end
+bc_fixed_poin
+bc_validit
+bc_wna
+beginMetho
+bitLengt
+buffe
+bufferSiz
+buffer
+buil
+byteCoun
+byteInde
+byte
+bytesUnknow
+cachedValu
+callBac
+callbac
+cancellationToke
+candidat
+cannot be 384 use SHA384 instea
+cannot be >= 51
+cannot be negativ
+cannot be nul
+capacit
+capacity was less than the current size
+charCoun
+charInde
+charUnknownHig
+charUnknownLo
+characteristi
+char
+chunkLengt
+codePag
+codePoin
+codepag
+collectio
+comparabl
+compare
+compariso
+comparisonTyp
+concurrencyLeve
+continuatio
+continuationActio
+continuationFunctio
+continuationOption
+converte
+coun
+createValueCallbac
+creationOption
+cultur
+cultureNam
+curv
+dateEn
+dateStar
+dateTim
+dayOfWee
+daylightDelt
+daylightTransitionEn
+dddd, dd MMMM yyy
+dela
+destinatio
+destinationArra
+destinationInde
+destinationTimeZon
+dictionar
+digi
+director
+dns.lookup.duratio
+dns.question.nam
+dstOffse
+elementTyp
+endFunctio
+endInde
+endIndex cannot be greater than startIndex
+endMetho
+entries must be null or on this curv
+enumTyp
+error.typ
+exceeded OID contents length limi
+exceeded relative OID contents length limi
+exceptio
+exception
+expand 16-byte kexpand 32-byte 
+expressio
+famil
+fieldCoun
+fixed-point comb doesn't support scalars larger than the curve orde
+forma
+format
+frameworkNam
+functio
+grou
+h:mm t
+handl
+hh:mm t
+highSurrogat
+hostNam
+hostNameOrAddres
+host_not_foun
+hostnam
+https://aka.ms/dotnet-warnings/{0
+identifie
+ifinde
+inArra
+inde
+index
+index
+index
+indice
+inpu
+input buffer too shor
+insufficient spac
+invalid S-box passed to GOST28147 ini
+invalid parameter passed to Gost28147 init -
+invalid range specifie
+invalid rate valu
+iteration
+kernel32.dl
+lengt
+length
+length
+length
+length
+loadFacto
+lowSurrogat
+lowerBound
+majo
+manage
+matc
+matchTyp
+maxCapacit
+mcin
+mete
+millisecon
+millisecondsDela
+millisecondsTimeou
+minimumByte
+minimumLengt
+mino
+mont
+month
+must be > 
+must be in the range 1 to 
+must be in the range [2, 16
+must be in the range [2, 8
+must be non-null and >= 
+must be non-null and on this curv
+must be od
+must be one of 128, 224, 256, 288, 384, or 512
+must have bitlength < 2^1
+needs to be a multiple of 
+neutra
+newAddres
+newSiz
+no_recover
+not a projective coordinate syste
+not valid for affine coordinate
+offse
+option
+othe
+outpu
+output buffer too shor
+overlappe
+ownedMemor
+pHandl
+parameter
+path
+path
+platfor
+poin
+point not in normal for
+pointe
+point
+preallocationSiz
+prefi
+rando
+randomNumberGenerato
+remoteE
+repeatCoun
+replacemen
+requiredLengt
+revisio
+schedule
+scopei
+searchPatter
+searchTarge
+shar
+sizeInBits must be non-negativ
+socke
+sourc
+sourceArra
+sourceBytesToCop
+sourceInde
+sourceTimeZon
+srcOffse
+standard length exceede
+star
+startInde
+startIndex cannot be larger than length of string
+stat
+stateMachin
+strea
+string
+styl
+suffi
+switchNam
+tabl
+task
+tick
+timeOfDa
+timeou
+transfor
+try_agai
+unknown coordinate syste
+unsupported coordinate syste
+unsupported state size: only 512/1024 are allowe
+updateValueFactor
+utf-16utf-16BEutf-32utf-32BEus-asciiiso-8859-1utf-7utf-
+valu
+value invalid for Fp field elemen
+valueCoun
+value
+variabl
+versio
+waitHandles
+widt
+write
+yyyy MMM
+yyyy-MM-d
+{0:X8
+{0} ('{1}') must be a non-negative and non-zero value
+{0} ('{1}') must be a non-negative value
+{0} ('{1}') must be greater than or equal to '{2}'
+{0} ('{1}') must be less than '{2}'
+{0} ('{1}') must be less than or equal to '{2}'
+{0} (0x{0:x4}
+{0} is an invalid culture identifier
+{0} is not a supported code page
+\[]+*&
+kernel32
+Tkernel32.dll
+DOTNET_
+SeLockMemoryPrivilege
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+api-ms-
+VS_VERSION_INFO
+VarFileInfo
+Translation
+StringFileInfo
+000004b0
+CompanyName
+fullspeed
+FileDescription
+fullspeed
+FileVersion
+1.0.0.0
+InternalName
+fullspeed.dll
+LegalCopyright
+OriginalFilename
+fullspeed.dll
+ProductName
+fullspeed
+ProductVersion
+1.0.0
+Assembly Version
+1.0.0.0

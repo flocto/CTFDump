@@ -1,0 +1,324 @@
+0000: 01 00 00 push 0x0000
+0003: 01 bb aa push 0xbbaa
+0006: 06       stores
+0007: 01 00 01 push 0x0001
+000a: 01 dd cc push 0xddcc
+000d: 06       stores
+000e: 01 00 02 push 0x0002
+0011: 01 ff ee push 0xffee
+0014: 06       stores
+0015: 01 00 03 push 0x0003
+0018: 01 ad de push 0xadde
+001b: 06       stores
+001c: 01 00 04 push 0x0004
+001f: 01 ef be push 0xefbe
+0022: 06       stores
+0023: 01 00 05 push 0x0005
+0026: 01 fe ca push 0xfeca
+0029: 06       stores
+002a: 01 00 06 push 0x0006
+002d: 01 be ba push 0xbeba
+0030: 06       stores
+0031: 01 00 07 push 0x0007
+0034: 01 cd ab push 0xcdab
+0037: 06       stores
+0038: 01 00 0a push 0x000a
+003b: 01 a0 59 push 0xa059
+003e: 06       stores
+003f: 01 00 0b push 0x000b
+0042: 01 6a 4d push 0x6a4d
+0045: 06       stores
+0046: 01 00 0c push 0x000c
+0049: 01 de 23 push 0xde23
+004c: 06       stores
+004d: 01 00 0d push 0x000d
+0050: 01 24 c0 push 0x24c0
+0053: 06       stores
+0054: 01 00 0e push 0x000e
+0057: 01 64 e2 push 0x64e2
+005a: 06       stores
+005b: 01 00 0f push 0x000f
+005e: 01 59 b1 push 0x59b1
+0061: 06       stores
+0062: 01 00 10 push 0x0010
+0065: 01 72 07 push 0x7207
+0068: 06       stores
+0069: 01 00 11 push 0x0011
+006c: 01 7f 5c push 0x7f5c
+006f: 06       stores
+
+0070: 01 00 08 push 0x0008
+0073: 01 00 03 push 0x0003
+0076: 05       loads
+0077: 01 00 30 push 0x0030
+007a: 1e       shl
+007b: 01 00 02 push 0x0002
+007e: 05       loads
+007f: 01 00 20 push 0x0020
+0082: 1e       shl
+0083: 1b       or
+0084: 01 00 01 push 0x0001
+0087: 05       loads
+0088: 01 00 10 push 0x0010
+008b: 1e       shl
+008c: 1b       or
+008d: 01 00 00 push 0x0000
+0090: 05       loads
+0091: 1b       or
+0092: 06       stores // mem[0x08] = (mem[0x03] << 0x30 | mem[0x02] << 0x20 | mem[0x01] << 0x10 | mem[0x00])
+
+0093: 01 00 09 push 0x0009
+0096: 01 00 07 push 0x0007
+0099: 05       loads
+009a: 01 00 30 push 0x0030
+009d: 1e       shl
+009e: 01 00 06 push 0x0006
+00a1: 05       loads
+00a2: 01 00 20 push 0x0020
+00a5: 1e       shl
+00a6: 1b       or
+00a7: 01 00 05 push 0x0005
+00aa: 05       loads
+00ab: 01 00 10 push 0x0010
+00ae: 1e       shl
+00af: 1b       or
+00b0: 01 00 04 push 0x0004
+00b3: 05       loads
+00b4: 1b       or
+00b5: 06       stores
+00b6: 01 00 12 push 0x0012
+00b9: 01 00 0d push 0x000d
+00bc: 05       loads
+00bd: 01 00 30 push 0x0030
+00c0: 1e       shl
+00c1: 01 00 0c push 0x000c
+00c4: 05       loads
+00c5: 01 00 20 push 0x0020
+00c8: 1e       shl
+00c9: 1b       or
+00ca: 01 00 0b push 0x000b
+00cd: 05       loads
+00ce: 01 00 10 push 0x0010
+00d1: 1e       shl
+00d2: 1b       or
+00d3: 01 00 0a push 0x000a
+00d6: 05       loads
+00d7: 1b       or
+00d8: 06       stores
+00d9: 01 00 13 push 0x0013
+00dc: 01 00 11 push 0x0011
+00df: 05       loads
+00e0: 01 00 30 push 0x0030
+00e3: 1e       shl
+00e4: 01 00 10 push 0x0010
+00e7: 05       loads
+00e8: 01 00 20 push 0x0020
+00eb: 1e       shl
+00ec: 1b       or
+00ed: 01 00 0f push 0x000f
+00f0: 05       loads
+00f1: 01 00 10 push 0x0010
+00f4: 1e       shl
+00f5: 1b       or
+00f6: 01 00 0e push 0x000e
+00f9: 05       loads
+00fa: 1b       or
+00fb: 06       stores
+00fc: 01 00 14 push 0x0014
+00ff: 01 00 00 push 0x0000
+0102: 06       stores
+0103: 01 00 15 push 0x0015
+0106: 01 00 01 push 0x0001
+0109: 06       stores
+010a: 01 00 16 push 0x0016
+010d: 01 00 00 push 0x0000
+0110: 06       stores
+0111: 01 00 17 push 0x0017
+0114: 01 00 00 push 0x0000
+0117: 06       stores
+0118: 01 00 1c push 0x001c
+011b: 01 43 fd push 0x43fd
+011e: 01 00 03 push 0x0003
+0121: 01 00 10 push 0x0010
+0124: 1e       shl
+0125: 1b       or
+0126: 06       stores
+0127: 01 00 1d push 0x001d
+012a: 01 9e c3 push 0x9ec3
+012d: 01 00 26 push 0x0026
+0130: 01 00 10 push 0x0010
+0133: 1e       shl
+0134: 1b       or
+0135: 06       stores
+0136: 01 00 1b push 0x001b
+0139: 01 00 01 push 0x0001
+013c: 01 00 1f push 0x001f
+013f: 1e       shl
+0140: 06       stores
+0141: 01 00 1e push 0x001e
+0144: 01 13 37 push 0x1337
+0147: 06       stores
+0148: 01 00 15 push 0x0015
+014b: 05       loads
+014c: 01 00 01 push 0x0001
+014f: 11       eq
+0150: 10 02 62 jnz 0x0262
+0153: 01 00 14 push 0x0014
+0156: 05       loads
+0157: 01 00 08 push 0x0008
+015a: 12       lt
+015b: 10 01 80 jnz 0x0180
+015e: 01 00 18 push 0x0018
+0161: 01 00 08 push 0x0008
+0164: 05       loads
+0165: 01 00 08 push 0x0008
+0168: 01 00 14 push 0x0014
+016b: 05       loads
+016c: 0d       mul
+016d: 1f       shr
+016e: 06       stores
+016f: 01 00 19 push 0x0019
+0172: 01 00 12 push 0x0012
+0175: 05       loads
+0176: 01 00 08 push 0x0008
+0179: 01 00 14 push 0x0014
+017c: 05       loads
+017d: 0d       mul
+017e: 1f       shr
+017f: 06       stores
+0180: 01 00 14 push 0x0014
+0183: 05       loads
+0184: 01 00 07 push 0x0007
+0187: 14       gt
+0188: 10 01 ad jnz 0x01ad
+018b: 01 00 18 push 0x0018
+018e: 01 00 09 push 0x0009
+0191: 05       loads
+0192: 01 00 08 push 0x0008
+0195: 01 00 14 push 0x0014
+0198: 05       loads
+0199: 0d       mul
+019a: 1f       shr
+019b: 06       stores
+019c: 01 00 19 push 0x0019
+019f: 01 00 13 push 0x0013
+01a2: 05       loads
+01a3: 01 00 08 push 0x0008
+01a6: 01 00 14 push 0x0014
+01a9: 05       loads
+01aa: 0d       mul
+01ab: 1f       shr
+01ac: 06       stores
+01ad: 01 00 18 push 0x0018
+01b0: 01 00 18 push 0x0018
+01b3: 05       loads
+01b4: 01 00 ff push 0x00ff
+01b7: 1c       and
+01b8: 06       stores
+01b9: 01 00 19 push 0x0019
+01bc: 01 00 19 push 0x0019
+01bf: 05       loads
+01c0: 01 00 ff push 0x00ff
+01c3: 1c       and
+01c4: 06       stores
+01c5: 01 00 1e push 0x001e
+01c8: 01 00 1c push 0x001c
+01cb: 05       loads
+01cc: 01 00 1e push 0x001e
+01cf: 05       loads
+01d0: 0d       mul
+01d1: 01 00 1d push 0x001d
+01d4: 05       loads
+01d5: 09       add
+01d6: 01 00 1b push 0x001b
+01d9: 05       loads
+01da: 1d       mod
+01db: 06       stores
+01dc: 01 00 1a push 0x001a
+01df: 01 00 1e push 0x001e
+01e2: 05       loads
+01e3: 06       stores
+01e4: 01 00 1a push 0x001a
+01e7: 01 00 1e push 0x001e
+01ea: 05       loads
+01eb: 01 00 08 push 0x0008
+01ee: 01 00 14 push 0x0014
+01f1: 05       loads
+01f2: 01 00 04 push 0x0004
+01f5: 1d       mod
+01f6: 0d       mul
+01f7: 1f       shr
+01f8: 06       stores
+01f9: 01 00 1f push 0x001f
+01fc: 01 00 1a push 0x001a
+01ff: 05       loads
+0200: 01 00 ff push 0x00ff
+0203: 1c       and
+0204: 06       stores
+0205: 01 00 20 push 0x0020
+0208: 01 00 18 push 0x0018
+020b: 05       loads
+020c: 01 00 1f push 0x001f
+020f: 05       loads
+0210: 1a       xor
+0211: 06       stores
+0212: 01 00 20 push 0x0020
+0215: 05       loads
+0216: 01 00 19 push 0x0019
+0219: 05       loads
+021a: 11       eq
+021b: 01 00 00 push 0x0000
+021e: 11       eq
+021f: 10 02 29 jnz 0x0229
+0222: 01 00 15 push 0x0015
+0225: 01 00 00 push 0x0000
+0228: 06       stores
+0229: 01 00 20 push 0x0020
+022c: 05       loads
+022d: 01 00 19 push 0x0019
+0230: 05       loads
+0231: 11       eq
+0232: 10 02 41 jnz 0x0241
+0235: 01 00 16 push 0x0016
+0238: 01 00 16 push 0x0016
+023b: 05       loads
+023c: 01 00 01 push 0x0001
+023f: 09       add
+0240: 06       stores
+0241: 01 00 14 push 0x0014
+0244: 01 00 14 push 0x0014
+0247: 05       loads
+0248: 01 00 01 push 0x0001
+024b: 09       add
+024c: 06       stores
+024d: 01 00 14 push 0x0014
+0250: 05       loads
+0251: 01 00 0f push 0x000f
+0254: 14       gt
+0255: 10 02 5f jnz 0x025f
+0258: 01 00 15 push 0x0015
+025b: 01 00 00 push 0x0000
+025e: 06       stores
+025f: 0e 01 48 jmp [0x0148]
+0262: 01 00 16 push 0x0016
+0265: 05       loads
+0266: 01 00 10 push 0x0010
+0269: 11       eq
+026a: 10 02 74 jnz 0x0274
+026d: 01 00 17 push 0x0017
+0270: 01 00 01 push 0x0001
+0273: 06       stores
+0274: 01 00 16 push 0x0016
+0277: 05       loads
+0278: 01 00 10 push 0x0010
+027b: 11       eq
+027c: 01 00 00 push 0x0000
+027f: 11       eq
+0280: 10 02 8a jnz 0x028a
+0283: 01 00 17 push 0x0017
+0286: 01 00 00 push 0x0000
+0289: 06       stores
+028a: 01 00 17 push 0x0017
+028d: 05       loads
+028e: 19       setout
+028f: 18       ret0

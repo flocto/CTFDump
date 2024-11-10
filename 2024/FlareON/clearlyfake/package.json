@@ -1,0 +1,14 @@
+{
+  "name": "clearlyfake",
+  "version": "1.0.0",
+  "main": "clearlyfake.js",
+  "scripts": {
+    "run": "node clean.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "web3": "^4.13.0"
+  }
+}

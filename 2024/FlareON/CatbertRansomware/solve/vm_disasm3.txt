@@ -1,0 +1,632 @@
+0000: 01 00 00 push 0x0000
+0003: 01 bb aa push 0xbbaa
+0006: 06       stores
+0007: 01 00 01 push 0x0001
+000a: 01 dd cc push 0xddcc
+000d: 06       stores
+000e: 01 00 02 push 0x0002
+0011: 01 ff ee push 0xffee
+0014: 06       stores
+0015: 01 00 03 push 0x0003
+0018: 01 ad de push 0xadde
+001b: 06       stores
+001c: 01 00 04 push 0x0004
+001f: 01 ef be push 0xefbe
+0022: 06       stores
+0023: 01 00 05 push 0x0005
+0026: 01 fe ca push 0xfeca
+0029: 06       stores
+002a: 01 00 06 push 0x0006
+002d: 01 be ba push 0xbeba
+0030: 06       stores
+0031: 01 00 07 push 0x0007
+0034: 01 cd ab push 0xcdab
+0037: 06       stores
+
+
+0038: 01 00 08 push 0x0008
+003b: 01 00 03 push 0x0003
+003e: 05       loads
+003f: 01 00 30 push 0x0030
+0042: 1e       shl
+0043: 01 00 02 push 0x0002
+0046: 05       loads
+0047: 01 00 20 push 0x0020
+004a: 1e       shl
+004b: 1b       or
+004c: 01 00 01 push 0x0001
+004f: 05       loads
+0050: 01 00 10 push 0x0010
+0053: 1e       shl
+0054: 1b       or
+0055: 01 00 00 push 0x0000
+0058: 05       loads
+0059: 1b       or
+005a: 06       stores
+// mem[0x08] = (mem[0x03] << 0x30 | mem[0x02] << 0x20 | mem[0x01] << 0x10 | mem[0x00])
+
+005b: 01 00 09 push 0x0009
+005e: 01 00 07 push 0x0007
+0061: 05       loads
+0062: 01 00 30 push 0x0030
+0065: 1e       shl
+0066: 01 00 06 push 0x0006
+0069: 05       loads
+006a: 01 00 20 push 0x0020
+006d: 1e       shl
+006e: 1b       or
+006f: 01 00 05 push 0x0005
+0072: 05       loads
+0073: 01 00 10 push 0x0010
+0076: 1e       shl
+0077: 1b       or
+0078: 01 00 04 push 0x0004
+007b: 05       loads
+007c: 1b       or
+007d: 06       stores
+// mem[0x09] = (mem[0x07] << 0x30 | mem[0x06] << 0x20 | mem[0x05] << 0x10 | mem[0x04])
+
+007e: 01 00 1e push 0x001e
+0081: 01 ff ff push 0xffff
+0084: 06       stores
+// mem[0x1e] = 0xffff
+
+0085: 01 00 1d push 0x001d
+0088: 01 00 1e push 0x001e
+008b: 05       loads
+008c: 06       stores
+// mem[0x1d] = mem[0x1e]
+
+008d: 01 00 1e push 0x001e
+0090: 01 00 1e push 0x001e
+0093: 05       loads
+0094: 01 00 10 push 0x0010
+0097: 1e       shl
+0098: 01 00 1d push 0x001d
+009b: 05       loads
+009c: 1b       or
+009d: 06       stores
+// mem[0x1e] = (mem[0x1e] << 0x10 | mem[0x1d])
+
+009e: 01 00 1b push 0x001b
+00a1: 01 00 00 push 0x0000
+00a4: 06       stores
+// mem[0x1b] = 0x0000
+
+00a5: 01 00 1f push 0x001f
+00a8: 01 00 00 push 0x0000
+00ab: 06       stores
+// mem[0x1f] = 0x0000
+
+00ac: 01 00 20 push 0x0020
+00af: 01 00 00 push 0x0000
+00b2: 06       stores
+// mem[0x20] = 0x0000
+
+00b3: 01 00 13 push 0x0013
+00b6: 01 15 05 push 0x1505
+00b9: 06       stores
+// mem[0x13] = 0x1505
+
+// LOOP1
+    00ba: 01 00 1b push 0x001b
+    00bd: 05       loads
+    00be: 01 00 04 push 0x0004
+    00c1: 12       lt
+    00c2: 10 01 0f jnz 0x010f
+    // if (mem[0x1b] >= 0x0004) goto 0x010f
+
+    00c5: 01 00 1c push 0x001c
+    00c8: 01 00 08 push 0x0008
+    00cb: 05       loads
+    00cc: 01 00 08 push 0x0008
+    00cf: 01 00 1b push 0x001b
+    00d2: 05       loads
+    00d3: 0d       mul
+    00d4: 1f       shr
+    00d5: 06       stores
+    // mem[0x1c] = (mem[0x08] >> (mem[0x1b] * 8))
+
+    00d6: 01 00 1c push 0x001c
+    00d9: 01 00 1c push 0x001c
+    00dc: 05       loads
+    00dd: 01 00 ff push 0x00ff
+    00e0: 1c       and
+    00e1: 06       stores
+    // mem[0x1c] &= 0xff
+
+    00e2: 01 00 1d push 0x001d
+    00e5: 01 00 13 push 0x0013
+    00e8: 05       loads
+    00e9: 06       stores
+    // mem[0x1d] = mem[0x13]
+
+    00ea: 01 00 13 push 0x0013
+    00ed: 01 00 13 push 0x0013
+    00f0: 05       loads
+    00f1: 01 00 05 push 0x0005
+    00f4: 1e       shl
+    00f5: 01 00 1d push 0x001d
+    00f8: 05       loads
+    00f9: 09       add
+    00fa: 01 00 1c push 0x001c
+    00fd: 05       loads
+    00fe: 09       add
+    00ff: 06       stores
+    // mem[0x13] = ((mem[0x13] >> 5) + mem[0x1d] + mem[0x1c])
+
+    0100: 01 00 1b push 0x001b
+    0103: 01 00 1b push 0x001b
+    0106: 05       loads
+    0107: 01 00 01 push 0x0001
+    010a: 09       add
+    010b: 06       stores
+    // mem[0x1b]++
+    010c: 0e 00 ba jmp [0x00ba]
+
+010f: 01 00 13 push 0x0013
+0112: 01 00 13 push 0x0013
+0115: 05       loads
+0116: 01 00 1e push 0x001e
+0119: 05       loads
+011a: 1c       and
+011b: 06       stores
+// mem[0x13] &= mem[0x1e]
+
+011c: 01 00 14 push 0x0014
+011f: 01 7c 8d push 0x7c8d
+0122: 01 00 10 push 0x0010
+0125: 1e       shl
+0126: 01 f4 cb push 0xf4cb
+0129: 1b       or
+012a: 06       stores
+// mem[0x14] = (0x7c8d << 0x10 | 0xf4cb)
+
+012b: 01 00 14 push 0x0014
+012e: 05       loads
+012f: 01 00 13 push 0x0013
+0132: 05       loads
+0133: 11       eq
+0134: 10 01 43 jnz 0x0143
+// if (mem[0x14] != mem[0x13]) goto 0x0143
+
+0137: 01 00 1f push 0x001f
+013a: 01 00 1f push 0x001f
+013d: 05       loads
+013e: 01 00 01 push 0x0001
+0141: 09       add
+0142: 06       stores
+// mem[0x1f]++
+
+0143: 01 00 1f push 0x001f
+0146: 05       loads
+0147: 01 00 00 push 0x0000
+014a: 14       gt
+014b: 10 01 d9 jnz 0x01d9
+// if (mem[0x1f] <= 0x0000) goto 0x01d9
+
+014e: 01 00 15 push 0x0015
+0151: 01 00 00 push 0x0000
+0154: 06       stores
+// mem[0x15] = 0x0000
+
+// LOOP2
+    0155: 01 00 1b push 0x001b
+    0158: 05       loads
+    0159: 01 00 08 push 0x0008
+    015c: 12       lt
+    015d: 10 01 a5 jnz 0x01a5
+    // if (mem[0x1b] >= 0x0008) goto 0x01a5
+
+    0160: 01 00 1c push 0x001c
+    0163: 01 00 08 push 0x0008
+    0166: 05       loads
+    0167: 01 00 08 push 0x0008
+    016a: 01 00 1b push 0x001b
+    016d: 05       loads
+    016e: 0d       mul
+    016f: 1f       shr
+    0170: 06       stores
+    // mem[0x1c] = (mem[0x08] >> (mem[0x1b] * 8))
+
+    0171: 01 00 1c push 0x001c
+    0174: 01 00 1c push 0x001c
+    0177: 05       loads
+    0178: 01 00 ff push 0x00ff
+    017b: 1c       and
+    017c: 06       stores
+    // mem[0x1c] &= 0xff
+
+    017d: 01 00 15 push 0x0015
+    0180: 01 00 15 push 0x0015
+    0183: 05       loads
+    0184: 01 00 0d push 0x000d
+    0187: 21       ror32
+    0188: 06       stores
+    // mem[0x15] = ror32(mem[0x15], 0x0d)
+
+    0189: 01 00 15 push 0x0015
+    018c: 01 00 15 push 0x0015
+    018f: 05       loads
+    0190: 01 00 1c push 0x001c
+    0193: 05       loads
+    0194: 09       add
+    0195: 06       stores
+    // mem[0x15] += mem[0x1c]
+
+    0196: 01 00 1b push 0x001b
+    0199: 01 00 1b push 0x001b
+    019c: 05       loads
+    019d: 01 00 01 push 0x0001
+    01a0: 09       add
+    01a1: 06       stores
+    // mem[0x1b]++
+
+    01a2: 0e 01 55 jmp [0x0155]
+
+01a5: 01 00 15 push 0x0015
+01a8: 01 00 15 push 0x0015
+01ab: 05       loads
+01ac: 01 00 1e push 0x001e
+01af: 05       loads
+01b0: 1c       and
+01b1: 06       stores
+// mem[0x15] &= mem[0x1e]
+
+01b2: 01 00 16 push 0x0016
+01b5: 01 8b 68 push 0x8b68
+01b8: 01 00 10 push 0x0010
+01bb: 1e       shl
+01bc: 01 1d 82 push 0x1d82
+01bf: 1b       or
+01c0: 06       stores
+// mem[0x16] = (0x8b68 << 0x10 | 0x1d82)
+
+01c1: 01 00 16 push 0x0016
+01c4: 05       loads
+01c5: 01 00 15 push 0x0015
+01c8: 05       loads
+01c9: 11       eq
+01ca: 10 01 d9 jnz 0x01d9
+// if (mem[0x16] != mem[0x15]) goto 0x01d9
+
+01cd: 01 00 1f push 0x001f
+01d0: 01 00 1f push 0x001f
+01d3: 05       loads
+01d4: 01 00 01 push 0x0001
+01d7: 09       add
+01d8: 06       stores
+// mem[0x1f]++
+
+01d9: 01 00 1f push 0x001f
+01dc: 05       loads
+01dd: 01 00 01 push 0x0001
+01e0: 14       gt
+01e1: 10 02 9e jnz 0x029e
+// if (mem[0x1f] <= 0x0001) goto 0x029e
+
+01e4: 01 00 11 push 0x0011
+01e7: 01 00 01 push 0x0001
+01ea: 06       stores
+// mem[0x11] = 0x0001
+
+01eb: 01 00 12 push 0x0012
+01ee: 01 00 00 push 0x0000
+01f1: 06       stores
+// mem[0x12] = 0x0000
+
+01f2: 01 00 17 push 0x0017
+01f5: 01 00 00 push 0x0000
+01f8: 06       stores
+// mem[0x17] = 0x0000
+
+01f9: 01 00 1b push 0x001b
+01fc: 01 00 00 push 0x0000
+01ff: 06       stores
+// mem[0x1b] = 0x0000
+
+// LOOP3
+    0200: 01 00 1b push 0x001b
+    0203: 05       loads
+    0204: 01 00 08 push 0x0008
+    0207: 12       lt
+    0208: 10 02 59 jnz 0x0259
+    // if (mem[0x1b] >= 0x0008) goto 0x0259
+
+    020b: 01 00 1c push 0x001c
+    020e: 01 00 09 push 0x0009
+    0211: 05       loads
+    0212: 01 00 08 push 0x0008
+    0215: 01 00 1b push 0x001b
+    0218: 05       loads
+    0219: 0d       mul
+    021a: 1f       shr
+    021b: 06       stores
+    // mem[0x1c] = (mem[0x09] >> (mem[0x1b] * 8))
+
+    021c: 01 00 1c push 0x001c
+    021f: 01 00 1c push 0x001c
+    0222: 05       loads
+    0223: 01 00 ff push 0x00ff
+    0226: 1c       and
+    0227: 06       stores
+    // mem[0x1c] &= 0xff
+
+    0228: 01 00 11 push 0x0011
+    022b: 01 00 11 push 0x0011
+    022e: 05       loads
+    022f: 01 00 1c push 0x001c
+    0232: 05       loads
+    0233: 09       add
+    0234: 01 ff f1 push 0xfff1
+    0237: 1d       mod
+    0238: 06       stores
+    // mem[0x11] = (mem[0x11] + mem[0x1c]) % 0xfff1
+
+    0239: 01 00 12 push 0x0012
+    023c: 01 00 12 push 0x0012
+    023f: 05       loads
+    0240: 01 00 11 push 0x0011
+    0243: 05       loads
+    0244: 09       add
+    0245: 01 ff f1 push 0xfff1
+    0248: 1d       mod
+    0249: 06       stores
+    // mem[0x12] = (mem[0x12] + mem[0x11]) % 0xfff1
+
+    024a: 01 00 1b push 0x001b
+    024d: 01 00 1b push 0x001b
+    0250: 05       loads
+    0251: 01 00 01 push 0x0001
+    0254: 09       add
+    0255: 06       stores
+    // mem[0x1b]++
+
+    0256: 0e 02 00 jmp [0x0200]
+
+0259: 01 00 17 push 0x0017
+025c: 01 00 12 push 0x0012
+025f: 05       loads
+0260: 01 00 10 push 0x0010
+0263: 1e       shl
+0264: 01 00 11 push 0x0011
+0267: 05       loads
+0268: 1b       or
+0269: 06       stores
+// mem[0x17] = (mem[0x12] << 0x10 | mem[0x11])
+
+026a: 01 00 17 push 0x0017
+026d: 01 00 17 push 0x0017
+0270: 05       loads
+0271: 01 00 1e push 0x001e
+0274: 05       loads
+0275: 1c       and
+0276: 06       stores
+// mem[0x17] &= mem[0x1e]
+
+0277: 01 00 18 push 0x0018
+027a: 01 0f 91 push 0x0f91
+027d: 01 00 10 push 0x0010
+0280: 1e       shl
+0281: 01 03 74 push 0x0374
+0284: 1b       or
+0285: 06       stores
+// mem[0x18] = (0x0f91 << 0x10 | 0x0374)
+
+0286: 01 00 18 push 0x0018
+0289: 05       loads
+028a: 01 00 17 push 0x0017
+028d: 05       loads
+028e: 11       eq
+028f: 10 02 9e jnz 0x029e
+// if (mem[0x18] != mem[0x17]) goto 0x029e
+
+0292: 01 00 1f push 0x001f
+0295: 01 00 1f push 0x001f
+0298: 05       loads
+0299: 01 00 01 push 0x0001
+029c: 09       add
+029d: 06       stores
+// mem[0x1f]++
+
+029e: 01 00 1f push 0x001f
+02a1: 05       loads
+02a2: 01 00 02 push 0x0002
+02a5: 14       gt
+02a6: 10 03 b2 jnz 0x03b2
+// if (mem[0x1f] <= 0x0002) goto 0x03b2
+
+02a9: 01 00 0a push 0x000a
+02ac: 01 01 93 push 0x0193
+02af: 06       stores
+// mem[0x0a] = 0x0193
+
+02b0: 01 00 0b push 0x000b
+02b3: 01 01 00 push 0x0100
+02b6: 06       stores
+// mem[0x0b] = 0x0100
+
+02b7: 01 00 0c push 0x000c
+02ba: 01 00 0b push 0x000b
+02bd: 05       loads
+02be: 01 00 10 push 0x0010
+02c1: 1e       shl
+02c2: 01 00 0a push 0x000a
+02c5: 05       loads
+02c6: 1b       or
+02c7: 06       stores
+// mem[0x0c] = (mem[0x0b] << 0x10 | mem[0x0a])
+
+02c8: 01 00 0d push 0x000d
+02cb: 01 9d c5 push 0x9dc5
+02ce: 06       stores
+// mem[0x0d] = 0x9dc5
+
+02cf: 01 00 0e push 0x000e
+02d2: 01 81 1c push 0x811c
+02d5: 06       stores
+// mem[0x0e] = 0x811c
+
+02d6: 01 00 0f push 0x000f
+02d9: 01 00 0e push 0x000e
+02dc: 05       loads
+02dd: 01 00 10 push 0x0010
+02e0: 1e       shl
+02e1: 01 00 0d push 0x000d
+02e4: 05       loads
+02e5: 1b       or
+02e6: 06       stores
+// mem[0x0f] = (mem[0x0e] << 0x10 | mem[0x0d])
+
+02e7: 01 00 10 push 0x0010
+02ea: 01 00 01 push 0x0001
+02ed: 01 00 20 push 0x0020
+02f0: 1e       shl
+02f1: 06       stores
+// mem[0x10] = 1 << 0x20
+
+02f2: 01 00 19 push 0x0019
+02f5: 01 00 0f push 0x000f
+02f8: 05       loads
+02f9: 06       stores
+// mem[0x19] = mem[0x0f]
+
+02fa: 01 00 1b push 0x001b
+02fd: 01 00 00 push 0x0000
+0300: 06       stores
+// mem[0x1b] = 0x0000
+
+// LOOP4
+    0301: 01 00 1b push 0x001b
+    0304: 05       loads
+    0305: 01 00 10 push 0x0010
+    0308: 12       lt
+    0309: 10 03 7e jnz 0x037e
+    // if (mem[0x1b] >= 0x10) goto 0x037e
+
+    030c: 01 00 1b push 0x001b
+    030f: 05       loads
+    0310: 01 00 08 push 0x0008
+    0313: 12       lt
+    0314: 10 03 28 jnz 0x0328
+    // if (mem[0x1b] >= 0x08) goto 0x0328
+
+        0317: 01 00 1c push 0x001c
+        031a: 01 00 08 push 0x0008
+        031d: 05       loads
+        031e: 01 00 08 push 0x0008
+        0321: 01 00 1b push 0x001b
+        0324: 05       loads
+        0325: 0d       mul
+        0326: 1f       shr
+        0327: 06       stores
+        // mem[0x1c] = (mem[0x08] >> (mem[0x1b] * 8))
+
+    0328: 01 00 1b push 0x001b
+    032b: 05       loads
+    032c: 01 00 07 push 0x0007
+    032f: 14       gt
+    0330: 10 03 44 jnz 0x0344
+    // if (mem[0x1b] <= 0x0007) goto 0x0344
+
+        0333: 01 00 1c push 0x001c
+        0336: 01 00 09 push 0x0009
+        0339: 05       loads
+        033a: 01 00 08 push 0x0008
+        033d: 01 00 1b push 0x001b
+        0340: 05       loads
+        0341: 0d       mul
+        0342: 1f       shr
+        0343: 06       stores
+        // mem[0x1c] = (mem[0x09] >> (mem[0x1b] * 8))
+
+    0344: 01 00 1c push 0x001c
+    0347: 01 00 1c push 0x001c
+    034a: 05       loads
+    034b: 01 00 ff push 0x00ff
+    034e: 1c       and
+    034f: 06       stores
+    // mem[0x1c] &= 0xff
+
+    0350: 01 00 19 push 0x0019
+    0353: 01 00 19 push 0x0019
+    0356: 05       loads
+    0357: 01 00 0c push 0x000c
+    035a: 05       loads
+    035b: 0d       mul
+    035c: 01 00 10 push 0x0010
+    035f: 05       loads
+    0360: 1d       mod
+    0361: 06       stores
+    // mem[0x19] = (mem[0x19] * mem[0x0c]) % mem[0x10]
+
+    0362: 01 00 19 push 0x0019
+    0365: 01 00 19 push 0x0019
+    0368: 05       loads
+    0369: 01 00 1c push 0x001c
+    036c: 05       loads
+    036d: 1a       xor
+    036e: 06       stores
+    // mem[0x19] ^= mem[0x1c]
+
+    036f: 01 00 1b push 0x001b
+    0372: 01 00 1b push 0x001b
+    0375: 05       loads
+    0376: 01 00 01 push 0x0001
+    0379: 09       add
+    037a: 06       stores
+    // mem[0x1b]++
+    
+    037b: 0e 03 01 jmp [0x0301]
+
+037e: 01 00 19 push 0x0019
+0381: 01 00 19 push 0x0019
+0384: 05       loads
+0385: 01 00 1e push 0x001e
+0388: 05       loads
+0389: 1c       and
+038a: 06       stores
+// mem[0x19] &= mem[0x1e]
+
+038b: 01 00 1a push 0x001a
+038e: 01 31 f0 push 0x31f0
+0391: 01 00 10 push 0x0010
+0394: 1e       shl
+0395: 01 09 d2 push 0x09d2
+0398: 1b       or
+0399: 06       stores
+// mem[0x1a] = (0x31f0 << 0x10 | 0x09d2)
+
+039a: 01 00 1a push 0x001a
+039d: 05       loads
+039e: 01 00 19 push 0x0019
+03a1: 05       loads
+03a2: 11       eq
+03a3: 10 03 b2 jnz 0x03b2
+// if (mem[0x1a] != mem[0x19]) goto 0x03b2
+
+03a6: 01 00 1f push 0x001f
+03a9: 01 00 1f push 0x001f
+03ac: 05       loads
+03ad: 01 00 01 push 0x0001
+03b0: 09       add
+03b1: 06       stores
+// mem[0x1f]++
+
+03b2: 01 00 1f push 0x001f
+03b5: 05       loads
+03b6: 01 00 04 push 0x0004
+03b9: 11       eq
+03ba: 10 03 c4 jnz 0x03c4
+// if (mem[0x1f] != 0x0004) goto 0x03c4
+
+03bd: 01 00 20 push 0x0020
+03c0: 01 00 01 push 0x0001
+03c3: 06       stores
+// mem[0x20] = 0x0001
+
+03c4: 01 00 20 push 0x0020
+03c7: 05       loads
+03c8: 19       setout
+03c9: 18       ret0
+// return mem[0x20]

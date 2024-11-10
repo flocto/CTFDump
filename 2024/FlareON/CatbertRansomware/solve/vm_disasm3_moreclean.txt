@@ -1,0 +1,75 @@
+mem[0x08] = (mem[0x03] << 0x30 | mem[0x02] << 0x20 | mem[0x01] << 0x10 | mem[0x00])
+mem[0x09] = (mem[0x07] << 0x30 | mem[0x06] << 0x20 | mem[0x05] << 0x10 | mem[0x04])
+tmp = 0xffff
+mem[0x1e] = 0xffffffff
+
+i = 0x0000
+check = 0x0000
+mem[0x20] = 0x0000
+state = 0x1505
+LOOP1:
+    if (i >= 0x0004) break
+    inp = (mem[0x08] >> (i * 8))
+    inp &= 0xff
+    tmp = state
+    state = ((state << 5) + tmp + inp)
+    i++
+state &= 0xffffffff
+match1 = 0x7c8df4cb
+if (match1 != state) goto 0x0143
+check++
+
+state = 0x0000
+LOOP2:
+    if (i >= 0x0008) goto 0x01a5
+    inp = (mem[0x08] >> (i * 8))
+    inp &= 0xff
+    state = ror32(state, 0x0d)
+    state += inp
+    i++
+state &= 0xffffffff
+match2 = 0x8b681d82
+if (match2 != state) goto 0x01d9
+check++
+
+A = 0x0001
+B = 0x0000
+mem[0x17] = 0x0000
+i = 0x0000
+LOOP3:
+    if (i >= 0x0008) goto 0x0259
+    inp = (mem[0x09] >> (i * 8))
+    inp &= 0xff
+    A = (A + inp) % 0xfff1
+    B = (B + A) % 0xfff1
+    i++
+
+mem[0x17] = (B << 0x10 | A)
+mem[0x17] &= 0xffffffff
+match3 = 0x0f910374
+if (match3 != mem[0x17]) goto 0x029e
+check++
+
+C = 0x01000193
+mod = 1 << 0x20
+state = 0x811c9dc5
+i = 0x0000
+LOOP4:
+    if (i >= 0x10) goto 0x037e
+    if (i >= 0x08) goto 0x0328
+        inp = (mem[0x08] >> (i * 8))
+    if (i <= 0x0007) goto 0x0344
+        inp = (mem[0x09] >> (i * 8))
+    inp &= 0xff
+    state = (state * C) % mod
+    state ^= inp
+    i++
+state &= 0xffffffff
+match4 = 0x31f009d2
+
+if (match4 == state):
+    check++
+
+if (check == 0x0004):
+    mem[0x20] = 0x0001
+return mem[0x20]
