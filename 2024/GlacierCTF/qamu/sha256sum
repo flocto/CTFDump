@@ -1,0 +1,4 @@
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./deploy.sh
+afdddce70af45c8ab8ae314ab57efc6f9d08fa696b87be3626f14972a1ab561b  ./vm_enc.bin
+6cc4e5fb79eb10fefc68aef9a70100f486aabaeeee13ea6e1ed227ce218cc9fe  ./flag.txt
+f6ee5acba664cf57fb4acfb29e8e16cbaf6ef98243129424d650f42ca7ee610e  ./challenge
