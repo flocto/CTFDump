@@ -1,0 +1,81 @@
+{
+	"name": "flag-checker",
+	"icon": "icon.png",
+	"displayName": "Flag Checker",
+	"description": "Give me the flag and I will check if it is right!",
+	"license": "Apache License Version 2.0",
+	"publisher": "Null",
+	"version": "0.0.0",
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"onLanguage:flag"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"languages": [
+			{
+				"id": "flag",
+				"aliases": [
+					"",
+					"flag"
+				],
+				"extensions": [
+					".flag"
+				],
+				"configuration": ""
+			}
+		],
+		"grammars": [
+			{
+				"language": "flag",
+				"scopeName": "source.flag",
+				"path": "./language/flag.tmLanguage.json"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "flag Language Server",
+			"properties": {
+				"flag.languageServer.pathToBinary": {
+					"scope": "resource",
+					"type": "string",
+					"description": "Path to language server binary"
+				},
+				"flag.languageServer.logLevel": {
+					"scope": "resource",
+					"type": "string",
+					"enum": [
+						"error",
+						"warn",
+						"info",
+						"debug"
+					],
+					"default": "info",
+					"description": "Log level for the language server"
+				}
+			}
+		}
+	},
+	"dependencies": {
+		"@types/vscode": "^1.69.0",
+		"vscode-languageclient": "^8.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@typescript-eslint/eslint-plugin": "^4.23.0",
+		"@typescript-eslint/parser": "^4.23.0",
+		"eslint": "^7.26.0",
+		"typescript": "^4.4.3"
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -b",
+		"watch": "tsc -b -w",
+		"lint": "eslint ./src --ext .ts,.tsx"
+	}
+}

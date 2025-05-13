@@ -1,0 +1,1422 @@
+[Trace - 6:40:31 PM] Sending request 'initialize - (0)'.
+Params: {
+    "processId": 150416,
+    "clientInfo": {
+        "name": "Visual Studio Code",
+        "version": "1.97.2"
+    },
+    "locale": "en",
+    "rootPath": "c:\\Users\\flocto\\Documents\\Cybersecurity\\2025\\AliyunCTF\\easy_ls",
+    "rootUri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls",
+    "capabilities": {
+        "workspace": {
+            "applyEdit": true,
+            "workspaceEdit": {
+                "documentChanges": true,
+                "resourceOperations": [
+                    "create",
+                    "rename",
+                    "delete"
+                ],
+                "failureHandling": "textOnlyTransactional",
+                "normalizesLineEndings": true,
+                "changeAnnotationSupport": {
+                    "groupsOnLabel": true
+                }
+            },
+            "configuration": true,
+            "didChangeWatchedFiles": {
+                "dynamicRegistration": true,
+                "relativePatternSupport": true
+            },
+            "symbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                },
+                "resolveSupport": {
+                    "properties": [
+                        "location.range"
+                    ]
+                }
+            },
+            "codeLens": {
+                "refreshSupport": true
+            },
+            "executeCommand": {
+                "dynamicRegistration": true
+            },
+            "didChangeConfiguration": {
+                "dynamicRegistration": true
+            },
+            "workspaceFolders": true,
+            "semanticTokens": {
+                "refreshSupport": true
+            },
+            "fileOperations": {
+                "dynamicRegistration": true,
+                "didCreate": true,
+                "didRename": true,
+                "didDelete": true,
+                "willCreate": true,
+                "willRename": true,
+                "willDelete": true
+            },
+            "inlineValue": {
+                "refreshSupport": true
+            },
+            "inlayHint": {
+                "refreshSupport": true
+            },
+            "diagnostics": {
+                "refreshSupport": true
+            }
+        },
+        "textDocument": {
+            "publishDiagnostics": {
+                "relatedInformation": true,
+                "versionSupport": false,
+                "tagSupport": {
+                    "valueSet": [
+                        1,
+                        2
+                    ]
+                },
+                "codeDescriptionSupport": true,
+                "dataSupport": true
+            },
+            "synchronization": {
+                "dynamicRegistration": true,
+                "willSave": true,
+                "willSaveWaitUntil": true,
+                "didSave": true
+            },
+            "completion": {
+                "dynamicRegistration": true,
+                "contextSupport": true,
+                "completionItem": {
+                    "snippetSupport": true,
+                    "commitCharactersSupport": true,
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ],
+                    "deprecatedSupport": true,
+                    "preselectSupport": true,
+                    "tagSupport": {
+                        "valueSet": [
+                            1
+                        ]
+                    },
+                    "insertReplaceSupport": true,
+                    "resolveSupport": {
+                        "properties": [
+                            "documentation",
+                            "detail",
+                            "additionalTextEdits"
+                        ]
+                    },
+                    "insertTextModeSupport": {
+                        "valueSet": [
+                            1,
+                            2
+                        ]
+                    },
+                    "labelDetailsSupport": true
+                },
+                "insertTextMode": 2,
+                "completionItemKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ]
+                },
+                "completionList": {
+                    "itemDefaults": [
+                        "commitCharacters",
+                        "editRange",
+                        "insertTextFormat",
+                        "insertTextMode"
+                    ]
+                }
+            },
+            "hover": {
+                "dynamicRegistration": true,
+                "contentFormat": [
+                    "markdown",
+                    "plaintext"
+                ]
+            },
+            "signatureHelp": {
+                "dynamicRegistration": true,
+                "signatureInformation": {
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ],
+                    "parameterInformation": {
+                        "labelOffsetSupport": true
+                    },
+                    "activeParameterSupport": true
+                },
+                "contextSupport": true
+            },
+            "definition": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "references": {
+                "dynamicRegistration": true
+            },
+            "documentHighlight": {
+                "dynamicRegistration": true
+            },
+            "documentSymbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "hierarchicalDocumentSymbolSupport": true,
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                },
+                "labelSupport": true
+            },
+            "codeAction": {
+                "dynamicRegistration": true,
+                "isPreferredSupport": true,
+                "disabledSupport": true,
+                "dataSupport": true,
+                "resolveSupport": {
+                    "properties": [
+                        "edit"
+                    ]
+                },
+                "codeActionLiteralSupport": {
+                    "codeActionKind": {
+                        "valueSet": [
+                            "",
+                            "quickfix",
+                            "refactor",
+                            "refactor.extract",
+                            "refactor.inline",
+                            "refactor.rewrite",
+                            "source",
+                            "source.organizeImports"
+                        ]
+                    }
+                },
+                "honorsChangeAnnotations": false
+            },
+            "codeLens": {
+                "dynamicRegistration": true
+            },
+            "formatting": {
+                "dynamicRegistration": true
+            },
+            "rangeFormatting": {
+                "dynamicRegistration": true
+            },
+            "onTypeFormatting": {
+                "dynamicRegistration": true
+            },
+            "rename": {
+                "dynamicRegistration": true,
+                "prepareSupport": true,
+                "prepareSupportDefaultBehavior": 1,
+                "honorsChangeAnnotations": true
+            },
+            "documentLink": {
+                "dynamicRegistration": true,
+                "tooltipSupport": true
+            },
+            "typeDefinition": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "implementation": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "colorProvider": {
+                "dynamicRegistration": true
+            },
+            "foldingRange": {
+                "dynamicRegistration": true,
+                "rangeLimit": 5000,
+                "lineFoldingOnly": true,
+                "foldingRangeKind": {
+                    "valueSet": [
+                        "comment",
+                        "imports",
+                        "region"
+                    ]
+                },
+                "foldingRange": {
+                    "collapsedText": false
+                }
+            },
+            "declaration": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "selectionRange": {
+                "dynamicRegistration": true
+            },
+            "callHierarchy": {
+                "dynamicRegistration": true
+            },
+            "semanticTokens": {
+                "dynamicRegistration": true,
+                "tokenTypes": [
+                    "namespace",
+                    "type",
+                    "class",
+                    "enum",
+                    "interface",
+                    "struct",
+                    "typeParameter",
+                    "parameter",
+                    "variable",
+                    "property",
+                    "enumMember",
+                    "event",
+                    "function",
+                    "method",
+                    "macro",
+                    "keyword",
+                    "modifier",
+                    "comment",
+                    "string",
+                    "number",
+                    "regexp",
+                    "operator",
+                    "decorator"
+                ],
+                "tokenModifiers": [
+                    "declaration",
+                    "definition",
+                    "readonly",
+                    "static",
+                    "deprecated",
+                    "abstract",
+                    "async",
+                    "modification",
+                    "documentation",
+                    "defaultLibrary"
+                ],
+                "formats": [
+                    "relative"
+                ],
+                "requests": {
+                    "range": true,
+                    "full": {
+                        "delta": true
+                    }
+                },
+                "multilineTokenSupport": false,
+                "overlappingTokenSupport": false,
+                "serverCancelSupport": true,
+                "augmentsSyntaxTokens": true
+            },
+            "linkedEditingRange": {
+                "dynamicRegistration": true
+            },
+            "typeHierarchy": {
+                "dynamicRegistration": true
+            },
+            "inlineValue": {
+                "dynamicRegistration": true
+            },
+            "inlayHint": {
+                "dynamicRegistration": true,
+                "resolveSupport": {
+                    "properties": [
+                        "tooltip",
+                        "textEdits",
+                        "label.tooltip",
+                        "label.location",
+                        "label.command"
+                    ]
+                }
+            },
+            "diagnostic": {
+                "dynamicRegistration": true,
+                "relatedDocumentSupport": false
+            }
+        },
+        "window": {
+            "showMessage": {
+                "messageActionItem": {
+                    "additionalPropertiesSupport": true
+                }
+            },
+            "showDocument": {
+                "support": true
+            },
+            "workDoneProgress": true
+        },
+        "general": {
+            "staleRequestSupport": {
+                "cancel": true,
+                "retryOnContentModified": [
+                    "textDocument/semanticTokens/full",
+                    "textDocument/semanticTokens/range",
+                    "textDocument/semanticTokens/full/delta"
+                ]
+            },
+            "regularExpressions": {
+                "engine": "ECMAScript",
+                "version": "ES2020"
+            },
+            "markdown": {
+                "parser": "marked",
+                "version": "1.1.0"
+            },
+            "positionEncodings": [
+                "utf-16"
+            ]
+        },
+        "notebookDocument": {
+            "synchronization": {
+                "dynamicRegistration": true,
+                "executionSummarySupport": true
+            }
+        }
+    },
+    "trace": "verbose",
+    "workspaceFolders": [
+        {
+            "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls",
+            "name": "easy_ls"
+        }
+    ]
+}
+
+
+time="2025-02-22T18:40:31-06:00" level=info msg=Starting...
+[Trace - 6:40:31 PM] Received response 'initialize - (0)' in 14ms.
+Result: {
+    "capabilities": {
+        "textDocumentSync": {
+            "openClose": true,
+            "change": 1,
+            "save": {}
+        },
+        "completionProvider": {
+            "triggerCharacters": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "j",
+                "k",
+                "l",
+                "m",
+                "n",
+                "o",
+                "p",
+                "q",
+                "r",
+                "s",
+                "t",
+                "u",
+                "v",
+                "w",
+                "x",
+                "y",
+                "z",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L",
+                "M",
+                "N",
+                "O",
+                "P",
+                "Q",
+                "R",
+                "S",
+                "T",
+                "U",
+                "V",
+                "W",
+                "X",
+                "Y",
+                "Z",
+                "!",
+                "#",
+                "$",
+                "%",
+                "&",
+                "'",
+                "(",
+                ")",
+                "*",
+                "+",
+                ",",
+                "-",
+                ".",
+                "/",
+                ":",
+                ";",
+                "<",
+                "=",
+                ">",
+                "?",
+                "@",
+                "[",
+                "\\",
+                "]",
+                "^",
+                "_",
+                "`",
+                "{",
+                "|",
+                "}",
+                "~",
+                " "
+            ],
+            "completionItem": {}
+        },
+        "signatureHelpProvider": {},
+        "codeLensProvider": {},
+        "documentLinkProvider": {},
+        "documentOnTypeFormattingProvider": {
+            "firstTriggerCharacter": ""
+        },
+        "executeCommandProvider": {
+            "commands": []
+        },
+        "workspace": {
+            "workspaceFolders": {}
+        }
+    },
+    "serverInfo": {
+        "name": "flag-LS",
+        "version": "dev"
+    }
+}
+
+
+[Trace - 6:40:31 PM] Sending notification 'initialized'.
+Params: {}
+
+
+[Trace - 6:40:31 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "log_level": "debug"
+    }
+}
+
+
+[Trace - 6:40:31 PM] Sending notification 'textDocument/didOpen'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+        "languageId": "flag",
+        "version": 2,
+        "text": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    }
+}
+
+
+[Trace - 6:40:31 PM] Sending request 'textDocument/documentLink - (1)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:40:31 PM] Received response 'textDocument/documentLink - (1)' in 1ms.
+No result returned.
+
+
+[Trace - 6:40:31 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 6:40:31 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "log_level": "debug"
+    }
+}
+
+
+[Trace - 6:40:31 PM] Sending request 'textDocument/codeLens - (2)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:40:31 PM] Received response 'textDocument/codeLens - (2)' in 1ms.
+Result: []
+
+
+[Trace - 6:40:31 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 6:40:31 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "log_level": "debug"
+    }
+}
+
+
+[Trace - 6:40:31 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 6:40:31 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "log_level": "debug"
+    }
+}
+
+
+[Trace - 6:40:33 PM] Sending request 'textDocument/documentLink - (3)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:40:33 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 6:40:33 PM] Sending notification '$/cancelRequest'.
+Params: {
+    "id": 3
+}
+
+
+[Trace - 6:40:34 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 2,
+            "source": "flag checker",
+            "message": "Flag Wrong!"
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 3,
+            "source": "your input",
+            "message": ""
+        }
+    ]
+}
+
+
+[Trace - 6:40:34 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "log_level": "debug"
+    }
+}
+
+
+[Trace - 6:40:34 PM] Sending request 'textDocument/documentLink - (4)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:40:34 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+        "version": 3
+    },
+    "contentChanges": [
+        {
+            "text": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789b"
+        }
+    ]
+}
+
+
+[Trace - 6:40:34 PM] Sending notification '$/setTrace'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 6:40:34 PM] Received response 'textDocument/documentLink - (3)' in 880ms.
+No result returned.
+
+
+[Trace - 6:40:34 PM] Sending notification '$/cancelRequest'.
+Params: {
+    "id": 4
+}
+
+
+[Trace - 6:40:34 PM] Received response 'textDocument/documentLink - (4)' in 540ms.
+No result returned.
+
+
+[Trace - 6:40:34 PM] Sending request 'textDocument/completion - (5)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    },
+    "position": {
+        "line": 0,
+        "character": 63
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 6:40:34 PM] Sending request 'textDocument/codeLens - (6)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:40:35 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "log_level": "debug"
+    }
+}
+
+
+[Trace - 6:40:35 PM] Sending request 'textDocument/documentLink - (7)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:40:35 PM] Received response 'textDocument/completion - (5)' in 273ms.
+Result: {
+    "isIncomplete": false,
+    "items": [
+        {
+            "label": "algo1",
+            "labelDetails": {
+                "description": "string"
+            },
+            "kind": 1,
+            "detail": "algo1",
+            "documentation": "use algo1",
+            "filterText": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789b",
+            "insertText": "SawM75ozzYREoCV9bdJ9k86ns3XbmwJpbWA2f9Ujc4J7rmrXpF7Q3VHBxzTJEPdhGUdWDJNbLnJE62aSRfqjyja",
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 0,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 0,
+                        "character": 0
+                    }
+                },
+                "newText": "SawM75ozzYREoCV9bdJ9k86ns3XbmwJpbWA2f9Ujc4J7rmrXpF7Q3VHBxzTJEPdhGUdWDJNbLnJE62aSRfqjyja"
+            }
+        },
+        {
+            "label": "algo2",
+            "labelDetails": {
+                "description": "string"
+            },
+            "kind": 1,
+            "detail": "algo2",
+            "documentation": "use algo2",
+            "filterText": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789b",
+            "insertText": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0",
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 0,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 0,
+                        "character": 0
+                    }
+                },
+                "newText": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0"
+            }
+        },
+        {
+            "label": "algo3",
+            "labelDetails": {
+                "description": "string"
+            },
+            "kind": 1,
+            "detail": "algo3",
+            "documentation": "use algo3",
+            "filterText": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789b",
+            "insertText": "b9876543210ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba3",
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 0,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 0,
+                        "character": 0
+                    }
+                },
+                "newText": "b9876543210ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba3"
+            }
+        }
+    ]
+}
+
+
+[Trace - 6:40:35 PM] Received response 'textDocument/codeLens - (6)' in 28ms.
+Result: []
+
+
+[Trace - 6:40:35 PM] Received response 'textDocument/documentLink - (7)' in 14ms.
+No result returned.
+
+
+[Trace - 6:40:35 PM] Sending request 'textDocument/completion - (8)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    },
+    "position": {
+        "line": 0,
+        "character": 63
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 6:40:35 PM] Received response 'textDocument/completion - (8)' in 1ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 6:40:35 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 2,
+            "source": "flag checker",
+            "message": "Flag Wrong!"
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 3,
+            "source": "your input",
+            "message": "b"
+        }
+    ]
+}
+
+
+[Trace - 6:40:36 PM] Sending request 'textDocument/codeLens - (9)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:40:36 PM] Received response 'textDocument/codeLens - (9)' in 1ms.
+Result: []
+
+
+[Trace - 6:41:30 PM] Sending request 'textDocument/codeLens - (10)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:41:30 PM] Received response 'textDocument/codeLens - (10)' in 2ms.
+Result: []
+
+
+[Trace - 6:41:31 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+        "version": 4
+    },
+    "contentChanges": [
+        {
+            "text": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789bb"
+        }
+    ]
+}
+
+
+[Trace - 6:41:31 PM] Sending request 'textDocument/completion - (11)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    },
+    "position": {
+        "line": 0,
+        "character": 64
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 6:41:31 PM] Received request 'workspace/applyEdit - (1)'.
+Params: {
+    "edit": {
+        "documentChanges": [
+            {
+                "textDocument": {
+                    "version": 4,
+                    "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+                },
+                "edits": [
+                    {
+                        "range": {
+                            "start": {
+                                "line": 0,
+                                "character": 0
+                            },
+                            "end": {
+                                "line": 1000000,
+                                "character": 0
+                            }
+                        },
+                        "newText": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+
+[Trace - 6:41:31 PM] Sending response 'workspace/applyEdit - (1)'. Processing request took 12ms
+Result: {
+    "applied": true
+}
+
+
+[Trace - 6:41:31 PM] Received response 'textDocument/completion - (11)' in 13ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 6:41:32 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+        "version": 5
+    },
+    "contentChanges": [
+        {
+            "text": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0"
+        }
+    ]
+}
+
+
+[Trace - 6:41:32 PM] Received request 'workspace/applyEdit - (2)'.
+Params: {
+    "edit": {
+        "documentChanges": [
+            {
+                "textDocument": {
+                    "version": 5,
+                    "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+                },
+                "edits": [
+                    {
+                        "range": {
+                            "start": {
+                                "line": 0,
+                                "character": 0
+                            },
+                            "end": {
+                                "line": 1000000,
+                                "character": 0
+                            }
+                        },
+                        "newText": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+
+[Trace - 6:41:32 PM] Sending response 'workspace/applyEdit - (2)'. Processing request took 6ms
+Result: {
+    "applied": true
+}
+
+
+[Trace - 6:41:32 PM] Sending request 'textDocument/codeLens - (12)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:41:32 PM] Received response 'textDocument/codeLens - (12)' in 1ms.
+Result: []
+
+
+[Trace - 6:41:32 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 2,
+            "source": "flag checker",
+            "message": "Flag Wrong!"
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 3,
+            "source": "your input",
+            "message": "b"
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 1,
+            "source": "flag checker",
+            "message": "choice one of the algo!"
+        }
+    ]
+}
+
+
+[Trace - 6:41:32 PM] Sending request 'textDocument/documentLink - (13)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:41:32 PM] Received response 'textDocument/documentLink - (13)' in 1ms.
+No result returned.
+
+
+[Trace - 6:41:34 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+        "version": 6
+    },
+    "contentChanges": [
+        {
+            "text": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0b"
+        }
+    ]
+}
+
+
+[Trace - 6:41:34 PM] Sending request 'textDocument/completion - (14)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    },
+    "position": {
+        "line": 0,
+        "character": 65
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 6:41:34 PM] Received response 'textDocument/completion - (14)' in 1ms.
+Result: {
+    "isIncomplete": false,
+    "items": [
+        {
+            "label": "algo1",
+            "labelDetails": {
+                "description": "string"
+            },
+            "kind": 1,
+            "detail": "algo1",
+            "documentation": "use algo1",
+            "filterText": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0b",
+            "insertText": "AkEizsv1m9qQsbZDjoGRZCK7Z6KhUpUd2c6aWu7cxvbnrveTuoxNZqfRerYQLGtNMbcvCd84Q6KpHVrTh3ysmCxDw3",
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 0,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 0,
+                        "character": 0
+                    }
+                },
+                "newText": "AkEizsv1m9qQsbZDjoGRZCK7Z6KhUpUd2c6aWu7cxvbnrveTuoxNZqfRerYQLGtNMbcvCd84Q6KpHVrTh3ysmCxDw3"
+            }
+        },
+        {
+            "label": "algo2",
+            "labelDetails": {
+                "description": "string"
+            },
+            "kind": 1,
+            "detail": "algo2",
+            "documentation": "use algo2",
+            "filterText": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0b",
+            "insertText": "bcdefghijklmnopqrstuvwxyzaBCDEFGHIJKLMNOPQRSTUVWXYZA7890123456c4pd",
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 0,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 0,
+                        "character": 0
+                    }
+                },
+                "newText": "bcdefghijklmnopqrstuvwxyzaBCDEFGHIJKLMNOPQRSTUVWXYZA7890123456c4pd"
+            }
+        },
+        {
+            "label": "algo3",
+            "labelDetails": {
+                "description": "string"
+            },
+            "kind": 1,
+            "detail": "algo3",
+            "documentation": "use algo3",
+            "filterText": "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM3456789012o0b",
+            "insertText": "b0o2109876543MLKJIHGFEDCBAZYXWVUTSRQPONmlkjihgfedcbazyxwvutsrqpon2",
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 0,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 0,
+                        "character": 0
+                    }
+                },
+                "newText": "b0o2109876543MLKJIHGFEDCBAZYXWVUTSRQPONmlkjihgfedcbazyxwvutsrqpon2"
+            }
+        }
+    ]
+}
+
+
+[Trace - 6:41:34 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 2,
+            "source": "flag checker",
+            "message": "Flag Wrong!"
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 0
+                },
+                "end": {
+                    "line": 0,
+                    "character": 0
+                }
+            },
+            "severity": 3,
+            "source": "your input",
+            "message": "bb"
+        }
+    ]
+}
+
+
+[Trace - 6:41:34 PM] Sending request 'textDocument/codeLens - (15)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:41:34 PM] Received response 'textDocument/codeLens - (15)' in 1ms.
+Result: []
+
+
+[Trace - 6:41:35 PM] Sending request 'textDocument/documentLink - (16)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:41:35 PM] Received response 'textDocument/documentLink - (16)' in 1ms.
+No result returned.
+
+
+[Trace - 6:42:24 PM] Sending request 'textDocument/codeLens - (17)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:42:24 PM] Received response 'textDocument/codeLens - (17)' in 1ms.
+Result: []
+
+
+[Trace - 6:43:31 PM] Sending request 'textDocument/codeLens - (18)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:43:31 PM] Received response 'textDocument/codeLens - (18)' in 1ms.
+Result: []
+
+
+[Trace - 6:45:50 PM] Sending request 'textDocument/codeLens - (19)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/flocto/Documents/Cybersecurity/2025/AliyunCTF/easy_ls/input.flag"
+    }
+}
+
+
+[Trace - 6:45:50 PM] Received response 'textDocument/codeLens - (19)' in 1ms.
+Result: []
+
+
