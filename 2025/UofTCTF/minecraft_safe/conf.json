@@ -1,0 +1,42 @@
+{
+    "Configuration": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    },
+    "Handshaking": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    },
+    "LocalPort": 25555,
+    "LogRawBytes": false,
+    "LogToBinFile": false,
+    "LogToConsole": true,
+    "LogToReplay": false,
+    "LogToTxtFile": true,
+    "Login": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    },
+    "MicrosoftAccountCacheKey": "",
+    "NetworkRecapToConsole": false,
+    "Online": false,
+    "Play": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    },
+    "ServerAddress": "127.0.0.1:25565",
+    "Status": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    }
+}
