@@ -1,0 +1,14 @@
+services:
+  proxy:
+    image: envoyproxy/envoy:v1.31.4
+    restart: no
+    command: ["--log-level info", "--config-path /etc/envoy/envoy.yaml"]
+    ports:
+      - "20906:20906"
+    configs:
+      - source: proxy.yaml
+        target: /etc/envoy/envoy.yaml
+
+configs:
+  proxy.yaml:
+    file: ./proxy.yml

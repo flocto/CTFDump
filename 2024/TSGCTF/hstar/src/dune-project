@@ -1,0 +1,18 @@
+(lang dune 3.6)
+
+(using menhir 2.0)
+
+(name hstar)
+
+(package
+ (name hstar)
+ (synopsis "H*: a refinement type system for Haskell")
+ (description "H*: a refinement type system for Haskell")
+ (depends
+  (ocaml
+   (>= 4.14.0))
+  (dune
+   (>= 3.0))
+  core
+  menhir
+  menhirLib))

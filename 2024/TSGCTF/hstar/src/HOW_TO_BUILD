@@ -1,0 +1,14 @@
+# How to build
+
+0. Install Opam and OCaml
+1. Install GHC (haskell)
+2. Install F* (https://fstar-lang.org/)
+3. build
+
+```
+opam install --deps-only .
+dune build
+```
+
+See Dockerfile for more detail
+

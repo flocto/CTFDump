@@ -1,0 +1,3 @@
+let incr = \n -> n + 1 in
+print (incr 4)
+__EOF__

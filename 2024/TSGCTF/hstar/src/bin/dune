@@ -1,0 +1,10 @@
+(menhir
+ (modules parser))
+
+(ocamllex lexer)
+
+(executable
+ (public_name hstar)
+ (name main)
+ (flags :standard -w -33)
+ (libraries core core_unix.command_unix unix menhirLib))

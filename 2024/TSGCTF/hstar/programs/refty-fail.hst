@@ -1,0 +1,6 @@
+let incr:: x::Integer{x>1} -> Tot(res::Integer{res>3})  =
+ \x -> x + 1
+in
+print (incr 5)
+
+__EOF__
