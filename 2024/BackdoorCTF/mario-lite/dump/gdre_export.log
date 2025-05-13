@@ -1,0 +1,44 @@
+GDRE Tools v0.7.3
+Windows 10.0.22621, NVIDIA GeForce RTX 3050 Laptop GPU, opengl3
+Extracted 83 files, no errors detected!
+Script version 4.3.0 (rev 0x77af6ca) detected
+Saved project config project.godot.
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     7
+Failed scripts:                         0
+Imported resources for export session:  83
+Successfully converted:                 32
+Lossy:                                  8
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+The following files were converted from an import that was stored lossy.
+You may lose fidelity when re-importing these files upon loading the project.
+res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata to res://assets/fonts/PixelOperator8-Bold.ttf
+res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata to res://assets/fonts/PixelOperator8.ttf
+res://.godot/imported/coin.wav-9081ee1c6d81d9c34d08bc916297b892.sample to res://assets/sounds/coin.wav
+res://.godot/imported/explosion.wav-52e05e8d4b6600106c8dde082c90f915.sample to res://assets/sounds/explosion.wav
+res://.godot/imported/hurt.wav-792baeb99505afd6a1496d4e4330b023.sample to res://assets/sounds/hurt.wav
+res://.godot/imported/jump.wav-395b727cde98999423d5c020c9c3492f.sample to res://assets/sounds/jump.wav
+res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample to res://assets/sounds/power_up.wav
+res://.godot/imported/tap.wav-78d4c5a48b21a853d89bec74f20510e7.sample to res://assets/sounds/tap.wav
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.3.0 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

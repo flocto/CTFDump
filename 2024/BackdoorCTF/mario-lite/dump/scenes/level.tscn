@@ -1,0 +1,61 @@
+[gd_scene load_steps=5 format=4]
+
+[ext_resource type="Texture2D" uid="uid://c2cl71ttf10bs" path="res://assets/sprites/next_level.png" id="1"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(16, 15)
+script = null
+
+[sub_resource type="Animation" id="2"]
+resource_name = "spin"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 360.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.2, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1.3, 1.3), Vector2(0.7, 0.7), Vector2(1.3, 1.3)]
+}
+script = null
+
+[sub_resource type="AnimationLibrary" id="3"]
+_data = {
+"spin": SubResource("2")
+}
+script = null
+
+[node name="level" type="level"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(3.8147e-06, -4.76837e-07)
+rotation = 6.28319
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("1")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Sprite2D")
+libraries = {
+"": SubResource("3")
+}
+autoplay = "spin"

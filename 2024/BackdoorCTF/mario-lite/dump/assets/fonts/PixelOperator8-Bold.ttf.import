@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://c53kogtyjwsss"
+path="res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/PixelOperator8-Bold.ttf"
+dest_files=PackedStringArray("res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata")
+
+[params]
+
+dummy_value_ignore_me=0

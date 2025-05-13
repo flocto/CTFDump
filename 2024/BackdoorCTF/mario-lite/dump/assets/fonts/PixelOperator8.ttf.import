@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://dbjl1e6kdxpl6"
+path="res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/PixelOperator8.ttf"
+dest_files=PackedStringArray("res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata")
+
+[params]
+
+dummy_value_ignore_me=0

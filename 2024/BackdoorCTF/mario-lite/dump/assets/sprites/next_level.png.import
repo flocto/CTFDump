@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c2cl71ttf10bs"
+path="res://.godot/imported/next_level.png-399f835bb99218cb386342b28e64343b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://assets/sprites/next_level.png"
+dest_files=PackedStringArray("res://.godot/imported/next_level.png-399f835bb99218cb386342b28e64343b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

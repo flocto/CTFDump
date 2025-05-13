@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://m73dm4jhs3eq"
+path="res://.godot/imported/time_for_adventure.mp3-b8a49ae1cfc83b211be9d82e6e985655.mp3str"
+
+[deps]
+
+source_file="res://assets/music/time_for_adventure.mp3"
+dest_files=PackedStringArray("res://.godot/imported/time_for_adventure.mp3-b8a49ae1cfc83b211be9d82e6e985655.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0
