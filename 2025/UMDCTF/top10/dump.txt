@@ -1,0 +1,23 @@
+0040133e                                uint128_t zmm2 = (flag_data[0x20].32).o
+00401343                                uint64_t seed_2
+00401343                                
+00401343                                while (true)
+00401343                                    uint64_t rflags_6
+00401343                                    seed_2, rflags_6 = _rdseed16_step()
+00401347                                    uint64_t seed_1 = seed_2
+00401347                                    
+0040134e                                    if (not(cond:0_1))
+00401350                                        cond:0_1 = seed_2.b u>= 0xe4
+00401350                                        
+00401352                                        if (seed_2.b == 0xe4)
+00401352                                            break
+00401352                                
+00401354                                int128_t temp0_13 = __vmpsadbw_ymmqq_ymmqq_memqq_immb(
+00401354                                    zmm2.32, data_402140, 0)
+00401373                                int64_t rflags_7
+00401373                                int32_t temp0_15
+00401373                                temp0_15, rflags_7 = __vpcmpestri_xmmdq_xmmdq_immb(
+00401373                                    __vpinsrb_xmmdq_xmmdq_gpr32d_immb(data_4020e0, 
+00401373                                        seed_2.d, 8), 
+00401373                                    temp0_13, 0b1100, 0x10, 0x10)
+0040137b                                if (temp0_15 == 0)
