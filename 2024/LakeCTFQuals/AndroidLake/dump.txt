@@ -1,0 +1,173 @@
+Symbol: Java_com_lake_ctf_MainActivity_EPFL3429aa6201d8c2b7fef968a386bc545d60767d8639ef385687b1ba6d0f310d77
+0x1a2df:	movsx	ecx, byte ptr [rax + 0x38]
+ecx, byte ptr [rax + 0x38]
+0x1a2e3:	movsx	edx, byte ptr [rax + 0x28]
+edx, byte ptr [rax + 0x28]
+0x1a2e7:	add	edx, ecx
+0x1a2e9:	movsx	eax, byte ptr [rax + 0x32]
+eax, byte ptr [rax + 0x32]
+0x1a2ed:	add	eax, edx
+0x1a2ef:	cmp	eax, 0x7b
+[56, 40, 50]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL03b42a6a21cd00661e7d18200cc7419c66652c26b2fbfdc782830d34225fd118
+0x1b83f:	movzx	ecx, byte ptr [rax + 0x37]
+0x1b843:	xor	cl, byte ptr [rax + 0x2a]
+0x1b846:	xor	cl, byte ptr [rax + 2]
+0x1b849:	cmp	cl, 0x53
+[]
+Symbol: Java_com_lake_ctf_MainActivity_EPFLd4c6249ce14aaa5baade295c2a3ad7c589f3abaf0283d739a2d65badc26f683b
+0x1bf4f:	movsx	ecx, byte ptr [rax + 9]
+ecx, byte ptr [rax + 9]
+0x1bf53:	movsx	edx, byte ptr [rax + 0x1d]
+edx, byte ptr [rax + 0x1d]
+0x1bf57:	add	edx, ecx
+0x1bf59:	movsx	eax, byte ptr [rax + 0x13]
+eax, byte ptr [rax + 0x13]
+0x1bf5d:	add	eax, edx
+0x1bf5f:	cmp	eax, 0x16f
+[9, 29, 19]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL65ea57cba27e1e5495c5c4a1d31fb5be8f180512ad8662b142ba25ec935a2f3a
+0x1f47f:	movsx	ecx, byte ptr [rax + 0x2e]
+ecx, byte ptr [rax + 0x2e]
+0x1f483:	movsx	edx, byte ptr [rax + 0x2c]
+edx, byte ptr [rax + 0x2c]
+0x1f487:	movsx	eax, byte ptr [rax + 0x1d]
+eax, byte ptr [rax + 0x1d]
+0x1f48b:	add	eax, edx
+0x1f48d:	sub	ecx, eax
+0x1f48f:	cmp	ecx, 0xffffff40
+[46, 44, 29]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL1493aaece49266d90f8b958d1ca1dcf4e917a73904d21d1c54ef557f95d451af
+0x1fadf:	movsx	ecx, byte ptr [rax + 0xf]
+ecx, byte ptr [rax + 0xf]
+0x1fae3:	movsx	edx, byte ptr [rax + 1]
+edx, byte ptr [rax + 1]
+0x1fae7:	movsx	eax, byte ptr [rax + 0x33]
+eax, byte ptr [rax + 0x33]
+0x1faeb:	add	eax, edx
+0x1faed:	sub	ecx, eax
+0x1faef:	cmp	ecx, -0x57
+[15, 1, 51]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL79eb44adc38ec7e144a024d4d32ab7163f7d5cf2555a6a966f0f34e22ea4cae8
+0x1968f:	movzx	ecx, byte ptr [rax + 0x1e]
+0x19693:	xor	cl, byte ptr [rax + 0x12]
+0x19696:	xor	cl, byte ptr [rax + 0x1a]
+0x19699:	cmp	cl, 0x75
+[]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL5277c22546e03e1fe819e07c5aa15ba410c9f8bc2c64bcb4968c619e4e82a1cc
+0x1a24f:	movsx	ecx, byte ptr [rax + 0x30]
+ecx, byte ptr [rax + 0x30]
+0x1a253:	movsx	edx, byte ptr [rax + 0xe]
+edx, byte ptr [rax + 0xe]
+0x1a257:	movsx	eax, byte ptr [rax + 0x3d]
+eax, byte ptr [rax + 0x3d]
+0x1a25b:	add	eax, edx
+0x1a25d:	sub	ecx, eax
+0x1a25f:	cmp	ecx, -0x4b
+[48, 14, 61]
+Symbol: Java_com_lake_ctf_MainActivity_EPFLd5e0cc20a2e76914c33b5e542ee354e7a570df1c42ad799ff6b1296e6bc96f9a
+0x1ea0f:	movzx	ecx, byte ptr [rax + 0x26]
+0x1ea13:	xor	cl, byte ptr [rax + 3]
+0x1ea16:	xor	cl, byte ptr [rax + 0x15]
+0x1ea19:	cmp	cl, 0x71
+[]
+Symbol: Java_com_lake_ctf_MainActivity_EPFLe09ab55ad9e692e6cbbf379b3c0ff5e6b4b2eb5c9d21c1d03534a1d504ab6419
+0x1bc1f:	movsx	ecx, byte ptr [rax + 0x1c]
+ecx, byte ptr [rax + 0x1c]
+0x1bc23:	movsx	edx, byte ptr [rax + 9]
+edx, byte ptr [rax + 9]
+0x1bc27:	add	edx, ecx
+0x1bc29:	movsx	eax, byte ptr [rax + 7]
+eax, byte ptr [rax + 7]
+0x1bc2d:	add	eax, edx
+0x1bc2f:	cmp	eax, 0xe9
+[28, 9, 7]
+Symbol: Java_com_lake_ctf_MainActivity_EPFLc0ac6a26d499678f6eca2711a69994b0bb3fe36b99f179c0582d0975e9d36e75
+0x1eb1f:	movsx	ecx, byte ptr [rax + 0x13]
+ecx, byte ptr [rax + 0x13]
+0x1eb23:	movsx	edx, byte ptr [rax + 0x3b]
+edx, byte ptr [rax + 0x3b]
+0x1eb27:	movsx	eax, byte ptr [rax + 0x2b]
+eax, byte ptr [rax + 0x2b]
+0x1eb2b:	add	eax, edx
+0x1eb2d:	sub	ecx, eax
+0x1eb2f:	cmp	ecx, 0xffffff60
+[19, 59, 43]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL849f15f78244f28aa0d16e0f6aa78669257d0228521c4976b77345c83314ba26
+0x1fdaf:	movsx	ecx, byte ptr [rax + 0x35]
+ecx, byte ptr [rax + 0x35]
+0x1fdb3:	movsx	edx, byte ptr [rax + 0xf]
+edx, byte ptr [rax + 0xf]
+0x1fdb7:	add	edx, ecx
+0x1fdb9:	movsx	eax, byte ptr [rax + 0x1b]
+eax, byte ptr [rax + 0x1b]
+0x1fdbd:	add	eax, edx
+0x1fdbf:	cmp	eax, 0xcd
+[53, 15, 27]
+Symbol: Java_com_lake_ctf_MainActivity_EPFLe3c172d46aa56c8b77405a85ce13f04fd4b929b753579094cbb110063d92e36e
+0x191af:	movzx	ecx, byte ptr [rax + 0x39]
+0x191b3:	xor	cl, byte ptr [rax + 0x24]
+0x191b6:	xor	cl, byte ptr [rax + 0x2d]
+0x191b9:	cmp	cl, 0x61
+[]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL3a9fc9e7a7009a028b5fa1d309b5eea8337fa98983f504264967780eda8a674b
+0x19b5f:	movsx	ecx, byte ptr [rax + 6]
+ecx, byte ptr [rax + 6]
+0x19b63:	movsx	edx, byte ptr [rax + 0x2a]
+edx, byte ptr [rax + 0x2a]
+0x19b67:	movsx	eax, byte ptr [rax + 0x16]
+eax, byte ptr [rax + 0x16]
+0x19b6b:	add	eax, edx
+0x19b6d:	sub	ecx, eax
+0x19b6f:	cmp	ecx, -0x46
+[6, 42, 22]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL485e85b10c3768e7c2755369c714282d99cb649759825d0a2aec917c7619ba72
+0x1bd0f:	movzx	ecx, byte ptr [rax + 0xc]
+0x1bd13:	xor	cl, byte ptr [rax + 0x35]
+0x1bd16:	xor	cl, byte ptr [rax + 0x1e]
+0x1bd19:	cmp	cl, 0x23
+[]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL7e984163893ff23803e4f5f1145c51ed1fb56461cafab08e4ec1f270e6feb48f
+0x1efff:	movsx	ecx, byte ptr [rax + 0x20]
+ecx, byte ptr [rax + 0x20]
+0x1f003:	movsx	edx, byte ptr [rax + 0x3a]
+edx, byte ptr [rax + 0x3a]
+0x1f007:	add	edx, ecx
+0x1f009:	movsx	eax, byte ptr [rax + 0x35]
+eax, byte ptr [rax + 0x35]
+0x1f00d:	add	eax, edx
+0x1f00f:	cmp	eax, 0x110
+[32, 58, 53]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL82509675fa9483a6a8beb191f12598f6e3e62eda675401b6c55e86151c317bd8
+0x1f89f:	movsx	ecx, byte ptr [rax + 0x33]
+ecx, byte ptr [rax + 0x33]
+0x1f8a3:	movsx	edx, byte ptr [rax + 0x1e]
+edx, byte ptr [rax + 0x1e]
+0x1f8a7:	add	edx, ecx
+0x1f8a9:	movsx	eax, byte ptr [rax + 9]
+eax, byte ptr [rax + 9]
+0x1f8ad:	add	eax, edx
+0x1f8af:	cmp	eax, 0x9f
+[51, 30, 9]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL1d1f5845ffc7edb6312eaf42e01949cf62702263e3b1d5bcbda780c9d29afd6e
+0x1b65f:	movzx	ecx, byte ptr [rax + 0x37]
+0x1b663:	xor	cl, byte ptr [rax + 0x34]
+0x1b666:	xor	cl, byte ptr [rax + 0x11]
+0x1b669:	cmp	cl, 0x30
+[]
+Symbol: Java_com_lake_ctf_MainActivity_EPFLca3f17f18128976a611176121c9c06258a7f1c4dc9b6109a990fb83a808c640d
+0x1be5f:	movsx	ecx, byte ptr [rax + 0x30]
+ecx, byte ptr [rax + 0x30]
+0x1be63:	movsx	edx, byte ptr [rax + 0x1e]
+edx, byte ptr [rax + 0x1e]
+0x1be67:	add	edx, ecx
+0x1be69:	movsx	eax, byte ptr [rax + 0x29]
+eax, byte ptr [rax + 0x29]
+0x1be6d:	add	eax, edx
+0x1be6f:	cmp	eax, 0xd7
+[48, 30, 41]
+Symbol: Java_com_lake_ctf_MainActivity_EPFL4e9c719b9cafa8616640f02863598fe6f4c4717fe0153f513e75033ee5234403
+0x1c7bf:	movsx	ecx, byte ptr [rax + 0x27]
+ecx, byte ptr [rax + 0x27]
+0x1c7c3:	movsx	edx, byte ptr [rax]
+edx, byte ptr [rax]

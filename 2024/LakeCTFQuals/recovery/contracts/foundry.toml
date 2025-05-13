@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+fs_permissions = [{ access = 'read-write', path = '/'}]
+evm_version = "cancun"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+eth_rpc_url = "https://challs.polygl0ts.ch:8545/b9507449cbad288eefb092d70be5bed5f149c118b2666ed9986f30f15f4853f1"
+
+[dependencies]
+forge-std = "1.9.1"

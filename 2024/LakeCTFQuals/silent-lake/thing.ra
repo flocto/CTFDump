@@ -1,0 +1,982 @@
+(Program 1)
+LOAD RELATION: `ResolveFunction::isFunction/1#9226b83f@staged_ext`(unique entity f) = ResolveFunction#d0b1e13d::Cached::isFunction/1
+LOAD RELATION: `ResolveClass::resolveClass/1#ea47deee@staged_ext`(entity c, entity result) = ResolveClass#eb2868f4::Cached::resolveClass/1
+LOAD RELATION: `ResolveGlobalVariable::resolveGlobalVariable/1#17c3b74f@staged_ext`(entity v, entity result) = ResolveGlobalVariable#ac30c42f::Cached::resolveGlobalVariable/1
+LOAD RELATION: `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext`(entity f, entity result) = ResolveFunction#d0b1e13d::Cached::resolveFunction/1
+LOAD RELATION: `ResolveClass::isType/1#eabb9878@staged_ext`(unique entity t) = ResolveClass#eb2868f4::Cached::isType/1
+LOAD RELATION: `ResolveClass::isClass/1#af2a1ca6@staged_ext`(unique entity t) = ResolveClass#eb2868f4::Cached::isClass/1
+LOAD RELATION: `ResolveGlobalVariable::isVariable/1#6e051315@staged_ext`(unique entity v) = ResolveGlobalVariable#ac30c42f::Cached::isVariable/1
+LOAD RELATION: `BasicBlocks::Cached::basic_block_entry_node/1#fd6599c2@staged_ext`(unique entity node) = BasicBlocks#8748103a::Cached::basic_block_entry_node/1
+LOAD RELATION: `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext`(entity node, entity bb, int pos) = BasicBlocks#8748103a::Cached::basic_block_member/3
+LOAD RELATION: attribute_args(unique entity id, int kind, entity attribute, int index, entity location)
+LOAD RELATION: attributes(unique entity id, int kind, cached string name, cached string name_space, entity location)
+LOAD RELATION: builtintypes(unique entity id, cached string name, int kind, int size, int sign, int alignment)
+LOAD RELATION: class_instantiation(entity to, entity from)
+LOAD RELATION: class_template_argument(entity type_id, int index, entity arg_type)
+LOAD RELATION: class_template_argument_value(entity type_id, int index, entity arg_value)
+LOAD RELATION: comments(unique entity id, cached string contents, entity location)
+LOAD RELATION: decltypes(entity id, entity expr, entity base_type, bool parentheses_would_change_meaning)
+LOAD RELATION: derivations(unique entity derivation, entity sub, int index, entity super, entity location)
+LOAD RELATION: derivedtypes(unique entity id, cached string name, int kind, entity type_id)
+LOAD RELATION: diagnostics(unique entity id, int severity, cached string error_tag, cached string error_message, cached string full_error_message, entity location)
+LOAD RELATION: enumconstants(unique entity id, entity parent, int index, entity type_id, cached string name, entity location)
+LOAD RELATION: exprparents(entity expr_id, int child_index, entity parent_id)
+LOAD RELATION: exprs(unique entity id, int kind, entity location)
+LOAD RELATION: fieldoffsets(unique entity id, int byteoffset, int bitoffset)
+LOAD RELATION: files(unique entity id, cached string name)
+LOAD RELATION: folders(unique entity id, cached string name)
+LOAD RELATION: frienddecls(unique entity id, entity type_id, entity decl_id, entity location)
+LOAD RELATION: fun_decls(entity id, entity function, entity type_id, cached string name, entity location)
+LOAD RELATION: fun_specialized(unique entity id)
+LOAD RELATION: funbind(entity expr, entity fun)
+LOAD RELATION: function_instantiation(unique entity to, entity from)
+LOAD RELATION: function_template_argument(entity function_id, int index, entity arg_type)
+LOAD RELATION: function_template_argument_value(entity function_id, int index, entity arg_value)
+LOAD RELATION: functions(unique entity id, cached string name, int kind)
+LOAD RELATION: globalvariables(entity id, entity type_id, cached string name)
+LOAD RELATION: initialisers(unique entity init, entity var, unique entity expr, entity location)
+LOAD RELATION: is_function_template(unique entity id)
+LOAD RELATION: is_variable_template(unique entity id)
+LOAD RELATION: iscall(unique entity caller, int kind)
+LOAD RELATION: lambda_capture(unique entity id, entity lambda, int index, entity field, bool captured_by_reference, bool is_implicit, entity location)
+LOAD RELATION: localvariables(entity id, entity type_id, cached string name)
+LOAD RELATION: macroinvocations(unique entity id, entity macro_id, entity location, int kind)
+LOAD RELATION: member(entity parent, int index, entity child)
+LOAD RELATION: membervariables(entity id, entity type_id, cached string name)
+LOAD RELATION: namequalifiers(unique entity id, unique entity qualifiableelement, entity qualifyingelement, entity location)
+LOAD RELATION: namespace_decls(unique entity id, entity namespace_id, entity location, entity bodylocation)
+LOAD RELATION: namespaces(unique entity id, cached string name)
+LOAD RELATION: params(entity id, entity function, int index, entity type_id)
+LOAD RELATION: preprocdirects(unique entity id, int kind, entity location)
+LOAD RELATION: ptrtomembers(unique entity id, entity type_id, entity class_id)
+LOAD RELATION: routinetypes(unique entity id, entity return_type)
+LOAD RELATION: specialnamequalifyingelements(unique entity id, unique cached string name)
+LOAD RELATION: specifiers(unique entity id, unique cached string str)
+LOAD RELATION: static_asserts(unique entity id, entity condition, cached string message, entity location, entity enclosing)
+LOAD RELATION: stmts(unique entity id, int kind, entity location)
+LOAD RELATION: type_decls(unique entity id, entity type_id, entity location)
+LOAD RELATION: type_mentions(unique entity id, entity type_id, entity location, int kind)
+LOAD RELATION: usertypes(unique entity id, cached string name, int kind)
+LOAD RELATION: usings(unique entity id, entity element_id, entity location, int kind)
+LOAD RELATION: var_decls(entity id, entity variable, entity type_id, cached string name, entity location)
+LOAD RELATION: varbind(entity expr, entity var)
+LOAD RELATION: variable_instantiation(unique entity to, entity from)
+LOAD RELATION: variable_template_argument(entity variable_id, int index, entity arg_type)
+LOAD RELATION: variable_template_argument_value(entity variable_id, int index, entity arg_value)
+LOAD RELATION: xmlAttrs(unique entity id, entity elementid, cached string name, cached string value, int idx, entity fileid)
+LOAD RELATION: xmlChars(unique entity id, cached string text, entity parentid, int idx, int isCDATA, entity fileid)
+LOAD RELATION: xmlComments(unique entity id, cached string text, entity parentid, entity fileid)
+LOAD RELATION: xmlDTDs(unique entity id, cached string root, cached string publicId, cached string systemId, entity fileid)
+LOAD RELATION: xmlElements(unique entity id, cached string name, entity parentid, int idx, entity fileid)
+LOAD RELATION: xmlNs(entity id, cached string prefixName, cached string URI, entity fileid)
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC exprs_10#join_rhs(int arg0, unique entity arg1) :- 
+    SENTINEL exprs
+    {2} r1 = SCAN exprs OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC iscall_0#antijoin_rhs(unique entity arg0) :- 
+    SENTINEL iscall
+    {1} r1 = SCAN iscall OUTPUT In.0 'arg0'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  Call::Call#048c9613#b(unique entity this) :- 
+    {1} r1 = CONSTANT(unique int)[74]
+    {1}    | JOIN WITH exprs_10#join_rhs ON FIRST 1 OUTPUT Rhs.1 'this'
+
+    {1} r2 = iscall_0#antijoin_rhs UNION r1
+    return r2
+
+EVALUATE NONRECURSIVE RELATION:
+  `Class::Class.getCanonicalMember/1#dispred#e1747079`(entity this, int index, entity result) :- 
+    SENTINEL member
+    SENTINEL `ResolveClass::isClass/1#af2a1ca6@staged_ext`
+    SENTINEL `ResolveClass::isType/1#eabb9878@staged_ext`
+    SENTINEL `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext`
+    {3} r1 = JOIN member WITH `ResolveClass::isClass/1#af2a1ca6@staged_ext` ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.1 'index', Lhs.2
+    {3}    | JOIN WITH `ResolveClass::isType/1#eabb9878@staged_ext` ON FIRST 1 OUTPUT Lhs.2, Lhs.0 'this', Lhs.1 'index'
+    {3}    | JOIN WITH `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.2 'index', Rhs.1 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC usertypes_0#antijoin_rhs(unique entity arg0) :- 
+    SENTINEL usertypes
+    {1} r1 = SCAN usertypes OUTPUT In.0 'arg0'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Declaration::Declaration.getTemplateArgumentType/1#dispred#b0efb79c`(entity this, int index, entity result) :- 
+    SENTINEL function_template_argument
+    SENTINEL `ResolveClass::isType/1#eabb9878@staged_ext`
+    {3} r1 = SCAN function_template_argument OUTPUT In.2, In.0 'this', In.1 'index'
+
+    {3} r2 = JOIN r1 WITH `ResolveClass::resolveClass/1#ea47deee@staged_ext` ON FIRST 1 OUTPUT Rhs.1 'result', Lhs.1 'this', Lhs.2 'index'
+    {3}    | JOIN WITH `ResolveClass::isType/1#eabb9878@staged_ext` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.2 'index', Lhs.0 'result'
+
+    {3} r3 = JOIN r1 WITH `ResolveClass::isType/1#eabb9878@staged_ext` ON FIRST 1 OUTPUT Lhs.0, Lhs.1 'this', Lhs.2 'index'
+    {3}    | AND NOT usertypes_0#antijoin_rhs(FIRST 1)
+    {3}    | SCAN OUTPUT In.1 'this', In.2 'index', In.0 'result'
+
+    {3} r4 = r2 UNION r3
+    return r4
+
+EVALUATE NONRECURSIVE RELATION:
+  `Declaration::Declaration.getTemplateArgumentValue/1#dispred#3eef4b7f`(entity this, int index, entity result) :- 
+    {3} r1 = class_template_argument_value UNION function_template_argument_value UNION variable_template_argument_value
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  example::Cargo#68167496(unique string this) :- 
+    {1} r1 = CONSTANT(unique string)["Goat"]
+
+    {1} r2 = CONSTANT(unique string)["Wolf"]
+
+    {1} r3 = CONSTANT(unique string)["Cabbage"]
+
+    {1} r4 = CONSTANT(unique string)["Nothing"]
+
+    {1} r5 = r1 UNION r2 UNION r3 UNION r4
+    return r5
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::Move.convertCountry/1#dispred#dbf01378#cpe#23`(string country, string result) :- 
+    {2} r1 = CONSTANT(unique string, string)["ch_fr","left"]
+
+    {2} r2 = CONSTANT(unique string, string)["fr_ch","right"]
+
+    {2} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  example::Shore#3b862151(unique string this) :- 
+    {1} r1 = CONSTANT(unique string)["Left"]
+
+    {1} r2 = CONSTANT(unique string)["Right"]
+
+    {1} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::Shore.other/0#dispred#2819aa5d`(string this, string result) :- 
+    SENTINEL example::Shore#3b862151
+    {1} r1 = CONSTANT(unique string)["Left"]
+    {1}    | JOIN WITH example::Shore#3b862151 ON FIRST 1 OUTPUT _
+    {1}    | REWRITE WITH Out.0 := "Right"
+    {1}    | STREAM DEDUP
+    {2}    | JOIN WITH example::Shore#3b862151 ON FIRST 1 OUTPUT _, _
+    {2}    | REWRITE WITH Out.0 'this' := "Left", Out.1 'result' := "Right"
+    {2}    | STREAM DEDUP
+
+    {1} r2 = CONSTANT(unique string)["Right"]
+    {1}    | JOIN WITH example::Shore#3b862151 ON FIRST 1 OUTPUT _
+    {1}    | REWRITE WITH Out.0 := "Left"
+    {1}    | STREAM DEDUP
+    {2}    | JOIN WITH example::Shore#3b862151 ON FIRST 1 OUTPUT _, _
+    {2}    | REWRITE WITH Out.0 'this' := "Right", Out.1 'result' := "Left"
+    {2}    | STREAM DEDUP
+
+    {2} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::renderState/4#b7af59e2`(string manShore, string goatShore, string cabbageShore, string wolfShore, string result) :- 
+    SENTINEL example::Shore#3b862151
+    {2} r1 = JOIN example::Shore#3b862151 WITH example::Shore#3b862151 CARTESIAN PRODUCT OUTPUT Lhs.0 'manShore', Rhs.0 'manShore'
+    {3}    | JOIN WITH example::Shore#3b862151 CARTESIAN PRODUCT OUTPUT Lhs.0 'manShore', Lhs.1 'goatShore', Rhs.0 'manShore'
+    {7}    | JOIN WITH example::Shore#3b862151 CARTESIAN PRODUCT OUTPUT Lhs.0 'manShore', Lhs.1 'goatShore', Lhs.2 'cabbageShore', Rhs.0 'manShore', _, _, _
+    {5}    | REWRITE WITH Tmp.4 := ",", Tmp.5 := ",", Tmp.6 := ",", Out.4 'result' := (_manShore 'manShore' ++ Tmp.4 ++ _goatShore 'goatShore' ++ Tmp.5 ++ _cabbageShore 'cabbageShore' ++ Tmp.6 ++ _wolfShore 'wolfShore') KEEPING 5
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::State.isSafe/0#dispred#1258a19f`(unique string this) :- 
+    SENTINEL `example::renderState/4#b7af59e2`
+    {5} r1 = REWRITE `example::renderState/4#b7af59e2` WITH NOT [NOT [TEST _goatShore != _cabbageShore], NOT [TEST _manShore = _goatShore]]
+    {5}    | REWRITE WITH NOT [NOT [TEST _goatShore != _wolfShore], NOT [TEST _manShore = _wolfShore]]
+    {1}    | SCAN OUTPUT In.4 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `m#Function::Function.getName/0#dispred#b6c7beb4#fb`(unique string result) :- 
+    {1} r1 = CONSTANT(unique string)["main"]
+
+    {1} r2 = CONSTANT(unique string)["ch_fr"]
+
+    {1} r3 = CONSTANT(unique string)["fr_ch"]
+
+    {1} r4 = SCAN `example::Move.convertCountry/1#dispred#dbf01378#cpe#23` OUTPUT In.0 'result'
+    {1}    | STREAM DEDUP
+
+    {1} r5 = r1 UNION r2 UNION r3 UNION r4
+    return r5
+
+EVALUATE NONRECURSIVE RELATION:
+  `Function::Function.getName/0#dispred#b6c7beb4#fb`(unique entity this, cached string result) :- 
+    SENTINEL functions
+    SENTINEL `m#Function::Function.getName/0#dispred#b6c7beb4#fb`
+    SENTINEL `ResolveFunction::isFunction/1#9226b83f@staged_ext`
+    {2} r1 = SCAN functions OUTPUT In.1 'result', In.0 'this'
+    {2}    | JOIN WITH `m#Function::Function.getName/0#dispred#b6c7beb4#fb` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.0 'result'
+    {2}    | JOIN WITH `ResolveFunction::isFunction/1#9226b83f@staged_ext` ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.1 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs`(cached string arg0, unique entity arg1) :- 
+    SENTINEL `Function::Function.getName/0#dispred#b6c7beb4#fb`
+    {2} r1 = SCAN `Function::Function.getName/0#dispred#b6c7beb4#fb` OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs_example::Move.convertCountry/1#dispred__#shared`(unique entity arg0) :- 
+    SENTINEL `example::Move.convertCountry/1#dispred#dbf01378#cpe#23`
+    SENTINEL `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs`
+    {1} r1 = SCAN `example::Move.convertCountry/1#dispred#dbf01378#cpe#23` OUTPUT In.0
+    {1}    | STREAM DEDUP
+    {1}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'arg0'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb`(unique entity result) :- 
+    SENTINEL `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs`
+    {1} r1 = CONSTANT(unique string)["ch_fr"]
+    {1}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'result'
+
+    {1} r2 = CONSTANT(unique string)["fr_ch"]
+    {1}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'result'
+
+    {1} r3 = `_Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs_example::Move.convertCountry/1#dispred__#shared` UNION r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC funbind_10#join_rhs(entity arg0, entity arg1) :- 
+    SENTINEL funbind
+    {2} r1 = SCAN funbind OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Call::FunctionCall.getTarget/0#45745a57#fb`(entity this, entity result) :- 
+    SENTINEL `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext`
+    SENTINEL `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb`
+    SENTINEL funbind_10#join_rhs
+    SENTINEL iscall
+    SENTINEL Call::Call#048c9613#b
+    {2} r1 = SCAN `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext` OUTPUT In.1 'result', In.0
+    {2}    | JOIN WITH `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb` ON FIRST 1 OUTPUT Lhs.1, Lhs.0 'result'
+    {2}    | JOIN WITH funbind_10#join_rhs ON FIRST 1 OUTPUT Rhs.1 'this', Lhs.1 'result'
+    {2}    | JOIN WITH iscall ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.1 'result'
+    {2}    | JOIN WITH Call::Call#048c9613#b ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.1 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `Call::FunctionCall.getTarget/0#45745a57#fb_10#join_rhs`(entity arg0, entity arg1) :- 
+    SENTINEL `Call::FunctionCall.getTarget/0#45745a57#fb`
+    {2} r1 = SCAN `Call::FunctionCall.getTarget/0#45745a57#fb` OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  m#Call::ConstructorCall#c4f8b4c6#b(unique entity this) :- 
+    SENTINEL `Call::FunctionCall.getTarget/0#45745a57#fb_10#join_rhs`
+    {1} r1 = JOIN `Call::FunctionCall.getTarget/0#45745a57#fb_10#join_rhs` WITH `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb` ON FIRST 1 OUTPUT Lhs.1 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `m#Call::FunctionCall.getTarget/0#45745a57#bf`(unique entity this) :- 
+    SENTINEL m#Call::ConstructorCall#c4f8b4c6#b
+    return m#Call::ConstructorCall#c4f8b4c6#b
+
+EVALUATE NONRECURSIVE RELATION:
+  `Call::FunctionCall.getTarget/0#45745a57#bf`(entity this, entity result) :- 
+    SENTINEL `m#Call::FunctionCall.getTarget/0#45745a57#bf`
+    {1} r1 = JOIN `m#Call::FunctionCall.getTarget/0#45745a57#bf` WITH iscall ON FIRST 1 OUTPUT Lhs.0 'this'
+    {2}    | JOIN WITH funbind ON FIRST 1 OUTPUT Rhs.1, Lhs.0 'this'
+    {2}    | JOIN WITH `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext` ON FIRST 1 OUTPUT Rhs.1 'result', Lhs.1 'this'
+    {2}    | JOIN WITH `ResolveFunction::isFunction/1#9226b83f@staged_ext` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.0 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  m#MemberFunction::Constructor#3a697e8a#b(unique entity this) :- 
+    SENTINEL `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb`
+    {1} r1 = JOIN m#Call::ConstructorCall#c4f8b4c6#b WITH `Call::FunctionCall.getTarget/0#45745a57#bf` ON FIRST 1 OUTPUT Rhs.1 'this'
+
+    {1} r2 = `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb` UNION r1
+    return r2
+
+EVALUATE NONRECURSIVE RELATION:
+  m#MemberFunction::MemberFunction#8965af43#b(unique entity this) :- 
+    SENTINEL m#MemberFunction::Constructor#3a697e8a#b
+    return m#MemberFunction::Constructor#3a697e8a#b
+
+EVALUATE NONRECURSIVE RELATION:
+  `Function::Function.isConstructedFrom/1#dispred#2edd856f#bf`(entity this, entity f) :- 
+    SENTINEL function_instantiation
+    SENTINEL m#MemberFunction::MemberFunction#8965af43#b
+    SENTINEL `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext`
+    {2} r1 = JOIN function_instantiation WITH m#MemberFunction::MemberFunction#8965af43#b ON FIRST 1 OUTPUT Lhs.1, Lhs.0 'this'
+    {2}    | JOIN WITH `ResolveFunction::resolveFunction/1#576ba5ee@staged_ext` ON FIRST 1 OUTPUT Rhs.1 'f', Lhs.1 'this'
+    {2}    | JOIN WITH `ResolveFunction::isFunction/1#9226b83f@staged_ext` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.0 'f'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#BasicBlocks::Cached::basic_block_member/3#b27e1019`(entity main, entity call_result#4) :- 
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext`
+    {2} r1 = SCAN `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext` OUTPUT In.0 'main', In.1 'call_result#4'
+    {2}    | STREAM DEDUP
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#Class::Class.getCanonicalMember/1#dispred#e1747079`(unique entity this) :- 
+    SENTINEL `Class::Class.getCanonicalMember/1#dispred#e1747079`
+    {1} r1 = SCAN `Class::Class.getCanonicalMember/1#dispred#e1747079` OUTPUT In.2 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#Declaration::Declaration.getTemplateArgumentValue/1#dispred#3eef4b7f`(entity this, int dummyField) :- 
+    SENTINEL `Declaration::Declaration.getTemplateArgumentValue/1#dispred#3eef4b7f`
+    {2} r1 = SCAN `Declaration::Declaration.getTemplateArgumentValue/1#dispred#3eef4b7f` OUTPUT In.0 'this', In.1 'dummyField'
+    {2}    | STREAM DEDUP
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Declaration::Declaration.getATemplateArgument/0#dispred#260b9dcc`(entity this, entity result) :- 
+    {2} r1 = SCAN `Declaration::Declaration.getTemplateArgumentValue/1#dispred#3eef4b7f` OUTPUT In.0 'this', In.2 'result'
+
+    {3} r2 = `Declaration::Declaration.getTemplateArgumentType/1#dispred#b0efb79c` AND NOT `project#Declaration::Declaration.getTemplateArgumentValue/1#dispred#3eef4b7f`(FIRST 2)
+    {2}    | SCAN OUTPUT In.0 'this', In.2 'result'
+
+    {2} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#Declaration::Declaration.getATemplateArgument/0#dispred#260b9dcc`(unique entity this) :- 
+    SENTINEL `Declaration::Declaration.getATemplateArgument/0#dispred#260b9dcc`
+    {1} r1 = SCAN `Declaration::Declaration.getATemplateArgument/0#dispred#260b9dcc` OUTPUT In.0 'this'
+    {1}    | STREAM DEDUP
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs`(entity arg0, entity arg1) :- 
+    SENTINEL `Function::Function.isConstructedFrom/1#dispred#2edd856f#bf`
+    {2} r1 = SCAN `Function::Function.isConstructedFrom/1#dispred#2edd856f#bf` OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs_is_function_template_project__#shared`(entity arg0, entity arg1) :- 
+    SENTINEL `project#Declaration::Declaration.getATemplateArgument/0#dispred#260b9dcc`
+    SENTINEL is_function_template
+    SENTINEL `Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs`
+    {1} r1 = JOIN `project#Declaration::Declaration.getATemplateArgument/0#dispred#260b9dcc` WITH is_function_template ON FIRST 1 OUTPUT Lhs.0 'arg1'
+    {2}    | JOIN WITH `Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'arg0', Lhs.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC fun_decls_10#join_rhs(entity arg0, entity arg1) :- 
+    SENTINEL fun_decls
+    {2} r1 = SCAN fun_decls OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_ResolveFunction::isFunction/1#9226b83f__Function::Function.isConstructedFrom/1#dispred#2edd856f#bf___#antijoin_rhs`(entity arg0, entity arg1) :- 
+    SENTINEL `_Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs_is_function_template_project__#shared`
+    SENTINEL fun_decls_10#join_rhs
+    SENTINEL fun_specialized
+    {2} r1 = JOIN `_Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs_is_function_template_project__#shared` WITH m#MemberFunction::MemberFunction#8965af43#b ON FIRST 1 OUTPUT Lhs.0 'arg1', Lhs.1 'arg0'
+    {3}    | JOIN WITH fun_decls_10#join_rhs ON FIRST 1 OUTPUT Rhs.1, Lhs.1 'arg0', Lhs.0 'arg1'
+    {2}    | JOIN WITH fun_specialized ON FIRST 1 OUTPUT Lhs.2 'arg1', Lhs.1 'arg0'
+    {2}    | JOIN WITH `ResolveFunction::isFunction/1#9226b83f@staged_ext` ON FIRST 1 OUTPUT Lhs.1 'arg0', Lhs.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Function::TemplateFunction.getAnInstantiation/0#dispred#578175e9#fb`(entity this, entity result) :- 
+    SENTINEL `_Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs_is_function_template_project__#shared`
+    {2} r1 = JOIN `_Function::Function.isConstructedFrom/1#dispred#2edd856f#bf_10#join_rhs_is_function_template_project__#shared` WITH m#MemberFunction::MemberFunction#8965af43#b ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.0 'result'
+    {2}    | AND NOT `_ResolveFunction::isFunction/1#9226b83f__Function::Function.isConstructedFrom/1#dispred#2edd856f#bf___#antijoin_rhs`(FIRST 2)
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Declaration::Declaration.isMember/0#dispred#de845e36#b`(unique entity this) :- 
+    SENTINEL m#MemberFunction::MemberFunction#8965af43#b
+    SENTINEL `project#Class::Class.getCanonicalMember/1#dispred#e1747079`
+    {1} r1 = JOIN m#MemberFunction::MemberFunction#8965af43#b WITH `project#Class::Class.getCanonicalMember/1#dispred#e1747079` ON FIRST 1 OUTPUT Lhs.0 'this'
+
+    {2} r2 = SCAN `Function::TemplateFunction.getAnInstantiation/0#dispred#578175e9#fb` OUTPUT In.1 'this', In.0
+    {2}    | JOIN WITH m#MemberFunction::MemberFunction#8965af43#b ON FIRST 1 OUTPUT Lhs.1, Lhs.0 'this'
+    {1}    | JOIN WITH `project#Class::Class.getCanonicalMember/1#dispred#e1747079` ON FIRST 1 OUTPUT Lhs.1 'this'
+
+    {1} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  MemberFunction::MemberFunction#8965af43#b(unique entity this) :- 
+    SENTINEL `Declaration::Declaration.isMember/0#dispred#de845e36#b`
+    {1} r1 = JOIN m#MemberFunction::MemberFunction#8965af43#b WITH `Declaration::Declaration.isMember/0#dispred#de845e36#b` ON FIRST 1 OUTPUT Lhs.0 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC functions_02#join_rhs(unique entity arg0, int arg1) :- 
+    SENTINEL functions
+    {2} r1 = SCAN functions OUTPUT In.0 'arg0', In.2 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  MemberFunction::Constructor#3a697e8a#b(unique entity this) :- 
+    SENTINEL MemberFunction::MemberFunction#8965af43#b
+    SENTINEL functions_02#join_rhs
+    {2} r1 = JOIN m#MemberFunction::Constructor#3a697e8a#b WITH MemberFunction::MemberFunction#8965af43#b ON FIRST 1 OUTPUT Lhs.0 'this', _
+    {2}    | REWRITE WITH Out.1 := 2
+    {1}    | JOIN WITH functions_02#join_rhs ON FIRST 2 OUTPUT Lhs.0 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_Call::FunctionCall.getTarget/0#45745a57#bf_m#Call::ConstructorCall#c4f8b4c6#b#shared`(entity arg0, entity arg1) :- 
+    SENTINEL `Call::FunctionCall.getTarget/0#45745a57#bf`
+    {2} r1 = JOIN m#Call::ConstructorCall#c4f8b4c6#b WITH `Call::FunctionCall.getTarget/0#45745a57#bf` ON FIRST 1 OUTPUT Rhs.1 'arg0', Lhs.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  Call::ConstructorCall#c4f8b4c6#b(unique entity this) :- 
+    SENTINEL `_Call::FunctionCall.getTarget/0#45745a57#bf_m#Call::ConstructorCall#c4f8b4c6#b#shared`
+    SENTINEL MemberFunction::Constructor#3a697e8a#b
+    {1} r1 = JOIN `_Call::FunctionCall.getTarget/0#45745a57#bf_m#Call::ConstructorCall#c4f8b4c6#b#shared` WITH MemberFunction::Constructor#3a697e8a#b ON FIRST 1 OUTPUT Lhs.1 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  MemberFunction::Destructor#3b34c0ea#b(unique entity this) :- 
+    SENTINEL MemberFunction::MemberFunction#8965af43#b
+    SENTINEL functions_02#join_rhs
+    {2} r1 = JOIN m#MemberFunction::Constructor#3a697e8a#b WITH MemberFunction::MemberFunction#8965af43#b ON FIRST 1 OUTPUT Lhs.0 'this', _
+    {2}    | REWRITE WITH Out.1 := 3
+    {1}    | JOIN WITH functions_02#join_rhs ON FIRST 2 OUTPUT Lhs.0 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  Call::DestructorCall#43f8f365#b(unique entity this) :- 
+    SENTINEL `_Call::FunctionCall.getTarget/0#45745a57#bf_m#Call::ConstructorCall#c4f8b4c6#b#shared`
+    SENTINEL MemberFunction::Destructor#3b34c0ea#b
+    {1} r1 = JOIN `_Call::FunctionCall.getTarget/0#45745a57#bf_m#Call::ConstructorCall#c4f8b4c6#b#shared` WITH MemberFunction::Destructor#3b34c0ea#b ON FIRST 1 OUTPUT Lhs.1 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb`(entity this, entity result) :- 
+    SENTINEL `Call::FunctionCall.getTarget/0#45745a57#fb_10#join_rhs`
+    {2} r1 = JOIN `Call::FunctionCall.getTarget/0#45745a57#fb_10#join_rhs` WITH `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.0 'result'
+    {2}    | AND NOT Call::ConstructorCall#c4f8b4c6#b(FIRST 1)
+    {2}    | AND NOT Call::DestructorCall#43f8f365#b(FIRST 1)
+
+    {1} r2 = JOIN `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb` WITH MemberFunction::Constructor#3a697e8a#b ON FIRST 1 OUTPUT Lhs.0 'result'
+    {2}    | JOIN WITH `Call::FunctionCall.getTarget/0#45745a57#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this', Lhs.0 'result'
+    {2}    | JOIN WITH Call::ConstructorCall#c4f8b4c6#b ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.1 'result'
+
+    {1} r3 = JOIN `m#Call::FunctionCall.getTarget/0#dispred#935da4c5#fb` WITH MemberFunction::Destructor#3b34c0ea#b ON FIRST 1 OUTPUT Lhs.0 'result'
+    {2}    | JOIN WITH `Call::FunctionCall.getTarget/0#45745a57#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this', Lhs.0 'result'
+    {2}    | JOIN WITH Call::DestructorCall#43f8f365#b ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.1 'result'
+
+    {2} r4 = r1 UNION r2 UNION r3
+    return r4
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs`(entity arg0, entity arg1) :- 
+    SENTINEL `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb`
+    {2} r1 = SCAN `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb` OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `m#Call::Call.getArgument/1#dispred#ada436ba#bff`(unique entity this) :- 
+    SENTINEL `_Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs_example::Move.convertCountry/1#dispred__#shared`
+    SENTINEL `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs`
+    {1} r1 = JOIN `_Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs_example::Move.convertCountry/1#dispred__#shared` WITH `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `m#Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf`(unique entity this) :- 
+    SENTINEL `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs`
+    {1} r1 = CONSTANT(unique string)["ch_fr"]
+    {1}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1
+    {1}    | JOIN WITH `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this'
+
+    {1} r2 = CONSTANT(unique string)["fr_ch"]
+    {1}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1
+    {1}    | JOIN WITH `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this'
+
+    {1} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  Call::Call_not_Call::ExprCall#17574e32#b(unique entity this) :- 
+    SENTINEL `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs`
+    {1} r1 = `m#Call::Call.getArgument/1#dispred#ada436ba#bff` UNION `m#Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf`
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Expr::Expr.getChild/1#dispred#e5374b3c#bff`(entity this, int n, entity result) :- 
+    SENTINEL exprparents
+    SENTINEL Call::Call_not_Call::ExprCall#17574e32#b
+    {3} r1 = SCAN exprparents OUTPUT In.2 'this', In.0 'result', In.1 'n'
+    {3}    | JOIN WITH Call::Call_not_Call::ExprCall#17574e32#b ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.2 'n', Lhs.1 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Call::Call.getAnArgument/0#dispred#0c956949#bf`(entity this, entity result) :- 
+    SENTINEL `m#Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf`
+    SENTINEL `Expr::Expr.getChild/1#dispred#e5374b3c#bff`
+    {1} r1 = JOIN `m#Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf` WITH Call::Call_not_Call::ExprCall#17574e32#b ON FIRST 1 OUTPUT Lhs.0 'this'
+    {4}    | JOIN WITH `Expr::Expr.getChild/1#dispred#e5374b3c#bff` ON FIRST 1 OUTPUT Lhs.0 'this', Rhs.1, Rhs.2 'result', _
+    {3}    | REWRITE WITH Tmp.3 := 0, TEST _goatShore >= Tmp.3 KEEPING 3
+    {2}    | SCAN OUTPUT In.0 'this', In.2 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Call::Call.getArgument/1#dispred#ada436ba#bff`(entity this, int n, entity result) :- 
+    SENTINEL `m#Call::Call.getArgument/1#dispred#ada436ba#bff`
+    SENTINEL `Expr::Expr.getChild/1#dispred#e5374b3c#bff`
+    {1} r1 = JOIN `m#Call::Call.getArgument/1#dispred#ada436ba#bff` WITH Call::Call_not_Call::ExprCall#17574e32#b ON FIRST 1 OUTPUT Lhs.0 'this'
+    {4}    | JOIN WITH `Expr::Expr.getChild/1#dispred#e5374b3c#bff` ON FIRST 1 OUTPUT Lhs.0 'this', Rhs.1 'n', Rhs.2 'result', _
+    {3}    | REWRITE WITH Tmp.3 := 0, TEST _goatShore 'n' >= Tmp.3 KEEPING 3
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf`(unique entity this) :- 
+    SENTINEL `Call::Call.getArgument/1#dispred#ada436ba#bff`
+    {1} r1 = JOIN `m#Call::Call.getArgument/1#dispred#ada436ba#bff` WITH `Call::Call.getArgument/1#dispred#ada436ba#bff` ON FIRST 1 OUTPUT Rhs.2 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  @access#b(unique entity X) :- 
+    SENTINEL `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf`
+    SENTINEL exprs
+    {2} r1 = SCAN `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf` OUTPUT In.0 'X', _
+    {2}    | REWRITE WITH Out.1 := 84
+    {1}    | JOIN WITH exprs ON FIRST 2 OUTPUT Lhs.0 'X'
+
+    {2} r2 = SCAN `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf` OUTPUT In.0 'X', _
+    {2}    | REWRITE WITH Out.1 := 97
+    {1}    | JOIN WITH exprs ON FIRST 2 OUTPUT Lhs.0 'X'
+
+    {1} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  @variable#b(unique entity X) :- 
+    SENTINEL `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf`
+    SENTINEL varbind
+    {1} r1 = JOIN `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf` WITH varbind ON FIRST 1 OUTPUT Rhs.1 'X'
+
+    {1} r2 = JOIN r1 WITH params ON FIRST 1 OUTPUT Lhs.0 'X'
+
+    {1} r3 = JOIN r1 WITH localvariables ON FIRST 1 OUTPUT Lhs.0 'X'
+
+    {1} r4 = JOIN r1 WITH globalvariables ON FIRST 1 OUTPUT Lhs.0 'X'
+
+    {1} r5 = JOIN r1 WITH membervariables ON FIRST 1 OUTPUT Lhs.0 'X'
+
+    {1} r6 = r2 UNION r3 UNION r4 UNION r5
+    return r6
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC _exprs_10#join_rhs#antijoin_rhs(unique entity arg0) :- 
+    SENTINEL exprs_10#join_rhs
+    {1} r1 = CONSTANT(unique int)[97]
+    {1}    | JOIN WITH exprs_10#join_rhs ON FIRST 1 OUTPUT Rhs.1 'arg0'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  Access::Access#bfafc000#b(unique entity this) :- 
+    SENTINEL @access#b
+    {1} r1 = JOIN `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf` WITH @access#b ON FIRST 1 OUTPUT Lhs.0 'this'
+
+    {1} r2 = r1 AND NOT iscall_0#antijoin_rhs(FIRST 1)
+
+    {1} r3 = r1 AND NOT _exprs_10#join_rhs#antijoin_rhs(FIRST 1)
+
+    {1} r4 = r2 UNION r3
+    return r4
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC functions_0#antijoin_rhs(unique entity arg0) :- 
+    SENTINEL functions
+    {1} r1 = SCAN functions OUTPUT In.0 'arg0'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  Access::EnumConstantAccess#1a02ff75#b(unique entity this) :- 
+    SENTINEL Access::Access#bfafc000#b
+    SENTINEL varbind
+    {1} r1 = JOIN `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf` WITH Access::Access#bfafc000#b ON FIRST 1 OUTPUT Lhs.0 'this'
+    {2}    | JOIN WITH varbind ON FIRST 1 OUTPUT Rhs.1, Lhs.0 'this'
+    {2}    | AND NOT @variable#b(FIRST 1)
+    {2}    | AND NOT functions_0#antijoin_rhs(FIRST 1)
+    {1}    | SCAN OUTPUT In.1 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Access::Access.getTarget/0#dispred#cf25c8aa#bf`(entity this, entity result) :- 
+    SENTINEL Access::EnumConstantAccess#1a02ff75#b
+    {1} r1 = JOIN `m#Access::Access.getTarget/0#dispred#cf25c8aa#bf` WITH Access::EnumConstantAccess#1a02ff75#b ON FIRST 1 OUTPUT Lhs.0 'this'
+    {2}    | JOIN WITH varbind ON FIRST 1 OUTPUT Rhs.1 'result', Lhs.0 'this'
+    {2}    | AND NOT @variable#b(FIRST 1)
+    {2}    | AND NOT functions_0#antijoin_rhs(FIRST 1)
+    {2}    | SCAN OUTPUT In.1 'this', In.0 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#Call::Call.getAnArgument/0#dispred#0c956949#bf`(unique entity this) :- 
+    SENTINEL `Call::Call.getAnArgument/0#dispred#0c956949#bf`
+    {1} r1 = SCAN `Call::Call.getAnArgument/0#dispred#0c956949#bf` OUTPUT In.0 'this'
+    {1}    | STREAM DEDUP
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf`(entity this, int result) :- 
+    SENTINEL `m#Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf`
+    {1} r1 = `m#Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf` AND NOT `project#Call::Call.getAnArgument/0#dispred#0c956949#bf`(FIRST 1)
+    {2}    | SCAN OUTPUT In.0 'this', _
+    {2}    | REWRITE WITH Out.1 'result' := 0
+
+    {2} r2 = AGGREGATE `Call::Call.getAnArgument/0#dispred#0c956949#bf`, `Call::Call.getAnArgument/0#dispred#0c956949#bf` ON  WITH COUNT OUTPUT In.0, Agg.0
+    {2}    | JOIN WITH `m#Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf` ON FIRST 1 OUTPUT Lhs.0 'this', Lhs.1 'result'
+
+    {2} r3 = r1 UNION r2
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  example::Move#74f87e61(unique entity this) :- 
+    SENTINEL `Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf`
+    {1} r1 = CONSTANT(unique string)["ch_fr"]
+    {1}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1
+    {2}    | JOIN WITH `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this', _
+    {2}    | REWRITE WITH Out.1 := 1
+
+    {1} r2 = CONSTANT(unique string)["fr_ch"]
+    {1}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1
+    {2}    | JOIN WITH `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this', _
+    {2}    | REWRITE WITH Out.1 := 1
+
+    {2} r3 = r1 UNION r2
+    {1}    | JOIN WITH `Call::Call.getNumberOfArguments/0#dispred#8fa1a31e#bf` ON FIRST 2 OUTPUT Lhs.0 'this'
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::Move.moveIndex/1#dispred#65cf7d80`(entity this, entity bb, int result) :- 
+    SENTINEL example::Move#74f87e61
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext`
+    {3} r1 = JOIN example::Move#74f87e61 WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext` ON FIRST 1 OUTPUT Lhs.0 'this', Rhs.1 'bb', Rhs.2 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::Move.renderMove/0#dispred#733ea3f1`(entity this, string result) :- 
+    SENTINEL example::Move#74f87e61
+    SENTINEL `Access::Access.getTarget/0#dispred#cf25c8aa#bf`
+    SENTINEL enumconstants
+    {2} r1 = JOIN `Function::Function.getName/0#dispred#b6c7beb4#fb_10#join_rhs` WITH `example::Move.convertCountry/1#dispred#dbf01378#cpe#23` ON FIRST 1 OUTPUT Lhs.1, Rhs.1
+    {2}    | JOIN WITH `Call::FunctionCall.getTarget/0#dispred#935da4c5#fb_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'this', Lhs.1
+    {3}    | JOIN WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.0 'this', _, Lhs.1
+    {3}    | REWRITE WITH Out.1 := 0
+    {3}    | JOIN WITH `Call::Call.getArgument/1#dispred#ada436ba#bff` ON FIRST 2 OUTPUT Rhs.2, Lhs.2, Lhs.0 'this'
+    {3}    | JOIN WITH `Access::Access.getTarget/0#dispred#cf25c8aa#bf` ON FIRST 1 OUTPUT Rhs.1, Lhs.1, Lhs.2 'this'
+    {6}    | JOIN WITH enumconstants ON FIRST 1 OUTPUT Lhs.2 'this', _, Rhs.4, Lhs.1, _, _
+    {2}    | REWRITE WITH Tmp.1 := "[C=", Tmp.4 := ",T=", Tmp.5 := "]", Out.1 'result' := (Tmp.1 ++ In.2 ++ Tmp.4 ++ In.3 ++ Tmp.5) KEEPING 2
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `BasicBlocks::Cached::basic_block_member/3#b27e1019_120#join_rhs`(entity arg0, int arg1, entity arg2) :- 
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext`
+    {3} r1 = SCAN `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext` OUTPUT In.1 'arg0', In.2 'arg1', In.0 'arg2'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_BasicBlocks::Cached::basic_block_member/3#b27e1019_BasicBlocks::Cached::basic_block_member/3#b27e10__#shared`(entity arg0, entity arg1, entity arg2, int arg3) :- 
+    SENTINEL example::Move#74f87e61
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019_120#join_rhs`
+    {3} r1 = JOIN example::Move#74f87e61 WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext` ON FIRST 1 OUTPUT Rhs.1 'arg2', Rhs.2 'arg3', Lhs.0 'arg1'
+    {4}    | JOIN WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019_120#join_rhs` ON FIRST 2 OUTPUT Rhs.2 'arg0', Lhs.2 'arg1', Lhs.0 'arg2', Lhs.1 'arg3'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs`(entity arg0, entity arg1, int arg2) :- 
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext`
+    {3} r1 = SCAN `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext` OUTPUT In.1 'arg0', In.0 'arg1', In.2 'arg2'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs__BasicBlocks::Cached::basic_block_m__#antijoin_rhs`(entity arg0, entity arg1, int arg2, entity arg3) :- 
+    SENTINEL `_BasicBlocks::Cached::basic_block_member/3#b27e1019_BasicBlocks::Cached::basic_block_member/3#b27e10__#shared`
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs`
+    {4} r1 = JOIN `_BasicBlocks::Cached::basic_block_member/3#b27e1019_BasicBlocks::Cached::basic_block_member/3#b27e10__#shared` WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.2 'arg1', Lhs.1 'arg0', Lhs.3 'arg2', Lhs.0 'arg3'
+    {6}    | JOIN WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs` ON FIRST 1 OUTPUT Lhs.1 'arg0', Lhs.0 'arg1', Lhs.2 'arg2', Lhs.3 'arg3', Rhs.1, Rhs.2
+    {6}    | REWRITE WITH TEST InOut.5 < _cabbageShore 'arg2'
+    {6}    | REWRITE WITH TEST _wolfShore 'arg3' != InOut.4
+    {5}    | SCAN OUTPUT In.4, In.0 'arg0', In.1 'arg1', In.2 'arg2', In.3 'arg3'
+    {4}    | JOIN WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.1 'arg0', Lhs.2 'arg1', Lhs.3 'arg2', Lhs.4 'arg3'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::firstBB/1#bc45df1c`(entity bb, entity result) :- 
+    SENTINEL `_BasicBlocks::Cached::basic_block_member/3#b27e1019_BasicBlocks::Cached::basic_block_member/3#b27e10__#shared`
+    {4} r1 = JOIN `_BasicBlocks::Cached::basic_block_member/3#b27e1019_BasicBlocks::Cached::basic_block_member/3#b27e10__#shared` WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.1 'result', Lhs.2 'bb', Lhs.3, Lhs.0
+    {4}    | AND NOT `_BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs__BasicBlocks::Cached::basic_block_m__#antijoin_rhs`(FIRST 4)
+    {2}    | SCAN OUTPUT In.1 'bb', In.0 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#example::Move.renderMove/0#dispred#733ea3f1`(unique entity this) :- 
+    SENTINEL `example::Move.renderMove/0#dispred#733ea3f1`
+    {1} r1 = SCAN `example::Move.renderMove/0#dispred#733ea3f1` OUTPUT In.0 'this'
+    {1}    | STREAM DEDUP
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_BasicBlocks::Cached::basic_block_member/3#b27e1019_example::Move#74f87e61_project#example::Move.ren__#shared`(entity arg0, entity arg1, int arg2) :- 
+    SENTINEL `project#example::Move.renderMove/0#dispred#733ea3f1`
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext`
+    {1} r1 = JOIN `project#example::Move.renderMove/0#dispred#733ea3f1` WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.0 'arg1'
+    {3}    | JOIN WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019@staged_ext` ON FIRST 1 OUTPUT Rhs.1 'arg0', Lhs.0 'arg1', Rhs.2 'arg2'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `example::Move.moveIndex/1#dispred#65cf7d80_102#join_rhs`(entity arg0, entity arg1, int arg2) :- 
+    SENTINEL `example::Move.moveIndex/1#dispred#65cf7d80`
+    {3} r1 = SCAN `example::Move.moveIndex/1#dispred#65cf7d80` OUTPUT In.1 'arg0', In.0 'arg1', In.2 'arg2'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `_BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs_BasicBlocks::Cached::basic_block_me__#antijoin_rhs`(entity arg0, entity arg1, int arg2, entity arg3, int arg4) :- 
+    SENTINEL `_BasicBlocks::Cached::basic_block_member/3#b27e1019_example::Move#74f87e61_project#example::Move.ren__#shared`
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs`
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019_120#join_rhs`
+    SENTINEL `example::Move.moveIndex/1#dispred#65cf7d80_102#join_rhs`
+    {5} r1 = JOIN `_BasicBlocks::Cached::basic_block_member/3#b27e1019_example::Move#74f87e61_project#example::Move.ren__#shared` WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs` ON FIRST 1 OUTPUT Rhs.1 'arg3', Lhs.1 'arg0', Lhs.0 'arg1', Lhs.2 'arg2', Rhs.2 'arg4'
+    {5}    | JOIN WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.1 'arg0', Lhs.2 'arg1', Lhs.3 'arg2', Lhs.0 'arg3', Lhs.4 'arg4'
+    {6}    | JOIN WITH `example::Move.moveIndex/1#dispred#65cf7d80` ON FIRST 2 OUTPUT Lhs.1 'arg1', Lhs.4 'arg4', Lhs.0 'arg0', Lhs.2 'arg2', Lhs.3 'arg3', Rhs.2
+    {7}    | JOIN WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019_120#join_rhs` ON FIRST 2 OUTPUT Rhs.2, Lhs.2 'arg0', Lhs.0 'arg1', Lhs.3 'arg2', Lhs.4 'arg3', Lhs.1 'arg4', Lhs.5
+    {7}    | JOIN WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.2 'arg1', Lhs.1 'arg0', Lhs.3 'arg2', Lhs.4 'arg3', Lhs.5 'arg4', Lhs.6, Lhs.0
+    {9}    | JOIN WITH `example::Move.moveIndex/1#dispred#65cf7d80_102#join_rhs` ON FIRST 1 OUTPUT Lhs.1 'arg0', Lhs.0 'arg1', Lhs.2 'arg2', Lhs.3 'arg3', Lhs.4 'arg4', Lhs.5, Lhs.6, Rhs.1, Rhs.2
+    {9}    | REWRITE WITH TEST InOut.7 != InOut.6
+    {9}    | REWRITE WITH TEST InOut.8 < InOut.4 'arg4'
+    {7}    | SCAN OUTPUT In.7, In.1 'arg1', In.0 'arg0', In.2 'arg2', In.3 'arg3', In.4 'arg4', In.5
+    {7}    | JOIN WITH `example::Move.moveIndex/1#dispred#65cf7d80` ON FIRST 2 OUTPUT Lhs.2 'arg0', Lhs.1 'arg1', Lhs.3 'arg2', Lhs.4 'arg3', Lhs.5 'arg4', Lhs.6, Rhs.2
+    {7}    | REWRITE WITH TEST InOut.6 > InOut.5
+    {5}    | SCAN OUTPUT In.0 'arg0', In.1 'arg1', In.2 'arg2', In.3 'arg3', In.4 'arg4'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::Move.getSuccessor/1#dispred#b46d8bc8#bff`(entity this, entity bb, entity result) :- 
+    SENTINEL `_BasicBlocks::Cached::basic_block_member/3#b27e1019_example::Move#74f87e61_project#example::Move.ren__#shared`
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs`
+    SENTINEL `BasicBlocks::Cached::basic_block_member/3#b27e1019_120#join_rhs`
+    {5} r1 = JOIN `_BasicBlocks::Cached::basic_block_member/3#b27e1019_example::Move#74f87e61_project#example::Move.ren__#shared` WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.0 'bb', Lhs.2, Rhs.1 'result', Rhs.2
+    {5}    | REWRITE WITH TEST InOut.4 > _cabbageShore
+    {5}    | SCAN OUTPUT In.3 'result', In.0 'this', In.1 'bb', In.2, In.4
+    {5}    | JOIN WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.2 'bb', Lhs.3, Lhs.0 'result', Lhs.4
+    {5}    | AND NOT `_BasicBlocks::Cached::basic_block_member/3#b27e1019_102#join_rhs_BasicBlocks::Cached::basic_block_me__#antijoin_rhs`(FIRST 5)
+    {4}    | SCAN OUTPUT In.1 'bb', In.4, In.0 'this', In.3 'result'
+    {4}    | JOIN WITH `BasicBlocks::Cached::basic_block_member/3#b27e1019_120#join_rhs` ON FIRST 2 OUTPUT Lhs.2 'this', Lhs.0 'bb', Lhs.3 'result', Rhs.2
+    {4}    | REWRITE WITH TEST _manShore 'this' != _wolfShore
+    {4}    | SCAN OUTPUT In.3, In.0 'this', In.1 'bb', In.2 'result'
+    {3}    | JOIN WITH example::Move#74f87e61 ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.2 'bb', Lhs.3 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#example::Move.getSuccessor/1#dispred#b46d8bc8#bff`(entity base, entity bb) :- 
+    SENTINEL `example::Move.getSuccessor/1#dispred#b46d8bc8#bff`
+    {2} r1 = SCAN `example::Move.getSuccessor/1#dispred#b46d8bc8#bff` OUTPUT In.0 'base', In.1 'bb'
+    {2}    | STREAM DEDUP
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `example::Move.getSuccessor/1#dispred#b46d8bc8#bff_120#join_rhs`(entity arg0, entity arg1, entity arg2) :- 
+    SENTINEL `example::Move.getSuccessor/1#dispred#b46d8bc8#bff`
+    {3} r1 = SCAN `example::Move.getSuccessor/1#dispred#b46d8bc8#bff` OUTPUT In.1 'arg0', In.2 'arg1', In.0 'arg2'
+    return r1
+
+EVALUATE RECURSIVE LAYER:
+  rec `example::renderBB/2#f75f6ace`(entity bb, entity base, string result) :- 
+    SENTINEL `BasicBlocks::Cached::basic_block_entry_node/1#fd6599c2@staged_ext`
+    SENTINEL `example::Move.renderMove/0#dispred#733ea3f1`
+    [[[ BASE CASE ]]]
+    {3} r1 = JOIN `BasicBlocks::Cached::basic_block_entry_node/1#fd6599c2@staged_ext` WITH `example::Move.renderMove/0#dispred#733ea3f1` CARTESIAN PRODUCT OUTPUT Rhs.0, Lhs.0 'bb', Rhs.1 'result'
+    {3}    | AND NOT `project#example::Move.getSuccessor/1#dispred#b46d8bc8#bff`(FIRST 2)
+    {3}    | SCAN OUTPUT In.1 'bb', In.0 'base', In.2 'result'
+    return r1
+
+    [[[ SEMINAIVE VARIANT - STANDARD ORDER]]]
+    {3} r2 = JOIN `example::renderBB/2#f75f6ace#prev_delta` WITH `BasicBlocks::Cached::basic_block_entry_node/1#fd6599c2@staged_ext` ON FIRST 1 OUTPUT Lhs.0 'bb', Lhs.1, Lhs.2
+    {3}    | JOIN WITH `example::Move.getSuccessor/1#dispred#b46d8bc8#bff_120#join_rhs` ON FIRST 2 OUTPUT Rhs.2 'base', Lhs.0 'bb', Lhs.2
+    {5}    | JOIN WITH `example::Move.renderMove/0#dispred#733ea3f1` ON FIRST 1 OUTPUT Lhs.1 'bb', Lhs.0 'base', _, Rhs.1, Lhs.2
+    {3}    | REWRITE WITH Out.2 'result' := (In.3 ++ In.4) KEEPING 3
+    {3}    | AND NOT `example::renderBB/2#f75f6ace#prev`(FIRST 3)
+    return r2
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#example::renderState/4#b7af59e2`(unique string result) :- 
+    SENTINEL `example::renderState/4#b7af59e2`
+    {1} r1 = SCAN `example::renderState/4#b7af59e2` OUTPUT In.4 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::State.ferry/1#dispred#fcf0e57f`(string this, string cargo, string result) :- 
+    SENTINEL example::Cargo#68167496
+    SENTINEL `example::Shore.other/0#dispred#2819aa5d`
+    SENTINEL `project#example::renderState/4#b7af59e2`
+    {6} r1 = SCAN `example::renderState/4#b7af59e2` OUTPUT _, In.0, In.1, In.2, In.3, In.4 'this'
+    {6}    | REWRITE WITH Out.0 := "Nothing"
+    {5}    | JOIN WITH example::Cargo#68167496 ON FIRST 1 OUTPUT Lhs.1, Lhs.2, Lhs.3, Lhs.4, Lhs.5 'this'
+    {5}    | JOIN WITH `example::Shore.other/0#dispred#2819aa5d` ON FIRST 1 OUTPUT Rhs.1, Lhs.1, Lhs.2, Lhs.3, Lhs.4 'this'
+    {2}    | JOIN WITH `example::renderState/4#b7af59e2` ON FIRST 4 OUTPUT Rhs.4 'this', Lhs.4 'this'
+    {3}    | JOIN WITH `project#example::renderState/4#b7af59e2` ON FIRST 1 OUTPUT Lhs.1 'this', _, Lhs.0 'result'
+    {3}    | REWRITE WITH Out.1 'cargo' := "Nothing"
+
+    {6} r2 = SCAN `example::renderState/4#b7af59e2` OUTPUT _, In.0, In.1, In.2, In.3, In.4 'this'
+    {6}    | REWRITE WITH Out.0 := "Goat"
+    {5}    | JOIN WITH example::Cargo#68167496 ON FIRST 1 OUTPUT Lhs.1, Lhs.2, Lhs.3, Lhs.4, Lhs.5 'this'
+    {5}    | JOIN WITH `example::Shore.other/0#dispred#2819aa5d` ON FIRST 1 OUTPUT Lhs.1, Lhs.2, Lhs.3, Lhs.4 'this', Rhs.1
+    {5}    | JOIN WITH `example::Shore.other/0#dispred#2819aa5d` ON FIRST 1 OUTPUT Lhs.4, Rhs.1, Lhs.1, Lhs.2, Lhs.3 'this'
+    {2}    | JOIN WITH `example::renderState/4#b7af59e2` ON FIRST 4 OUTPUT Rhs.4 'this', Lhs.4 'this'
+    {3}    | JOIN WITH `project#example::renderState/4#b7af59e2` ON FIRST 1 OUTPUT Lhs.1 'this', _, Lhs.0 'result'
+    {3}    | REWRITE WITH Out.1 'cargo' := "Goat"
+
+    {6} r3 = SCAN `example::renderState/4#b7af59e2` OUTPUT _, In.0, In.1, In.2, In.3, In.4 'this'
+    {6}    | REWRITE WITH Out.0 := "Wolf"
+    {5}    | JOIN WITH example::Cargo#68167496 ON FIRST 1 OUTPUT Lhs.1, Lhs.2, Lhs.3, Lhs.4, Lhs.5 'this'
+    {5}    | JOIN WITH `example::Shore.other/0#dispred#2819aa5d` ON FIRST 1 OUTPUT Lhs.3, Lhs.1, Lhs.2, Lhs.4 'this', Rhs.1
+    {5}    | JOIN WITH `example::Shore.other/0#dispred#2819aa5d` ON FIRST 1 OUTPUT Lhs.4, Lhs.1, Lhs.2, Rhs.1, Lhs.3 'this'
+    {2}    | JOIN WITH `example::renderState/4#b7af59e2` ON FIRST 4 OUTPUT Rhs.4 'this', Lhs.4 'this'
+    {3}    | JOIN WITH `project#example::renderState/4#b7af59e2` ON FIRST 1 OUTPUT Lhs.1 'this', _, Lhs.0 'result'
+    {3}    | REWRITE WITH Out.1 'cargo' := "Wolf"
+
+    {6} r4 = SCAN `example::renderState/4#b7af59e2` OUTPUT _, In.0, In.1, In.2, In.3, In.4 'this'
+    {6}    | REWRITE WITH Out.0 := "Cabbage"
+    {5}    | JOIN WITH example::Cargo#68167496 ON FIRST 1 OUTPUT Lhs.1, Lhs.2, Lhs.3, Lhs.4, Lhs.5 'this'
+    {5}    | JOIN WITH `example::Shore.other/0#dispred#2819aa5d` ON FIRST 1 OUTPUT Lhs.2, Lhs.1, Lhs.3, Lhs.4 'this', Rhs.1
+    {5}    | JOIN WITH `example::Shore.other/0#dispred#2819aa5d` ON FIRST 1 OUTPUT Lhs.4, Lhs.1, Rhs.1, Lhs.2, Lhs.3 'this'
+    {2}    | JOIN WITH `example::renderState/4#b7af59e2` ON FIRST 4 OUTPUT Rhs.4 'this', Lhs.4 'this'
+    {3}    | JOIN WITH `project#example::renderState/4#b7af59e2` ON FIRST 1 OUTPUT Lhs.1 'this', _, Lhs.0 'result'
+    {3}    | REWRITE WITH Out.1 'cargo' := "Cabbage"
+
+    {3} r5 = r1 UNION r2 UNION r3 UNION r4
+    return r5
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::State.safeFerry/1#dispred#7235af83`(string this, string cargo, string result) :- 
+    SENTINEL `example::State.ferry/1#dispred#fcf0e57f`
+    SENTINEL `example::State.isSafe/0#dispred#1258a19f`
+    {3} r1 = SCAN `example::State.ferry/1#dispred#fcf0e57f` OUTPUT In.2 'result', In.0 'this', In.1 'cargo'
+    {3}    | JOIN WITH `example::State.isSafe/0#dispred#1258a19f` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.2 'cargo', Lhs.0 'result'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#example::renderState/4#b7af59e2#2`(string manShore, string this) :- 
+    SENTINEL `example::renderState/4#b7af59e2`
+    {2} r1 = SCAN `example::renderState/4#b7af59e2` OUTPUT In.0 'manShore', In.4 'this'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::State.towards/0#dispred#8bf75480`(string this, string result) :- 
+    SENTINEL `project#example::renderState/4#b7af59e2#2`
+    {2} r1 = CONSTANT(unique string, string)["Left","left"]
+
+    {2} r2 = CONSTANT(unique string, string)["Right","right"]
+
+    {2} r3 = r1 UNION r2
+    {2}    | JOIN WITH `project#example::renderState/4#b7af59e2#2` ON FIRST 1 OUTPUT Rhs.1 'this', Lhs.1 'result'
+    return r3
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::pathComponent/2#f68a4811`(string cargo, string towards, string result) :- 
+    SENTINEL example::Cargo#68167496
+    SENTINEL `example::State.towards/0#dispred#8bf75480`
+    {6} r1 = JOIN example::Cargo#68167496 WITH `example::State.towards/0#dispred#8bf75480` CARTESIAN PRODUCT OUTPUT Lhs.0 'cargo', Rhs.0, _, Rhs.1, _, _
+    {3}    | REWRITE WITH Tmp.2 := "[C=", Tmp.4 := ",T=", Tmp.5 := "]", Out.2 'result' := (Tmp.2 ++ _manShore 'cargo' ++ Tmp.4 ++ In.3 ++ Tmp.5) KEEPING 3
+    return r1
+
+EVALUATE RECURSIVE LAYER:
+  SYNTHETIC LOCAL `_example::State.reachesVia/2#0838c978#bfff#prev_delta_example::State.safeFerry/1#dispred#7235af83#antijoin_rhs`(string arg0, string arg1, string arg2, string arg3, string arg4) :- 
+    {4} r1 = SCAN `example::State.reachesVia/2#0838c978#bfff#prev_delta` OUTPUT In.3, In.0 'arg0', In.1 'arg1', In.2 'arg2'
+    {5}    | JOIN WITH `example::State.safeFerry/1#dispred#7235af83` ON FIRST 1 OUTPUT Lhs.1 'arg0', Lhs.2 'arg1', Lhs.3 'arg2', Rhs.1 'arg3', Rhs.2 'arg4'
+    {6}    | JOIN WITH PRIMITIVE indexOf#bbf ON Lhs.2 'arg2',Lhs.4 'arg4'
+    {5}    | SCAN OUTPUT In.0 'arg0', In.1 'arg1', In.2 'arg2', In.3 'arg3', In.4 'arg4'
+    return r1
+
+  rec `example::State.reachesVia/2#0838c978#bfff`(string this, string path, string visitedStates, string result) :- 
+    SENTINEL `example::State.safeFerry/1#dispred#7235af83`
+    SENTINEL `example::pathComponent/2#f68a4811`
+    [[[ BASE CASE ]]]
+    {4} r1 = CONSTANT(unique string, string, string, string)["Left","Left","Left","Left"]
+    {1}    | JOIN WITH `example::renderState/4#b7af59e2` ON FIRST 4 OUTPUT Rhs.4 'this'
+    {1}    | JOIN WITH `project#example::renderState/4#b7af59e2` ON FIRST 1 OUTPUT Lhs.0 'this'
+    {4}    | JOIN WITH `example::State.safeFerry/1#dispred#7235af83` ON FIRST 1 OUTPUT Rhs.1, Rhs.2 'result', Lhs.0 'this', Rhs.2 'result'
+    {4}    | JOIN WITH `example::pathComponent/2#f68a4811` ON FIRST 2 OUTPUT Lhs.2 'this', Rhs.2 'path', Lhs.1 'visitedStates', Lhs.3 'result'
+    return r1
+
+    [[[ SEMINAIVE VARIANT - STANDARD ORDER]]]
+    {4} r2 = SCAN `example::State.reachesVia/2#0838c978#bfff#prev_delta` OUTPUT In.3, In.0 'this', In.1, In.2
+    {5}    | JOIN WITH `example::State.safeFerry/1#dispred#7235af83` ON FIRST 1 OUTPUT Lhs.1 'this', Lhs.2, Lhs.3, Rhs.1, Rhs.2 'result'
+    {5}    | AND NOT `_example::State.reachesVia/2#0838c978#bfff#prev_delta_example::State.safeFerry/1#dispred#7235af83#antijoin_rhs`(FIRST 5)
+    {5}    | SCAN OUTPUT In.3, In.4 'result', In.0 'this', In.1, In.2
+    {7}    | JOIN WITH `example::pathComponent/2#f68a4811` ON FIRST 2 OUTPUT Lhs.2 'this', _, _, Lhs.1 'result', Lhs.3, Rhs.2, Lhs.4
+    {4}    | REWRITE WITH Out.1 'path' := (In.4 ++ In.5), Tmp.2 := "_", Out.2 'visitedStates' := (In.6 ++ Tmp.2 ++ _wolfShore 'result') KEEPING 4
+    {4}    | AND NOT `example::State.reachesVia/2#0838c978#bfff#prev`(FIRST 4)
+    return r2
+
+
+EVALUATE NONRECURSIVE RELATION:
+  `project#example::State.reachesVia/2#0838c978#bfff`(string any#expr#, string path, string call_result#2) :- 
+    SENTINEL `example::State.reachesVia/2#0838c978#bfff`
+    {3} r1 = SCAN `example::State.reachesVia/2#0838c978#bfff` OUTPUT In.0 'any#expr#', In.1 'path', In.3 'call_result#2'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `project#example::State.reachesVia/2#0838c978#bfff_201#join_rhs`(string arg0, string arg1, string arg2) :- 
+    SENTINEL `project#example::State.reachesVia/2#0838c978#bfff`
+    {3} r1 = SCAN `project#example::State.reachesVia/2#0838c978#bfff` OUTPUT In.2 'arg0', In.0 'arg1', In.1 'arg2'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `example::renderBB/2#f75f6ace_201#join_rhs`(string arg0, entity arg1, entity arg2) :- 
+    SENTINEL `example::renderBB/2#f75f6ace`
+    {3} r1 = SCAN `example::renderBB/2#f75f6ace` OUTPUT In.2 'arg0', In.0 'arg1', In.1 'arg2'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  SYNTHETIC `project#BasicBlocks::Cached::basic_block_member/3#b27e1019_10#join_rhs`(entity arg0, entity arg1) :- 
+    SENTINEL `project#BasicBlocks::Cached::basic_block_member/3#b27e1019`
+    {2} r1 = SCAN `project#BasicBlocks::Cached::basic_block_member/3#b27e1019` OUTPUT In.1 'arg0', In.0 'arg1'
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  `example::correct/0#0e1e4939`() :- 
+    SENTINEL `project#example::State.reachesVia/2#0838c978#bfff_201#join_rhs`
+    SENTINEL `example::renderBB/2#f75f6ace_201#join_rhs`
+    SENTINEL `example::firstBB/1#bc45df1c`
+    SENTINEL `project#BasicBlocks::Cached::basic_block_member/3#b27e1019_10#join_rhs`
+    {4} r1 = CONSTANT(unique string, string, string, string)["Right","Right","Right","Right"]
+    {1}    | JOIN WITH `example::renderState/4#b7af59e2` ON FIRST 4 OUTPUT Rhs.4
+    {1}    | JOIN WITH `project#example::renderState/4#b7af59e2` ON FIRST 1 OUTPUT Lhs.0
+    {6}    | JOIN WITH `project#example::State.reachesVia/2#0838c978#bfff_201#join_rhs` ON FIRST 1 OUTPUT _, _, _, _, Rhs.1, Rhs.2
+    {6}    | REWRITE WITH Out.0 := "Left", Out.1 := "Left", Out.2 := "Left", Out.3 := "Left"
+    {2}    | JOIN WITH `example::renderState/4#b7af59e2` ON FIRST 5 OUTPUT Lhs.4, Lhs.5
+    {1}    | JOIN WITH `project#example::renderState/4#b7af59e2` ON FIRST 1 OUTPUT Lhs.1
+    {2}    | JOIN WITH `example::renderBB/2#f75f6ace_201#join_rhs` ON FIRST 1 OUTPUT Rhs.1, Rhs.2
+    {1}    | JOIN WITH `example::firstBB/1#bc45df1c` ON FIRST 2 OUTPUT Lhs.0
+    {2}    | JOIN WITH `project#BasicBlocks::Cached::basic_block_member/3#b27e1019_10#join_rhs` ON FIRST 1 OUTPUT Rhs.1, _
+    {2}    | REWRITE WITH Out.1 := "main"
+    {0}    | JOIN WITH `Function::Function.getName/0#dispred#b6c7beb4#fb` ON FIRST 2 OUTPUT {}
+    {0}    | STREAM DEDUP
+    return r1
+
+EVALUATE NONRECURSIVE RELATION:
+  #select#query(unique string res) :- 
+    {1} r1 = SCAN `example::correct/0#0e1e4939` OUTPUT _
+    {1}    | REWRITE WITH Out.0 'res' := "correct"
+
+    {0} r2 = CONSTANT()[]
+    {0}    | AND NOT `example::correct/0#0e1e4939`(FIRST 0)
+    {1}    | SCAN OUTPUT _
+    {1}    | REWRITE WITH Out.0 'res' := "wrong"
+
+    {1} r3 = r1 UNION r2
+    return r3
+
+RESULTS IN:
+#select = #select#query
+
+
