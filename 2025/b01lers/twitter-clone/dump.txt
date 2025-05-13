@@ -1,0 +1,10871 @@
+push 9
+push 12
+mul
+push 0
+load
+xor
+push 5
+push 10
+mul
+push 1
+load
+xor
+push 9
+push 3
+push 7
+mul
+mul
+push 2
+load
+xor
+push 2
+push 3
+push 11
+mul
+push 4
+sub
+mul
+push 3
+load
+xor
+push 11
+push 4
+push 4
+mul
+mul
+push 4
+load
+xor
+push 7
+push 5
+push 5
+mul
+mul
+push 5
+load
+xor
+push 7
+push 15
+mul
+push 6
+load
+xor
+push 2
+push 7
+push 11
+mul
+push 10
+xor
+mul
+push 7
+load
+xor
+push 7
+push 10
+mul
+push 8
+load
+xor
+push 13
+push 13
+mul
+push 9
+load
+xor
+push 12
+push 13
+mul
+push 10
+load
+xor
+push 2
+push 2
+push 3
+push 6
+mul
+push 5
+add
+mul
+push 5
+xor
+mul
+push 5
+xor
+push 11
+load
+xor
+push 2
+push 9
+push 10
+mul
+push 7
+sub
+mul
+push 12
+load
+xor
+push 0
+push 13
+load
+xor
+push 7
+push 15
+mul
+push 14
+load
+xor
+push 12
+push 15
+load
+xor
+push 5
+push 2
+push 5
+mul
+push 9
+add
+mul
+push 8
+add
+push 4
+push 4
+mul
+load
+xor
+push 7
+push 4
+push 7
+mul
+push 11
+sub
+mul
+push 4
+push 6
+mul
+push 9
+xor
+load
+xor
+push 3
+push 8
+push 12
+mul
+push 13
+sub
+mul
+push 3
+push 6
+mul
+load
+xor
+push 10
+push 4
+push 7
+mul
+push 15
+xor
+load
+xor
+push 3
+push 4
+push 4
+mul
+push 13
+add
+mul
+push 4
+push 5
+mul
+load
+xor
+push 12
+push 4
+push 5
+mul
+push 5
+xor
+mul
+push 3
+push 7
+mul
+load
+xor
+push 2
+push 10
+push 12
+mul
+push 7
+sub
+mul
+push 2
+push 11
+mul
+load
+xor
+push 2
+push 7
+push 14
+mul
+push 3
+xor
+mul
+push 5
+xor
+push 3
+push 6
+mul
+push 5
+add
+load
+xor
+push 2
+push 5
+push 6
+mul
+push 13
+sub
+mul
+push 4
+push 6
+mul
+load
+xor
+push 4
+push 5
+push 10
+mul
+push 7
+xor
+mul
+push 5
+push 5
+mul
+load
+xor
+push 2
+push 6
+push 13
+mul
+push 5
+sub
+mul
+push 5
+xor
+push 2
+push 13
+mul
+load
+xor
+push 14
+push 3
+push 6
+mul
+mul
+push 3
+push 9
+mul
+load
+xor
+push 4
+push 2
+push 13
+mul
+push 5
+xor
+mul
+push 4
+push 7
+mul
+load
+xor
+push 0
+push 6
+push 7
+mul
+push 13
+sub
+load
+xor
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+push 1
+load
+push 5
+push 5
+mul
+load
+push 10
+load
+push 4
+push 6
+mul
+push 9
+xor
+load
+push 8
+load
+push 3
+load
+push 3
+push 9
+mul
+load
+push 4
+push 6
+mul
+load
+push 3
+push 6
+mul
+load
+push 12
+load
+push 6
+load
+push 2
+push 11
+mul
+load
+push 2
+push 13
+mul
+load
+push 4
+push 5
+mul
+push 3
+xor
+load
+push 14
+load
+push 5
+load
+push 9
+load
+push 4
+push 7
+mul
+push 1
+add
+load
+push 11
+load
+push 2
+load
+push 4
+push 7
+mul
+load
+push 4
+push 4
+mul
+load
+push 4
+load
+push 3
+push 7
+mul
+load
+push 5
+push 6
+mul
+push 11
+sub
+load
+push 0
+load
+push 15
+load
+push 4
+push 5
+mul
+load
+push 13
+load
+push 7
+load
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+shift
+push 2
+push 13
+mul
+load
+push 13
+push 2
+push 11
+mul
+push 3
+push 9
+mul
+push 4
+sub
+mul
+push 15
+add
+mul
+push 8
+xor
+sub
+push 4
+push 4
+push 4
+push 4
+mul
+push 15
+xor
+mul
+push 5
+push 4
+push 4
+mul
+push 13
+add
+mul
+mul
+push 9
+sub
+mul
+sub
+push 4
+push 4
+mul
+load
+push 6
+push 9
+mul
+push 12
+push 2
+push 11
+mul
+mul
+push 13
+add
+mul
+xor
+push 9
+push 4
+push 7
+mul
+push 11
+sub
+mul
+push 4
+push 4
+mul
+xor
+push 4
+push 5
+push 11
+mul
+push 8
+sub
+mul
+mul
+xor
+xor
+push 5
+load
+push 4
+push 11
+mul
+push 3
+push 6
+mul
+push 3
+push 7
+mul
+mul
+push 5
+add
+mul
+add
+push 3
+push 13
+mul
+push 2
+push 5
+push 5
+mul
+push 5
+push 5
+mul
+mul
+push 12
+sub
+mul
+push 3
+add
+mul
+add
+sub
+push 2
+load
+push 11
+push 11
+mul
+push 3
+push 6
+push 3
+push 4
+mul
+push 5
+add
+mul
+push 7
+add
+mul
+mul
+sub
+push 2
+push 3
+push 13
+mul
+push 2
+add
+mul
+push 9
+push 7
+push 7
+mul
+push 12
+xor
+mul
+push 8
+xor
+mul
+push 1
+sub
+xor
+xor
+push 10
+load
+push 4
+push 7
+mul
+push 15
+add
+push 3
+push 9
+mul
+push 8
+xor
+push 2
+push 11
+mul
+mul
+push 1
+xor
+mul
+sub
+push 4
+push 4
+mul
+push 5
+push 7
+mul
+push 4
+push 11
+mul
+mul
+push 9
+sub
+mul
+sub
+sub
+push 2
+push 3
+push 2
+push 11
+mul
+push 3
+sub
+mul
+push 12
+xor
+mul
+push 3
+sub
+push 4
+push 11
+mul
+push 1
+sub
+push 2
+push 4
+push 7
+mul
+push 5
+sub
+mul
+push 3
+sub
+mul
+mul
+cmp
+push 2
+push 11
+mul
+load
+push 10
+push 3
+push 6
+mul
+push 2
+push 3
+push 6
+mul
+push 3
+xor
+mul
+mul
+push 1
+xor
+mul
+xor
+push 6
+push 4
+push 8
+mul
+push 9
+sub
+mul
+push 9
+xor
+push 5
+push 7
+push 9
+mul
+push 10
+add
+mul
+push 2
+xor
+mul
+xor
+push 9
+load
+push 11
+push 3
+push 6
+mul
+mul
+push 15
+push 2
+push 3
+mul
+push 11
+add
+mul
+mul
+sub
+push 6
+push 11
+mul
+push 7
+add
+push 3
+push 6
+mul
+push 5
+push 6
+mul
+push 13
+xor
+mul
+push 7
+add
+mul
+add
+xor
+push 14
+load
+push 10
+push 5
+push 9
+mul
+push 7
+push 8
+mul
+mul
+push 1
+add
+mul
+sub
+push 3
+push 4
+push 5
+mul
+push 3
+xor
+mul
+push 5
+push 5
+mul
+push 4
+push 6
+mul
+push 7
+xor
+mul
+push 6
+sub
+mul
+sub
+sub
+push 4
+push 8
+mul
+push 15
+sub
+load
+push 2
+push 11
+mul
+push 5
+push 11
+mul
+push 14
+sub
+push 2
+push 3
+push 3
+push 3
+mul
+push 8
+add
+mul
+push 14
+sub
+mul
+mul
+push 7
+add
+mul
+add
+push 12
+push 4
+push 4
+mul
+push 1
+xor
+mul
+push 14
+push 2
+push 2
+push 7
+mul
+push 3
+add
+mul
+push 15
+sub
+mul
+push 7
+xor
+mul
+sub
+sub
+push 5
+load
+push 5
+push 7
+push 11
+mul
+push 3
+push 6
+push 6
+mul
+push 7
+add
+mul
+mul
+push 2
+sub
+mul
+add
+push 11
+push 2
+push 11
+mul
+mul
+push 4
+push 7
+mul
+push 15
+xor
+push 4
+push 5
+mul
+mul
+mul
+add
+xor
+push 2
+push 3
+push 6
+mul
+push 15
+xor
+mul
+push 12
+push 3
+push 5
+push 11
+mul
+push 12
+add
+mul
+push 2
+sub
+mul
+push 11
+add
+mul
+cmp
+and
+push 7
+load
+push 5
+push 7
+mul
+push 2
+add
+push 3
+push 9
+mul
+push 6
+push 9
+mul
+mul
+push 13
+xor
+mul
+sub
+push 7
+push 7
+mul
+push 12
+xor
+push 4
+push 6
+push 5
+push 5
+mul
+push 8
+sub
+mul
+push 13
+xor
+mul
+push 9
+xor
+mul
+xor
+push 12
+load
+push 8
+push 4
+push 4
+mul
+mul
+push 3
+xor
+push 3
+push 15
+push 15
+mul
+push 4
+add
+mul
+push 4
+add
+mul
+sub
+push 12
+push 3
+push 13
+mul
+push 3
+push 11
+mul
+push 8
+xor
+mul
+push 2
+add
+mul
+sub
+xor
+push 8
+load
+push 7
+push 14
+push 7
+push 7
+mul
+mul
+push 9
+sub
+mul
+xor
+push 7
+push 11
+mul
+push 8
+push 5
+push 9
+mul
+push 8
+sub
+mul
+push 13
+sub
+mul
+push 12
+add
+sub
+xor
+push 12
+load
+push 8
+push 10
+push 2
+push 5
+push 8
+mul
+push 11
+sub
+mul
+push 5
+sub
+mul
+push 11
+add
+mul
+xor
+push 9
+push 2
+push 2
+push 11
+mul
+push 1
+add
+mul
+push 10
+push 14
+mul
+push 13
+sub
+mul
+push 3
+sub
+mul
+sub
+sub
+push 0
+load
+push 2
+push 7
+push 12
+mul
+push 12
+push 4
+push 4
+mul
+push 3
+add
+mul
+push 11
+xor
+mul
+push 5
+sub
+mul
+add
+push 4
+push 2
+push 11
+mul
+push 4
+push 4
+push 5
+push 8
+mul
+push 13
+xor
+mul
+push 1
+add
+mul
+push 13
+xor
+mul
+push 11
+xor
+mul
+sub
+xor
+push 5
+push 12
+push 5
+push 7
+push 5
+push 5
+mul
+push 8
+xor
+mul
+push 8
+add
+mul
+push 4
+sub
+mul
+push 1
+add
+mul
+push 4
+sub
+cmp
+and
+push 6
+load
+push 4
+push 5
+push 5
+mul
+push 8
+sub
+mul
+push 9
+sub
+push 5
+push 8
+push 9
+mul
+push 1
+sub
+mul
+push 2
+sub
+mul
+sub
+push 3
+push 7
+push 9
+mul
+push 2
+sub
+mul
+push 13
+push 4
+push 7
+mul
+push 11
+sub
+mul
+mul
+sub
+push 10
+load
+push 7
+push 4
+push 15
+push 3
+push 9
+mul
+mul
+push 4
+sub
+mul
+push 9
+add
+mul
+xor
+push 9
+push 14
+mul
+push 13
+sub
+push 3
+push 3
+push 4
+push 6
+mul
+push 7
+xor
+mul
+push 14
+sub
+mul
+mul
+add
+sub
+push 5
+load
+push 4
+push 11
+mul
+push 3
+push 5
+mul
+push 4
+add
+push 5
+push 7
+mul
+mul
+push 12
+xor
+mul
+sub
+push 5
+push 3
+push 9
+mul
+push 4
+add
+mul
+push 9
+push 2
+push 4
+mul
+push 11
+add
+mul
+mul
+add
+xor
+push 3
+push 4
+mul
+push 7
+add
+load
+push 6
+push 5
+push 6
+mul
+push 9
+xor
+mul
+push 11
+push 4
+push 4
+mul
+mul
+mul
+xor
+push 11
+push 7
+push 9
+mul
+push 4
+xor
+push 2
+push 7
+push 8
+mul
+push 3
+sub
+mul
+mul
+push 9
+add
+mul
+xor
+sub
+push 4
+load
+push 6
+push 4
+push 4
+mul
+push 15
+xor
+mul
+push 2
+push 4
+push 5
+push 9
+mul
+push 4
+xor
+mul
+push 13
+sub
+mul
+mul
+xor
+push 3
+push 3
+push 6
+mul
+push 1
+add
+mul
+push 10
+add
+push 3
+push 9
+mul
+push 4
+push 8
+mul
+mul
+push 13
+xor
+mul
+sub
+add
+push 8
+push 10
+mul
+push 2
+push 5
+push 3
+push 9
+mul
+push 10
+xor
+mul
+push 12
+sub
+mul
+mul
+push 3
+sub
+cmp
+and
+push 15
+load
+push 3
+push 2
+push 6
+push 7
+mul
+push 5
+add
+mul
+push 3
+push 4
+push 6
+mul
+push 13
+add
+mul
+mul
+push 3
+xor
+mul
+sub
+push 12
+push 15
+mul
+push 14
+push 4
+push 6
+mul
+push 5
+sub
+mul
+push 7
+xor
+mul
+sub
+push 0
+load
+push 4
+push 3
+push 9
+mul
+push 14
+add
+mul
+push 4
+push 3
+push 13
+mul
+push 2
+add
+mul
+mul
+push 3
+sub
+sub
+push 2
+push 2
+push 13
+mul
+push 7
+xor
+mul
+push 5
+push 10
+mul
+push 9
+xor
+mul
+push 15
+sub
+xor
+xor
+push 14
+load
+push 4
+push 3
+push 2
+push 2
+push 11
+mul
+push 3
+sub
+mul
+push 15
+xor
+mul
+push 5
+push 6
+push 8
+mul
+push 11
+sub
+mul
+mul
+push 4
+sub
+mul
+sub
+push 15
+push 4
+push 4
+mul
+mul
+push 1
+add
+push 9
+push 3
+push 9
+mul
+mul
+mul
+xor
+add
+push 9
+load
+push 13
+push 4
+push 6
+mul
+push 9
+xor
+mul
+push 2
+xor
+push 4
+push 5
+push 2
+push 4
+push 6
+mul
+push 9
+xor
+mul
+push 15
+sub
+mul
+push 8
+add
+mul
+push 3
+sub
+mul
+sub
+push 10
+push 13
+mul
+push 4
+push 7
+push 9
+mul
+push 4
+sub
+mul
+mul
+sub
+sub
+push 3
+push 9
+mul
+push 8
+xor
+load
+push 6
+push 11
+push 2
+push 12
+push 3
+push 9
+mul
+push 8
+sub
+mul
+push 1
+sub
+mul
+push 7
+xor
+mul
+push 2
+sub
+mul
+xor
+push 4
+push 3
+push 11
+mul
+push 10
+xor
+mul
+push 11
+xor
+push 15
+push 4
+push 6
+mul
+push 7
+xor
+mul
+mul
+sub
+add
+push 2
+push 6
+push 11
+mul
+push 13
+sub
+mul
+push 3
+push 11
+mul
+push 14
+sub
+push 5
+push 6
+mul
+mul
+push 3
+xor
+mul
+cmp
+and
+push 2
+load
+push 13
+push 6
+push 7
+mul
+push 7
+push 7
+mul
+mul
+push 5
+xor
+mul
+add
+push 6
+push 5
+push 3
+push 6
+mul
+push 1
+xor
+mul
+push 2
+push 4
+push 2
+push 5
+mul
+push 7
+add
+mul
+push 7
+xor
+mul
+mul
+push 9
+sub
+mul
+xor
+push 4
+push 6
+mul
+load
+push 14
+push 3
+push 7
+mul
+mul
+push 4
+push 8
+push 9
+mul
+push 11
+add
+mul
+mul
+xor
+push 2
+push 7
+push 3
+push 7
+mul
+push 10
+xor
+mul
+push 2
+push 7
+push 15
+mul
+push 8
+add
+mul
+mul
+push 1
+add
+mul
+xor
+add
+push 4
+push 6
+mul
+load
+push 2
+push 4
+push 5
+mul
+push 9
+add
+mul
+push 15
+xor
+push 2
+push 2
+push 4
+push 4
+mul
+push 1
+add
+mul
+push 11
+xor
+mul
+mul
+add
+push 2
+push 3
+push 11
+mul
+push 14
+sub
+mul
+push 13
+push 10
+push 10
+mul
+push 13
+add
+mul
+push 4
+push 4
+mul
+sub
+mul
+push 1
+sub
+xor
+sub
+push 2
+push 13
+mul
+load
+push 12
+push 14
+mul
+push 2
+push 9
+push 11
+mul
+push 2
+sub
+mul
+mul
+add
+push 4
+push 5
+mul
+push 9
+add
+push 2
+push 2
+push 13
+mul
+push 3
+add
+push 6
+push 6
+mul
+push 11
+add
+mul
+push 4
+xor
+mul
+push 5
+sub
+mul
+add
+add
+push 4
+push 7
+mul
+load
+push 4
+push 2
+push 2
+push 5
+mul
+push 7
+add
+mul
+push 4
+push 13
+mul
+push 1
+add
+mul
+push 13
+sub
+mul
+xor
+push 2
+push 2
+push 2
+push 13
+mul
+push 3
+add
+mul
+push 15
+add
+mul
+push 3
+push 10
+push 15
+mul
+push 1
+add
+mul
+push 10
+xor
+mul
+xor
+sub
+push 12
+push 14
+mul
+push 2
+push 10
+push 4
+push 4
+mul
+push 7
+add
+mul
+push 5
+xor
+mul
+push 15
+sub
+mul
+cmp
+and
+push 3
+push 9
+mul
+load
+push 5
+push 3
+push 7
+mul
+push 4
+sub
+mul
+push 13
+push 4
+push 5
+push 6
+mul
+push 11
+sub
+mul
+push 3
+xor
+mul
+push 14
+sub
+mul
+xor
+push 2
+push 9
+push 5
+push 3
+push 9
+push 2
+push 13
+mul
+push 3
+sub
+mul
+push 8
+sub
+mul
+push 4
+xor
+mul
+push 2
+sub
+mul
+push 2
+add
+mul
+xor
+push 9
+load
+push 12
+push 5
+push 2
+push 11
+mul
+push 1
+xor
+push 3
+push 6
+mul
+push 13
+add
+mul
+push 4
+sub
+mul
+push 14
+add
+mul
+xor
+push 7
+push 8
+push 10
+mul
+push 9
+push 12
+mul
+push 5
+add
+mul
+push 3
+add
+mul
+add
+xor
+push 4
+load
+push 8
+push 2
+push 3
+push 9
+mul
+push 10
+xor
+mul
+push 11
+sub
+mul
+push 11
+sub
+push 9
+push 3
+push 7
+mul
+mul
+push 10
+sub
+mul
+xor
+push 14
+push 3
+push 7
+mul
+push 4
+sub
+mul
+push 1
+xor
+push 12
+push 3
+push 6
+mul
+push 11
+add
+mul
+mul
+sub
+add
+push 8
+load
+push 2
+push 8
+push 8
+mul
+push 11
+sub
+mul
+push 3
+sub
+push 12
+push 14
+mul
+push 15
+xor
+mul
+sub
+push 5
+push 9
+mul
+push 14
+add
+push 4
+push 4
+mul
+push 3
+push 3
+push 13
+mul
+push 2
+sub
+mul
+push 10
+sub
+mul
+push 11
+add
+mul
+sub
+sub
+push 2
+load
+push 11
+push 2
+push 11
+mul
+mul
+push 10
+push 5
+push 5
+mul
+mul
+mul
+sub
+push 8
+push 2
+push 4
+push 8
+mul
+push 5
+push 5
+push 5
+mul
+mul
+push 12
+sub
+mul
+push 7
+add
+mul
+push 3
+sub
+mul
+sub
+sub
+push 4
+push 4
+mul
+push 7
+push 14
+mul
+push 7
+push 2
+push 3
+mul
+push 11
+add
+mul
+mul
+push 5
+sub
+mul
+cmp
+and
+push 4
+push 6
+mul
+load
+push 9
+push 3
+push 6
+mul
+mul
+push 6
+push 2
+push 11
+mul
+push 15
+add
+mul
+mul
+xor
+push 2
+push 11
+mul
+push 2
+push 13
+mul
+push 8
+push 13
+mul
+push 1
+sub
+mul
+push 11
+add
+mul
+add
+push 3
+push 7
+mul
+load
+push 8
+push 12
+push 10
+push 13
+mul
+push 1
+add
+mul
+push 11
+add
+mul
+xor
+push 3
+push 6
+push 6
+mul
+push 13
+xor
+mul
+push 11
+push 12
+mul
+push 1
+sub
+mul
+xor
+xor
+push 6
+push 7
+mul
+push 13
+sub
+load
+push 14
+push 5
+push 5
+mul
+push 11
+push 13
+mul
+push 4
+xor
+mul
+push 6
+sub
+mul
+add
+push 5
+push 6
+mul
+push 13
+add
+push 5
+push 5
+mul
+push 3
+push 4
+push 7
+mul
+push 5
+sub
+mul
+mul
+push 6
+xor
+mul
+add
+add
+push 2
+push 4
+mul
+push 11
+add
+load
+push 2
+push 8
+push 9
+mul
+push 13
+sub
+push 5
+push 4
+push 13
+mul
+push 5
+sub
+mul
+push 2
+xor
+mul
+push 10
+add
+mul
+add
+push 5
+push 3
+push 6
+mul
+push 3
+push 6
+mul
+push 5
+push 10
+mul
+push 11
+add
+mul
+push 5
+add
+mul
+push 13
+xor
+mul
+xor
+sub
+push 14
+load
+push 2
+push 14
+push 7
+push 8
+push 11
+mul
+push 11
+xor
+mul
+push 4
+xor
+mul
+push 9
+sub
+mul
+xor
+push 2
+push 2
+push 8
+push 8
+mul
+push 7
+xor
+mul
+push 7
+add
+push 12
+push 2
+push 11
+mul
+mul
+mul
+push 13
+sub
+mul
+add
+xor
+push 8
+push 9
+mul
+push 5
+push 3
+push 7
+mul
+push 2
+sub
+mul
+push 14
+add
+mul
+cmp
+and
+push 6
+load
+push 2
+push 2
+push 7
+mul
+push 3
+add
+push 5
+push 6
+mul
+mul
+push 11
+sub
+mul
+add
+push 14
+push 4
+push 4
+mul
+mul
+push 10
+push 5
+push 5
+mul
+mul
+mul
+xor
+push 4
+push 5
+mul
+load
+push 4
+push 4
+push 4
+push 6
+mul
+push 11
+xor
+mul
+push 11
+xor
+mul
+push 15
+push 4
+push 6
+mul
+push 1
+sub
+mul
+push 4
+xor
+mul
+sub
+push 5
+push 10
+mul
+push 2
+push 5
+push 6
+mul
+push 13
+sub
+mul
+push 5
+push 11
+mul
+mul
+push 5
+xor
+mul
+add
+sub
+push 3
+push 6
+mul
+load
+push 2
+push 4
+push 6
+mul
+push 11
+xor
+mul
+push 4
+push 11
+mul
+mul
+push 9
+sub
+sub
+push 15
+push 2
+push 7
+push 3
+push 6
+mul
+push 5
+add
+mul
+push 2
+xor
+mul
+push 9
+sub
+mul
+add
+xor
+push 6
+load
+push 8
+push 13
+mul
+push 6
+push 5
+push 5
+push 5
+mul
+mul
+push 2
+xor
+mul
+push 1
+sub
+mul
+sub
+push 7
+push 2
+push 13
+mul
+push 7
+push 3
+push 13
+mul
+push 10
+sub
+mul
+push 12
+xor
+mul
+push 15
+add
+mul
+sub
+sub
+push 4
+push 4
+mul
+load
+push 5
+push 9
+mul
+push 3
+push 5
+mul
+push 4
+add
+push 5
+push 7
+mul
+mul
+push 6
+sub
+mul
+add
+push 9
+push 2
+push 11
+push 8
+push 9
+mul
+push 1
+add
+mul
+push 8
+xor
+mul
+push 3
+sub
+mul
+xor
+sub
+push 3
+push 7
+push 4
+push 7
+mul
+push 13
+xor
+mul
+push 6
+xor
+mul
+push 10
+push 2
+push 2
+push 5
+mul
+push 13
+add
+mul
+push 1
+add
+mul
+mul
+cmp
+and
+push 3
+push 9
+mul
+load
+push 9
+push 4
+push 7
+mul
+push 11
+sub
+mul
+push 2
+push 10
+push 11
+mul
+push 7
+sub
+mul
+mul
+sub
+push 3
+push 5
+push 8
+mul
+push 13
+add
+mul
+push 9
+push 3
+push 11
+mul
+push 14
+xor
+mul
+mul
+sub
+push 5
+push 5
+mul
+load
+push 6
+push 11
+mul
+push 5
+add
+push 4
+push 4
+mul
+push 4
+push 2
+push 13
+mul
+push 9
+xor
+mul
+push 11
+xor
+mul
+push 15
+add
+mul
+push 6
+add
+sub
+push 2
+push 5
+push 2
+push 4
+mul
+push 9
+add
+mul
+push 12
+xor
+mul
+push 5
+sub
+push 6
+push 4
+push 8
+mul
+push 3
+sub
+mul
+mul
+add
+add
+push 5
+push 5
+mul
+load
+push 9
+push 5
+push 11
+mul
+push 10
+push 10
+mul
+push 7
+add
+mul
+push 4
+push 4
+mul
+sub
+mul
+sub
+push 8
+push 13
+mul
+push 3
+xor
+push 9
+push 4
+push 6
+mul
+push 5
+sub
+mul
+mul
+sub
+sub
+push 12
+load
+push 4
+push 7
+mul
+push 2
+push 3
+push 11
+mul
+push 5
+push 9
+mul
+mul
+push 14
+sub
+mul
+push 11
+add
+mul
+sub
+push 9
+push 6
+push 11
+mul
+push 4
+push 4
+push 6
+mul
+push 9
+xor
+mul
+push 15
+add
+mul
+push 5
+add
+mul
+add
+sub
+push 4
+push 6
+mul
+load
+push 3
+push 4
+push 7
+mul
+push 13
+xor
+mul
+push 7
+push 9
+mul
+mul
+add
+push 2
+push 11
+push 12
+mul
+push 5
+add
+mul
+push 11
+sub
+push 15
+push 3
+push 6
+mul
+mul
+mul
+push 13
+xor
+sub
+sub
+push 2
+push 11
+mul
+push 5
+push 3
+push 8
+push 8
+mul
+push 3
+add
+mul
+push 12
+xor
+mul
+push 14
+xor
+mul
+cmp
+and
+push 7
+load
+push 8
+push 12
+mul
+push 6
+push 8
+push 2
+push 13
+mul
+push 9
+sub
+mul
+push 3
+xor
+mul
+push 5
+xor
+mul
+add
+push 2
+push 4
+push 8
+mul
+push 9
+add
+mul
+push 3
+sub
+push 11
+push 14
+mul
+mul
+sub
+push 4
+push 4
+mul
+load
+push 13
+push 3
+push 6
+mul
+mul
+push 6
+push 6
+push 8
+mul
+push 5
+xor
+mul
+mul
+sub
+push 2
+push 2
+push 4
+push 4
+push 5
+mul
+push 5
+xor
+mul
+push 15
+sub
+mul
+push 7
+add
+mul
+push 4
+push 6
+mul
+push 11
+xor
+push 2
+push 11
+mul
+mul
+push 15
+add
+mul
+add
+xor
+push 5
+load
+push 9
+push 15
+mul
+push 2
+push 10
+push 10
+mul
+push 15
+xor
+mul
+mul
+xor
+push 3
+push 15
+push 4
+push 7
+push 14
+mul
+push 9
+xor
+mul
+push 3
+xor
+mul
+push 4
+xor
+mul
+xor
+sub
+push 9
+load
+push 2
+push 13
+mul
+push 3
+push 2
+push 9
+push 3
+push 3
+mul
+push 8
+add
+mul
+push 4
+push 4
+mul
+xor
+mul
+push 9
+xor
+mul
+push 14
+add
+mul
+add
+push 2
+push 13
+mul
+push 9
+push 11
+mul
+push 14
+add
+mul
+sub
+xor
+push 10
+load
+push 6
+push 13
+mul
+push 11
+add
+push 4
+push 4
+mul
+push 4
+push 4
+mul
+push 7
+add
+mul
+push 5
+xor
+mul
+sub
+push 11
+push 13
+mul
+push 7
+push 3
+push 3
+push 6
+mul
+push 1
+xor
+mul
+push 2
+add
+mul
+mul
+add
+add
+push 5
+push 2
+push 4
+push 6
+mul
+push 9
+xor
+mul
+push 11
+xor
+mul
+push 15
+push 4
+push 8
+mul
+push 5
+xor
+mul
+mul
+cmp
+and
+push 2
+push 13
+mul
+load
+push 2
+push 5
+push 13
+mul
+push 8
+add
+mul
+push 11
+push 3
+push 9
+mul
+push 6
+xor
+mul
+mul
+sub
+push 6
+push 5
+push 4
+push 13
+mul
+push 7
+push 8
+mul
+mul
+push 3
+sub
+mul
+push 12
+sub
+mul
+xor
+push 11
+load
+push 7
+push 2
+push 3
+push 6
+mul
+push 1
+add
+mul
+push 3
+push 3
+push 9
+mul
+push 10
+xor
+mul
+mul
+push 15
+xor
+mul
+add
+push 8
+push 5
+push 5
+mul
+push 10
+xor
+mul
+push 3
+sub
+push 4
+push 4
+mul
+push 4
+push 13
+mul
+push 15
+sub
+mul
+push 15
+xor
+mul
+xor
+xor
+push 3
+push 9
+mul
+load
+push 11
+push 14
+mul
+push 5
+sub
+push 2
+push 12
+push 4
+push 4
+mul
+mul
+push 1
+sub
+mul
+push 9
+sub
+mul
+add
+push 6
+push 3
+push 6
+mul
+push 1
+xor
+mul
+push 13
+add
+push 13
+push 5
+push 9
+mul
+push 4
+sub
+mul
+mul
+add
+add
+push 2
+push 13
+mul
+load
+push 6
+push 4
+push 3
+push 7
+mul
+push 2
+xor
+mul
+push 7
+push 3
+push 7
+mul
+push 4
+xor
+mul
+mul
+push 1
+add
+mul
+sub
+push 4
+push 4
+push 6
+mul
+push 9
+xor
+mul
+push 13
+xor
+push 9
+push 7
+push 2
+push 4
+mul
+push 15
+add
+mul
+push 12
+sub
+mul
+push 14
+sub
+mul
+sub
+add
+push 8
+load
+push 2
+push 13
+mul
+push 10
+push 15
+mul
+push 1
+sub
+mul
+add
+push 11
+push 15
+mul
+push 15
+push 15
+mul
+mul
+sub
+xor
+push 3
+push 6
+mul
+push 3
+push 6
+mul
+mul
+push 6
+push 7
+push 9
+mul
+push 2
+sub
+mul
+mul
+cmp
+and
+push 14
+load
+push 12
+push 11
+push 3
+push 7
+mul
+push 5
+push 6
+mul
+push 1
+sub
+mul
+push 8
+add
+mul
+push 6
+add
+mul
+add
+push 7
+push 5
+push 15
+mul
+push 5
+push 3
+push 7
+mul
+push 2
+xor
+mul
+mul
+push 4
+add
+mul
+xor
+push 15
+load
+push 2
+push 11
+push 11
+mul
+push 8
+xor
+mul
+push 2
+push 13
+push 14
+mul
+push 3
+sub
+mul
+mul
+push 1
+xor
+sub
+push 10
+push 2
+push 3
+push 9
+mul
+push 6
+push 9
+mul
+mul
+push 11
+sub
+mul
+push 3
+add
+mul
+add
+sub
+push 5
+load
+push 7
+push 5
+push 13
+mul
+push 4
+push 2
+push 13
+mul
+push 7
+sub
+mul
+mul
+push 3
+add
+mul
+add
+push 4
+push 5
+push 15
+mul
+push 14
+sub
+push 9
+push 11
+mul
+mul
+push 10
+sub
+mul
+sub
+add
+push 4
+push 8
+mul
+push 13
+sub
+load
+push 10
+push 15
+mul
+push 11
+sub
+push 6
+push 3
+push 2
+push 4
+mul
+push 9
+add
+mul
+push 8
+sub
+mul
+mul
+add
+push 7
+push 15
+mul
+push 14
+push 7
+push 7
+mul
+mul
+push 3
+sub
+mul
+push 2
+sub
+sub
+add
+push 4
+push 6
+mul
+load
+push 4
+push 2
+push 2
+push 11
+mul
+push 1
+add
+mul
+push 1
+add
+mul
+push 5
+push 6
+push 9
+mul
+push 1
+sub
+mul
+push 14
+xor
+mul
+add
+push 6
+push 11
+mul
+push 2
+push 11
+mul
+push 1
+xor
+push 6
+push 6
+mul
+mul
+push 1
+xor
+mul
+add
+xor
+push 9
+push 3
+push 6
+mul
+mul
+push 2
+push 11
+mul
+push 5
+push 11
+mul
+push 12
+add
+mul
+push 9
+add
+mul
+cmp
+and
+push 5
+push 5
+mul
+load
+push 8
+push 3
+push 3
+mul
+push 8
+add
+mul
+push 15
+push 5
+push 5
+mul
+mul
+push 4
+add
+mul
+add
+push 10
+push 2
+push 4
+push 14
+push 2
+push 2
+push 3
+push 6
+mul
+push 3
+xor
+mul
+push 5
+sub
+mul
+push 13
+add
+mul
+push 11
+sub
+mul
+push 5
+xor
+mul
+push 9
+xor
+mul
+sub
+push 11
+load
+push 5
+push 6
+push 8
+mul
+push 7
+sub
+mul
+push 13
+push 5
+push 5
+mul
+mul
+mul
+sub
+push 8
+push 11
+mul
+push 3
+push 3
+push 3
+push 6
+mul
+push 13
+xor
+mul
+push 4
+push 4
+mul
+add
+mul
+push 10
+sub
+mul
+add
+xor
+push 4
+push 4
+mul
+load
+push 2
+push 2
+push 7
+push 9
+mul
+push 3
+push 3
+push 7
+mul
+push 2
+xor
+mul
+mul
+push 2
+add
+mul
+push 1
+xor
+mul
+sub
+push 6
+push 10
+mul
+push 1
+xor
+push 3
+push 7
+mul
+push 2
+sub
+push 3
+push 9
+mul
+push 6
+xor
+mul
+mul
+xor
+sub
+push 13
+load
+push 5
+push 7
+push 4
+push 8
+mul
+push 8
+push 8
+mul
+mul
+push 9
+sub
+mul
+push 8
+xor
+mul
+xor
+push 8
+push 4
+push 4
+mul
+mul
+push 4
+push 6
+mul
+push 3
+push 9
+mul
+push 4
+xor
+mul
+push 7
+xor
+mul
+push 9
+add
+xor
+xor
+push 4
+push 4
+mul
+load
+push 8
+push 5
+push 11
+mul
+push 2
+push 4
+push 7
+mul
+push 13
+add
+mul
+mul
+push 5
+xor
+mul
+add
+push 3
+push 6
+mul
+push 4
+push 6
+mul
+push 5
+sub
+push 2
+push 7
+push 14
+mul
+push 15
+xor
+mul
+push 9
+xor
+mul
+push 8
+xor
+mul
+add
+sub
+push 9
+push 12
+mul
+push 6
+push 3
+push 6
+mul
+push 5
+xor
+mul
+push 9
+xor
+mul
+cmp
+and
+push 4
+push 4
+mul
+load
+push 5
+push 4
+push 11
+mul
+push 9
+xor
+mul
+push 8
+push 5
+push 6
+mul
+push 1
+sub
+mul
+mul
+sub
+push 7
+push 6
+push 9
+mul
+push 7
+push 13
+mul
+push 8
+xor
+mul
+push 1
+xor
+mul
+xor
+push 3
+push 9
+mul
+load
+push 4
+push 4
+push 7
+mul
+push 1
+add
+mul
+push 2
+push 11
+mul
+push 3
+sub
+push 3
+push 13
+mul
+mul
+push 4
+push 4
+mul
+xor
+mul
+xor
+push 7
+push 12
+mul
+push 13
+sub
+push 5
+push 5
+push 5
+mul
+mul
+mul
+xor
+sub
+push 1
+load
+push 4
+push 4
+push 5
+mul
+push 7
+push 13
+mul
+push 8
+sub
+mul
+push 3
+add
+mul
+add
+push 3
+push 4
+push 8
+mul
+push 2
+push 3
+mul
+push 13
+add
+push 3
+push 3
+mul
+push 10
+add
+mul
+push 14
+sub
+mul
+push 15
+add
+mul
+sub
+sub
+push 12
+load
+push 12
+push 2
+push 11
+mul
+mul
+push 3
+push 3
+push 3
+push 7
+mul
+push 4
+push 4
+mul
+add
+mul
+push 8
+xor
+mul
+mul
+xor
+push 7
+push 3
+push 11
+mul
+push 14
+sub
+mul
+push 2
+sub
+push 11
+push 3
+push 11
+mul
+push 2
+sub
+mul
+mul
+xor
+add
+push 5
+load
+push 6
+push 9
+mul
+push 7
+add
+push 6
+push 11
+mul
+mul
+add
+push 14
+push 4
+push 4
+mul
+mul
+push 3
+push 3
+push 3
+push 6
+mul
+push 15
+xor
+mul
+push 14
+add
+mul
+mul
+xor
+add
+push 6
+push 8
+mul
+push 14
+push 9
+push 9
+mul
+push 8
+sub
+mul
+push 3
+xor
+mul
+cmp
+and
+push 4
+push 4
+mul
+load
+push 4
+push 3
+push 13
+mul
+push 8
+sub
+mul
+push 13
+push 13
+mul
+push 2
+sub
+mul
+xor
+push 5
+push 4
+push 5
+mul
+push 5
+xor
+mul
+push 9
+push 2
+push 11
+mul
+push 5
+sub
+mul
+mul
+sub
+push 4
+push 6
+mul
+load
+push 6
+push 12
+push 2
+push 3
+push 9
+mul
+push 10
+sub
+mul
+push 5
+sub
+mul
+push 11
+sub
+mul
+sub
+push 4
+push 5
+mul
+push 11
+add
+push 2
+push 11
+push 5
+push 5
+mul
+mul
+push 10
+xor
+mul
+push 5
+sub
+mul
+xor
+sub
+push 6
+load
+push 4
+push 4
+push 13
+mul
+push 7
+add
+mul
+push 2
+push 2
+push 10
+push 11
+mul
+push 9
+sub
+mul
+push 5
+sub
+mul
+mul
+add
+push 5
+push 5
+push 8
+mul
+push 7
+push 3
+push 5
+mul
+push 8
+add
+mul
+push 6
+xor
+mul
+push 9
+add
+mul
+add
+xor
+push 4
+push 6
+mul
+load
+push 6
+push 11
+mul
+push 5
+xor
+push 7
+push 12
+mul
+mul
+xor
+push 5
+push 5
+mul
+push 3
+push 11
+mul
+mul
+sub
+sub
+push 4
+load
+push 3
+push 6
+mul
+push 5
+push 11
+push 2
+push 11
+mul
+mul
+push 3
+sub
+mul
+push 2
+sub
+mul
+sub
+push 2
+push 4
+push 11
+mul
+push 5
+xor
+mul
+push 3
+push 8
+push 5
+push 7
+mul
+push 12
+add
+mul
+push 3
+sub
+mul
+push 10
+add
+mul
+xor
+add
+push 11
+push 4
+push 7
+mul
+push 4
+push 13
+mul
+mul
+push 3
+add
+mul
+push 8
+xor
+cmp
+and
+push 11
+load
+push 11
+push 4
+push 4
+mul
+push 4
+push 4
+mul
+mul
+push 7
+xor
+mul
+push 4
+push 4
+mul
+add
+xor
+push 2
+push 5
+push 2
+push 3
+push 3
+push 6
+mul
+push 11
+add
+mul
+push 14
+sub
+mul
+push 9
+sub
+mul
+push 12
+sub
+mul
+xor
+push 2
+push 13
+mul
+push 7
+sub
+load
+push 4
+push 5
+mul
+push 3
+add
+push 7
+push 14
+mul
+push 11
+add
+mul
+add
+push 2
+push 5
+push 5
+push 5
+mul
+mul
+push 12
+xor
+mul
+push 14
+push 4
+push 7
+mul
+mul
+mul
+add
+add
+push 4
+push 6
+mul
+load
+push 10
+push 4
+push 4
+mul
+mul
+push 5
+push 2
+push 3
+push 13
+mul
+push 2
+sub
+mul
+push 9
+add
+mul
+push 6
+sub
+mul
+xor
+push 2
+push 4
+mul
+push 11
+add
+push 2
+push 3
+push 9
+mul
+push 2
+add
+mul
+push 7
+xor
+push 2
+push 4
+push 8
+mul
+push 5
+xor
+mul
+mul
+push 3
+xor
+mul
+add
+xor
+push 3
+push 6
+mul
+push 1
+add
+load
+push 3
+push 4
+push 2
+push 2
+push 13
+mul
+push 9
+xor
+mul
+push 7
+sub
+mul
+push 13
+add
+push 7
+push 2
+push 2
+push 13
+mul
+push 9
+xor
+mul
+push 9
+sub
+mul
+mul
+push 12
+add
+mul
+xor
+push 2
+push 13
+mul
+push 4
+push 11
+mul
+push 15
+sub
+push 5
+push 4
+push 7
+mul
+push 5
+sub
+mul
+mul
+push 8
+add
+mul
+sub
+add
+push 6
+load
+push 5
+push 6
+mul
+push 13
+xor
+push 3
+push 7
+mul
+push 10
+xor
+push 8
+push 14
+mul
+push 9
+sub
+mul
+push 6
+sub
+mul
+xor
+push 14
+push 2
+push 13
+mul
+push 9
+xor
+mul
+push 10
+push 3
+push 11
+mul
+push 4
+add
+mul
+mul
+xor
+sub
+push 4
+push 4
+mul
+push 3
+push 7
+mul
+mul
+push 15
+push 4
+push 5
+mul
+push 3
+add
+mul
+mul
+cmp
+and
+push 4
+push 6
+mul
+load
+push 4
+push 3
+push 2
+push 3
+mul
+push 11
+add
+mul
+push 8
+add
+mul
+push 2
+push 7
+push 2
+push 4
+push 6
+mul
+push 11
+xor
+mul
+push 9
+sub
+mul
+push 14
+xor
+mul
+mul
+xor
+push 6
+push 8
+mul
+push 3
+push 13
+mul
+push 3
+push 13
+mul
+mul
+push 10
+xor
+mul
+xor
+push 2
+push 2
+mul
+push 15
+add
+load
+push 9
+push 12
+mul
+push 2
+push 11
+mul
+push 2
+push 4
+push 4
+mul
+push 1
+add
+mul
+mul
+push 5
+sub
+mul
+xor
+push 2
+push 6
+push 6
+mul
+push 4
+push 5
+mul
+push 9
+xor
+push 5
+push 7
+mul
+push 6
+add
+mul
+push 2
+sub
+mul
+push 5
+add
+mul
+add
+add
+push 13
+load
+push 8
+push 12
+mul
+push 13
+add
+push 3
+push 7
+push 9
+mul
+push 4
+add
+mul
+mul
+add
+push 8
+push 14
+mul
+push 11
+sub
+push 5
+push 8
+push 4
+push 4
+mul
+mul
+push 3
+add
+mul
+push 12
+sub
+mul
+sub
+sub
+push 3
+push 9
+mul
+push 10
+sub
+load
+push 5
+push 6
+mul
+push 3
+push 3
+push 4
+mul
+push 5
+add
+mul
+push 5
+push 13
+mul
+mul
+push 8
+add
+mul
+xor
+push 4
+push 6
+push 6
+mul
+push 7
+sub
+mul
+push 11
+push 8
+push 9
+mul
+push 11
+xor
+mul
+push 4
+sub
+mul
+xor
+sub
+push 4
+push 6
+mul
+load
+push 3
+push 3
+push 7
+mul
+push 5
+push 5
+mul
+push 4
+xor
+mul
+push 4
+add
+mul
+sub
+push 2
+push 3
+push 7
+mul
+push 4
+sub
+mul
+push 8
+push 14
+mul
+push 5
+sub
+mul
+xor
+sub
+push 5
+push 2
+push 4
+push 8
+push 8
+mul
+push 2
+push 5
+push 5
+mul
+push 12
+add
+mul
+mul
+push 3
+sub
+mul
+push 13
+sub
+mul
+push 15
+add
+mul
+push 8
+sub
+cmp
+and
+push 0
+load
+push 6
+push 4
+push 4
+mul
+push 3
+add
+mul
+push 12
+push 3
+push 13
+mul
+push 2
+add
+mul
+push 13
+sub
+mul
+add
+push 9
+push 10
+push 5
+push 6
+mul
+push 7
+sub
+mul
+push 9
+xor
+mul
+add
+push 3
+push 6
+mul
+push 1
+xor
+load
+push 5
+push 5
+mul
+push 2
+push 2
+push 7
+mul
+push 9
+add
+mul
+push 15
+sub
+push 7
+push 11
+mul
+mul
+push 10
+sub
+mul
+push 6
+sub
+add
+push 2
+push 6
+push 13
+mul
+push 1
+xor
+push 3
+push 2
+push 5
+push 5
+mul
+push 6
+add
+mul
+push 9
+add
+mul
+mul
+push 4
+sub
+mul
+xor
+add
+push 13
+load
+push 3
+push 2
+push 7
+mul
+push 9
+add
+mul
+push 9
+push 4
+push 7
+mul
+push 5
+sub
+mul
+mul
+add
+push 3
+push 4
+push 11
+mul
+push 5
+xor
+mul
+push 11
+push 4
+push 7
+mul
+push 11
+xor
+mul
+mul
+sub
+add
+push 4
+push 5
+mul
+load
+push 5
+push 6
+mul
+push 7
+sub
+push 5
+push 14
+push 6
+push 7
+mul
+push 15
+xor
+mul
+push 9
+sub
+mul
+push 14
+sub
+mul
+xor
+push 6
+push 10
+push 13
+push 3
+push 11
+mul
+mul
+push 8
+xor
+mul
+push 9
+sub
+mul
+xor
+sub
+push 9
+load
+push 5
+push 11
+mul
+push 4
+push 7
+push 6
+push 10
+mul
+push 1
+sub
+mul
+push 4
+xor
+mul
+push 1
+xor
+mul
+sub
+push 5
+push 10
+mul
+push 3
+push 9
+mul
+push 3
+push 5
+push 6
+mul
+push 15
+xor
+mul
+mul
+push 4
+sub
+mul
+add
+add
+push 10
+push 10
+mul
+push 9
+xor
+push 3
+push 5
+push 9
+mul
+push 4
+sub
+mul
+mul
+cmp
+and
+push 2
+push 7
+mul
+push 15
+add
+load
+push 15
+push 3
+push 6
+mul
+mul
+push 13
+sub
+push 2
+push 12
+push 14
+mul
+push 5
+xor
+mul
+mul
+sub
+push 9
+push 3
+push 6
+mul
+mul
+push 4
+push 6
+mul
+push 5
+sub
+push 4
+push 5
+mul
+mul
+push 7
+sub
+mul
+sub
+push 4
+push 7
+mul
+load
+push 4
+push 4
+mul
+push 13
+xor
+push 11
+push 2
+push 11
+mul
+push 5
+sub
+mul
+mul
+push 8
+add
+sub
+push 14
+push 3
+push 3
+push 4
+push 6
+mul
+push 7
+add
+mul
+push 14
+sub
+mul
+push 2
+add
+mul
+add
+sub
+push 13
+load
+push 2
+push 9
+push 11
+mul
+push 4
+add
+mul
+push 13
+push 5
+push 5
+mul
+mul
+mul
+xor
+push 6
+push 6
+mul
+push 2
+push 2
+push 5
+mul
+push 7
+add
+mul
+push 7
+xor
+push 2
+push 2
+push 13
+mul
+push 13
+xor
+mul
+mul
+push 7
+xor
+mul
+sub
+xor
+push 0
+load
+push 6
+push 3
+push 4
+mul
+push 7
+add
+mul
+push 11
+push 11
+mul
+mul
+add
+push 3
+push 3
+push 2
+push 7
+mul
+push 15
+add
+mul
+push 9
+push 10
+mul
+mul
+push 13
+sub
+mul
+sub
+sub
+push 4
+push 4
+mul
+push 7
+xor
+load
+push 3
+push 4
+push 8
+mul
+push 5
+add
+mul
+push 4
+xor
+push 5
+push 5
+mul
+push 6
+sub
+push 4
+push 8
+mul
+mul
+push 15
+sub
+mul
+sub
+push 13
+push 4
+push 4
+mul
+mul
+push 3
+push 12
+push 12
+mul
+push 7
+add
+mul
+push 14
+sub
+mul
+sub
+xor
+push 6
+push 9
+push 13
+push 2
+push 2
+push 11
+mul
+push 5
+xor
+mul
+push 7
+sub
+mul
+push 4
+push 4
+mul
+add
+mul
+push 12
+xor
+mul
+cmp
+and
+push 2
+push 2
+mul
+push 15
+add
+load
+push 3
+push 5
+push 15
+mul
+push 8
+sub
+mul
+push 8
+push 7
+push 8
+mul
+push 13
+xor
+mul
+push 7
+add
+mul
+sub
+push 2
+push 5
+push 11
+mul
+push 3
+push 6
+push 11
+mul
+push 13
+sub
+mul
+mul
+push 2
+add
+mul
+sub
+push 7
+load
+push 4
+push 4
+push 7
+mul
+push 1
+xor
+push 3
+push 6
+push 2
+push 13
+mul
+push 9
+sub
+mul
+push 7
+xor
+mul
+push 6
+xor
+mul
+push 4
+add
+mul
+add
+push 11
+push 15
+mul
+push 6
+push 2
+push 7
+push 7
+mul
+push 8
+sub
+mul
+push 15
+add
+mul
+push 11
+sub
+mul
+sub
+sub
+push 2
+load
+push 2
+push 2
+push 2
+push 3
+push 11
+mul
+push 14
+sub
+mul
+push 15
+sub
+mul
+push 3
+sub
+mul
+push 4
+push 5
+push 7
+mul
+push 6
+sub
+mul
+push 15
+sub
+mul
+add
+push 9
+push 3
+push 6
+mul
+mul
+push 3
+push 5
+push 15
+mul
+push 4
+push 4
+mul
+sub
+mul
+mul
+xor
+sub
+push 3
+push 6
+mul
+load
+push 2
+push 4
+push 4
+push 5
+mul
+push 3
+sub
+mul
+push 3
+xor
+mul
+push 7
+add
+push 12
+push 12
+mul
+push 7
+xor
+mul
+push 12
+xor
+xor
+push 2
+push 4
+push 5
+mul
+push 3
+sub
+mul
+push 9
+push 2
+push 6
+push 8
+mul
+push 5
+xor
+mul
+push 15
+xor
+mul
+push 2
+add
+mul
+add
+xor
+push 4
+push 6
+mul
+load
+push 4
+push 5
+mul
+push 3
+push 4
+push 4
+mul
+push 1
+xor
+mul
+push 6
+xor
+push 7
+push 9
+mul
+mul
+push 4
+push 4
+mul
+sub
+mul
+xor
+push 5
+push 6
+push 8
+mul
+push 11
+sub
+mul
+push 4
+push 3
+push 3
+push 6
+mul
+push 1
+add
+mul
+push 10
+sub
+mul
+mul
+xor
+add
+push 7
+push 2
+push 4
+push 13
+mul
+push 9
+sub
+mul
+push 5
+push 3
+push 9
+mul
+push 2
+add
+mul
+mul
+push 9
+add
+mul
+cmp
+and
+push 4
+push 5
+mul
+load
+push 9
+push 2
+push 2
+mul
+push 13
+add
+mul
+push 3
+push 7
+push 11
+mul
+push 10
+sub
+mul
+mul
+sub
+push 6
+push 5
+push 7
+mul
+push 6
+push 7
+mul
+mul
+push 1
+xor
+mul
+sub
+push 4
+push 6
+mul
+load
+push 2
+push 5
+push 15
+mul
+push 12
+xor
+mul
+push 4
+push 4
+mul
+push 4
+push 4
+mul
+mul
+mul
+add
+push 10
+push 9
+push 2
+push 4
+push 6
+mul
+push 9
+xor
+mul
+push 9
+xor
+mul
+push 10
+add
+mul
+push 3
+sub
+xor
+sub
+push 2
+push 11
+mul
+push 11
+xor
+load
+push 3
+push 9
+mul
+push 8
+push 11
+push 14
+mul
+push 9
+add
+mul
+push 7
+sub
+mul
+add
+push 4
+push 6
+push 6
+mul
+push 7
+sub
+mul
+push 9
+push 3
+push 6
+mul
+mul
+mul
+xor
+sub
+push 0
+load
+push 5
+push 4
+push 6
+mul
+push 9
+xor
+mul
+push 2
+push 6
+push 10
+mul
+push 1
+add
+mul
+mul
+add
+push 15
+push 8
+push 8
+mul
+push 9
+xor
+push 7
+push 12
+mul
+mul
+push 11
+xor
+mul
+add
+xor
+push 10
+load
+push 10
+push 4
+push 5
+mul
+mul
+push 2
+push 11
+push 4
+push 4
+mul
+mul
+push 5
+xor
+mul
+mul
+sub
+push 2
+push 6
+push 7
+mul
+push 5
+add
+mul
+push 3
+push 6
+mul
+push 1
+sub
+push 3
+push 7
+mul
+push 2
+add
+mul
+mul
+sub
+sub
+push 3
+push 11
+mul
+push 4
+push 4
+push 10
+push 4
+push 4
+mul
+mul
+push 13
+add
+mul
+push 15
+sub
+mul
+push 13
+xor
+mul
+cmp
+and
+push 5
+load
+push 2
+push 4
+push 4
+push 6
+mul
+push 7
+add
+mul
+push 15
+push 5
+push 5
+mul
+mul
+push 4
+push 4
+mul
+sub
+mul
+push 9
+sub
+mul
+push 15
+xor
+xor
+push 15
+push 8
+push 5
+push 5
+mul
+push 8
+sub
+push 5
+push 5
+mul
+push 4
+add
+mul
+push 10
+xor
+mul
+push 11
+add
+mul
+sub
+push 2
+push 11
+mul
+load
+push 2
+push 7
+push 6
+push 7
+mul
+push 5
+push 8
+mul
+push 13
+add
+mul
+push 13
+xor
+mul
+push 6
+add
+mul
+xor
+push 3
+push 3
+push 11
+mul
+push 4
+push 6
+mul
+push 4
+push 7
+mul
+push 13
+add
+mul
+push 15
+xor
+mul
+push 14
+xor
+mul
+sub
+xor
+push 4
+push 7
+mul
+load
+push 4
+push 7
+mul
+push 8
+push 13
+mul
+push 13
+xor
+mul
+add
+push 5
+push 2
+push 6
+push 7
+mul
+push 1
+sub
+mul
+push 5
+push 3
+push 7
+mul
+push 4
+sub
+mul
+mul
+push 11
+xor
+mul
+push 2
+add
+sub
+xor
+push 4
+push 7
+mul
+push 1
+add
+load
+push 3
+push 3
+push 5
+mul
+push 2
+add
+push 14
+push 2
+push 13
+mul
+mul
+push 3
+add
+mul
+push 10
+xor
+mul
+sub
+push 5
+push 6
+push 8
+mul
+push 13
+xor
+mul
+push 15
+push 3
+push 7
+mul
+mul
+mul
+sub
+sub
+push 0
+load
+push 12
+push 14
+mul
+push 5
+push 6
+push 13
+mul
+push 1
+xor
+mul
+push 6
+add
+mul
+add
+push 10
+push 11
+push 4
+push 3
+push 2
+push 2
+mul
+push 15
+add
+mul
+push 10
+add
+mul
+push 5
+sub
+mul
+push 4
+add
+mul
+xor
+add
+push 3
+push 12
+push 2
+push 11
+mul
+mul
+push 4
+push 4
+mul
+push 2
+push 11
+mul
+mul
+mul
+push 7
+sub
+mul
+cmp
+and
+push 11
+load
+push 3
+push 6
+push 7
+mul
+push 11
+add
+mul
+push 4
+add
+push 4
+push 7
+mul
+push 13
+xor
+push 2
+push 4
+mul
+push 9
+add
+mul
+mul
+sub
+push 11
+push 4
+push 4
+mul
+mul
+push 4
+push 5
+push 11
+mul
+push 6
+add
+mul
+mul
+xor
+push 9
+load
+push 11
+push 15
+mul
+push 6
+push 2
+push 4
+push 4
+mul
+push 3
+add
+mul
+push 9
+sub
+mul
+mul
+sub
+push 2
+push 3
+push 7
+push 9
+mul
+push 4
+push 4
+mul
+xor
+mul
+push 14
+xor
+mul
+push 15
+push 3
+push 7
+mul
+mul
+push 8
+sub
+mul
+add
+sub
+push 4
+push 6
+mul
+load
+push 7
+push 8
+mul
+push 15
+add
+push 11
+push 2
+push 3
+push 5
+mul
+push 14
+add
+mul
+push 3
+add
+mul
+mul
+add
+push 4
+push 6
+mul
+push 2
+push 10
+push 2
+push 9
+push 10
+mul
+push 7
+add
+mul
+push 15
+sub
+mul
+push 7
+sub
+mul
+push 9
+sub
+mul
+xor
+xor
+push 4
+push 7
+mul
+load
+push 2
+push 11
+mul
+push 13
+push 11
+push 13
+mul
+mul
+push 14
+add
+mul
+push 5
+sub
+sub
+push 2
+push 3
+push 3
+push 6
+mul
+push 13
+add
+mul
+push 9
+push 12
+mul
+mul
+push 11
+xor
+mul
+sub
+xor
+push 11
+load
+push 2
+push 7
+mul
+push 3
+add
+push 5
+push 14
+push 2
+push 5
+push 6
+mul
+push 3
+xor
+mul
+push 15
+add
+mul
+push 9
+add
+mul
+push 2
+xor
+mul
+add
+push 3
+push 6
+push 8
+mul
+push 11
+sub
+mul
+push 2
+sub
+push 3
+push 7
+push 7
+mul
+push 2
+sub
+mul
+push 10
+add
+mul
+push 8
+xor
+add
+sub
+push 8
+push 12
+mul
+push 11
+xor
+push 2
+push 5
+push 9
+mul
+push 14
+add
+mul
+push 11
+sub
+mul
+cmp
+and
+push 2
+push 11
+mul
+load
+push 4
+push 13
+mul
+push 15
+sub
+push 3
+push 5
+push 7
+mul
+push 2
+add
+mul
+push 4
+xor
+mul
+sub
+push 8
+push 3
+push 2
+push 11
+mul
+push 5
+sub
+mul
+push 3
+push 3
+push 3
+push 11
+mul
+push 4
+push 4
+mul
+sub
+mul
+push 10
+sub
+mul
+mul
+push 4
+xor
+mul
+xor
+push 13
+load
+push 6
+push 2
+push 11
+mul
+push 9
+xor
+push 4
+push 13
+mul
+mul
+push 15
+sub
+mul
+xor
+push 5
+push 15
+mul
+push 14
+push 4
+push 5
+mul
+push 3
+sub
+mul
+push 5
+sub
+mul
+add
+add
+push 3
+push 9
+mul
+load
+push 8
+push 12
+mul
+push 5
+add
+push 2
+push 2
+push 3
+push 5
+push 6
+mul
+push 15
+xor
+mul
+push 4
+sub
+mul
+push 3
+add
+mul
+mul
+xor
+push 9
+push 5
+push 5
+mul
+push 6
+add
+mul
+push 2
+push 12
+push 13
+mul
+push 7
+sub
+mul
+mul
+add
+add
+push 3
+push 9
+mul
+load
+push 5
+push 4
+push 7
+mul
+push 8
+push 4
+push 4
+push 4
+mul
+push 1
+xor
+mul
+push 5
+add
+mul
+push 15
+sub
+mul
+push 13
+sub
+mul
+push 4
+push 4
+mul
+sub
+xor
+push 2
+push 3
+push 5
+push 6
+mul
+push 13
+sub
+mul
+push 4
+sub
+mul
+push 8
+push 4
+push 7
+mul
+push 11
+sub
+mul
+mul
+add
+add
+push 4
+push 5
+mul
+load
+push 3
+push 2
+push 11
+mul
+push 5
+xor
+mul
+push 10
+sub
+push 4
+push 7
+mul
+push 1
+add
+push 6
+push 6
+mul
+mul
+push 13
+sub
+mul
+xor
+push 4
+push 5
+push 9
+mul
+push 8
+add
+push 7
+push 5
+push 5
+mul
+push 8
+xor
+mul
+mul
+push 4
+add
+mul
+xor
+xor
+push 2
+push 7
+push 12
+mul
+push 3
+push 9
+mul
+push 3
+push 11
+mul
+mul
+push 4
+sub
+mul
+push 1
+xor
+mul
+cmp
+and
+push 2
+push 11
+mul
+load
+push 5
+push 8
+push 10
+mul
+push 2
+push 4
+push 2
+push 7
+mul
+push 5
+add
+mul
+push 15
+xor
+mul
+mul
+push 11
+sub
+mul
+add
+push 11
+push 7
+push 4
+push 8
+mul
+push 5
+push 7
+mul
+mul
+push 3
+sub
+mul
+push 4
+xor
+mul
+add
+push 7
+load
+push 10
+push 2
+push 11
+mul
+push 7
+xor
+mul
+push 2
+push 11
+push 3
+push 7
+mul
+mul
+push 2
+add
+mul
+push 1
+add
+mul
+add
+push 7
+push 15
+mul
+push 7
+push 3
+push 7
+mul
+mul
+mul
+add
+add
+push 3
+load
+push 2
+push 3
+push 3
+push 7
+mul
+push 8
+add
+mul
+push 8
+sub
+mul
+push 5
+add
+push 3
+push 9
+push 13
+mul
+push 4
+xor
+mul
+mul
+add
+push 9
+push 3
+push 6
+mul
+mul
+push 3
+push 6
+push 11
+mul
+push 5
+xor
+mul
+mul
+sub
+add
+push 5
+push 5
+mul
+load
+push 7
+push 11
+mul
+push 4
+push 6
+mul
+push 5
+add
+push 5
+push 6
+mul
+mul
+push 13
+add
+mul
+xor
+push 4
+push 6
+mul
+push 7
+push 3
+push 7
+mul
+mul
+push 2
+add
+mul
+sub
+add
+push 3
+load
+push 7
+push 15
+mul
+push 14
+xor
+push 10
+push 13
+mul
+mul
+sub
+push 2
+push 4
+push 5
+push 6
+mul
+push 9
+xor
+mul
+push 8
+push 4
+push 7
+mul
+push 5
+sub
+mul
+push 11
+sub
+mul
+push 5
+xor
+mul
+add
+add
+push 9
+push 3
+push 6
+mul
+mul
+push 11
+push 5
+push 7
+push 7
+mul
+push 8
+sub
+mul
+push 14
+sub
+mul
+push 12
+sub
+mul
+cmp
+and
+push 4
+push 5
+mul
+load
+push 5
+push 10
+push 10
+mul
+push 2
+push 5
+push 10
+mul
+push 9
+xor
+mul
+mul
+push 13
+add
+mul
+xor
+push 5
+push 4
+push 5
+mul
+push 5
+xor
+mul
+push 3
+push 6
+push 6
+mul
+push 7
+add
+mul
+mul
+add
+push 0
+load
+push 7
+push 8
+push 12
+mul
+push 5
+add
+mul
+xor
+push 10
+push 11
+mul
+push 9
+xor
+push 7
+push 3
+push 5
+push 5
+mul
+push 4
+add
+mul
+push 10
+add
+mul
+mul
+add
+add
+push 4
+push 4
+mul
+load
+push 2
+push 13
+mul
+push 3
+push 2
+push 6
+push 8
+push 13
+mul
+push 5
+xor
+mul
+push 13
+sub
+mul
+push 11
+xor
+mul
+push 4
+push 4
+mul
+xor
+mul
+add
+push 12
+push 5
+push 9
+mul
+push 14
+sub
+push 7
+push 14
+mul
+push 9
+xor
+mul
+push 4
+push 4
+mul
+xor
+mul
+xor
+xor
+push 8
+load
+push 6
+push 5
+push 6
+mul
+push 13
+sub
+mul
+push 11
+add
+push 2
+push 6
+push 11
+mul
+push 5
+xor
+mul
+mul
+sub
+push 5
+push 10
+mul
+push 3
+sub
+push 7
+push 4
+push 4
+mul
+push 15
+add
+mul
+mul
+xor
+sub
+push 1
+load
+push 2
+push 6
+push 13
+mul
+push 9
+xor
+mul
+push 2
+push 2
+push 8
+push 9
+mul
+push 13
+sub
+mul
+push 5
+sub
+mul
+mul
+xor
+push 3
+push 9
+mul
+push 13
+push 3
+push 2
+push 5
+mul
+push 7
+add
+mul
+push 14
+sub
+mul
+push 14
+sub
+mul
+add
+xor
+push 4
+push 4
+mul
+push 2
+push 6
+push 8
+mul
+push 13
+add
+mul
+push 2
+push 2
+push 2
+push 11
+mul
+push 15
+add
+mul
+push 7
+sub
+mul
+mul
+push 15
+add
+mul
+cmp
+and
+push 5
+load
+push 5
+push 6
+push 7
+mul
+push 2
+push 4
+push 6
+mul
+push 5
+add
+mul
+mul
+push 13
+xor
+mul
+add
+push 5
+push 3
+push 6
+mul
+push 13
+add
+mul
+push 4
+push 4
+mul
+xor
+push 12
+push 5
+push 6
+mul
+push 15
+xor
+mul
+mul
+sub
+push 3
+push 7
+mul
+load
+push 6
+push 2
+push 5
+mul
+push 13
+add
+mul
+push 10
+push 7
+push 7
+mul
+push 12
+xor
+mul
+push 3
+sub
+mul
+add
+push 4
+push 9
+push 9
+mul
+push 8
+sub
+mul
+push 2
+push 2
+push 3
+push 3
+push 11
+mul
+push 2
+sub
+mul
+push 10
+sub
+mul
+push 1
+xor
+mul
+push 5
+xor
+mul
+xor
+xor
+push 4
+load
+push 2
+push 2
+push 4
+mul
+push 11
+add
+push 2
+push 11
+mul
+push 7
+add
+mul
+push 12
+add
+mul
+push 5
+xor
+add
+push 6
+push 6
+mul
+push 5
+push 3
+push 9
+mul
+push 10
+xor
+push 5
+push 5
+mul
+mul
+push 14
+add
+mul
+push 12
+add
+mul
+sub
+xor
+push 12
+load
+push 6
+push 5
+push 5
+mul
+push 10
+xor
+mul
+push 13
+xor
+push 3
+push 5
+push 2
+push 13
+mul
+push 9
+xor
+mul
+push 8
+add
+mul
+mul
+push 10
+xor
+xor
+push 2
+push 2
+push 5
+push 6
+mul
+push 7
+add
+mul
+push 15
+add
+mul
+push 15
+push 3
+push 6
+mul
+mul
+push 7
+sub
+mul
+xor
+xor
+push 8
+load
+push 2
+push 11
+push 4
+push 2
+push 11
+mul
+push 2
+push 2
+push 2
+push 11
+mul
+push 3
+sub
+mul
+push 15
+sub
+mul
+push 15
+sub
+mul
+push 5
+sub
+mul
+push 3
+add
+mul
+push 2
+sub
+mul
+sub
+push 4
+push 3
+push 9
+mul
+push 4
+xor
+mul
+push 4
+push 4
+push 7
+mul
+push 3
+add
+mul
+mul
+sub
+sub
+push 9
+push 5
+push 9
+mul
+push 14
+sub
+mul
+push 9
+push 3
+push 5
+push 7
+mul
+push 4
+push 4
+mul
+sub
+mul
+push 2
+xor
+mul
+mul
+cmp
+and
+push 6
+load
+push 6
+push 2
+push 4
+push 7
+mul
+push 11
+sub
+mul
+push 11
+push 3
+push 11
+mul
+mul
+push 4
+add
+mul
+push 1
+xor
+mul
+push 1
+sub
+sub
+push 6
+push 3
+push 13
+mul
+push 10
+sub
+mul
+push 3
+xor
+push 4
+push 4
+mul
+push 3
+push 6
+mul
+mul
+mul
+xor
+push 9
+load
+push 7
+push 14
+mul
+push 5
+add
+push 3
+push 6
+push 11
+mul
+push 13
+xor
+mul
+push 4
+add
+mul
+xor
+push 3
+push 8
+push 12
+mul
+push 1
+xor
+push 11
+push 14
+mul
+push 3
+sub
+mul
+push 10
+add
+mul
+add
+xor
+push 7
+load
+push 5
+push 11
+mul
+push 2
+push 2
+push 13
+mul
+push 3
+add
+mul
+mul
+xor
+push 7
+push 15
+push 3
+push 3
+push 6
+push 8
+mul
+push 13
+add
+mul
+push 14
+add
+mul
+push 10
+add
+mul
+push 4
+sub
+mul
+xor
+add
+push 11
+load
+push 4
+push 13
+push 2
+push 3
+push 7
+mul
+push 2
+sub
+mul
+push 3
+push 11
+mul
+push 10
+add
+mul
+push 7
+sub
+mul
+push 8
+xor
+mul
+xor
+push 15
+push 4
+push 8
+mul
+push 15
+sub
+mul
+push 4
+sub
+push 6
+push 7
+push 7
+mul
+push 6
+sub
+mul
+mul
+sub
+sub
+push 2
+load
+push 6
+push 10
+mul
+push 6
+push 7
+push 2
+push 11
+mul
+push 5
+xor
+mul
+push 6
+sub
+mul
+push 15
+xor
+mul
+push 13
+add
+xor
+push 4
+push 3
+push 7
+mul
+push 4
+xor
+mul
+push 5
+push 7
+mul
+push 5
+push 10
+mul
+push 13
+sub
+mul
+push 12
+xor
+mul
+xor
+add
+push 7
+push 13
+mul
+push 4
+push 4
+mul
+add
+push 4
+push 7
+mul
+push 3
+add
+push 3
+push 11
+mul
+mul
+push 10
+xor
+mul
+push 12
+sub
+cmp
+and
+push 2
+push 13
+mul
+load
+push 4
+push 5
+push 7
+mul
+push 12
+add
+mul
+push 14
+push 14
+mul
+mul
+add
+push 4
+push 5
+push 5
+mul
+push 2
+push 7
+mul
+push 5
+add
+push 4
+push 8
+mul
+push 11
+add
+mul
+push 4
+xor
+mul
+push 4
+push 4
+mul
+sub
+mul
+add
+push 3
+push 7
+mul
+load
+push 4
+push 6
+push 3
+push 7
+mul
+push 2
+push 5
+push 7
+mul
+push 4
+sub
+mul
+push 1
+sub
+mul
+push 8
+xor
+mul
+push 11
+sub
+mul
+add
+push 4
+push 6
+mul
+push 7
+add
+push 11
+push 12
+push 14
+mul
+push 5
+add
+mul
+push 14
+xor
+mul
+add
+add
+push 5
+load
+push 13
+push 4
+push 4
+mul
+mul
+push 11
+push 4
+push 5
+mul
+mul
+push 13
+add
+mul
+add
+push 9
+push 9
+mul
+push 3
+push 6
+mul
+push 1
+xor
+push 5
+push 8
+mul
+push 7
+xor
+mul
+push 12
+sub
+mul
+sub
+add
+push 5
+load
+push 7
+push 13
+mul
+push 14
+push 2
+push 11
+mul
+mul
+push 1
+sub
+mul
+xor
+push 6
+push 13
+mul
+push 13
+xor
+push 13
+push 3
+push 13
+mul
+mul
+push 8
+sub
+mul
+add
+xor
+push 5
+push 5
+mul
+load
+push 8
+push 12
+mul
+push 1
+add
+push 8
+push 2
+push 7
+mul
+push 3
+add
+mul
+mul
+add
+push 7
+push 7
+push 15
+mul
+push 8
+xor
+push 2
+push 6
+push 11
+mul
+push 13
+sub
+mul
+mul
+push 11
+xor
+mul
+add
+xor
+push 2
+push 4
+push 4
+mul
+push 4
+push 3
+push 11
+mul
+push 4
+push 4
+mul
+sub
+push 10
+push 11
+mul
+push 9
+xor
+mul
+push 4
+sub
+mul
+push 3
+add
+mul
+push 1
+xor
+mul
+cmp
+and
+push 8
+load
+push 11
+push 12
+mul
+push 10
+push 4
+push 4
+mul
+mul
+mul
+sub
+push 4
+push 4
+mul
+push 8
+push 2
+push 11
+push 2
+push 5
+push 5
+mul
+push 8
+xor
+mul
+push 15
+sub
+mul
+push 14
+xor
+mul
+push 15
+add
+mul
+push 15
+sub
+mul
+push 11
+sub
+add
+push 1
+load
+push 8
+push 9
+mul
+push 4
+push 4
+push 6
+mul
+push 5
+sub
+mul
+push 3
+xor
+mul
+push 5
+add
+sub
+push 7
+push 13
+mul
+push 6
+push 10
+push 10
+mul
+push 15
+xor
+mul
+push 1
+sub
+mul
+sub
+add
+push 7
+load
+push 8
+push 10
+push 10
+mul
+push 6
+push 2
+push 13
+mul
+push 9
+xor
+mul
+push 5
+sub
+mul
+push 9
+add
+mul
+add
+push 7
+push 14
+mul
+push 5
+push 3
+push 5
+push 6
+mul
+push 11
+add
+mul
+push 8
+add
+mul
+push 12
+xor
+mul
+add
+add
+push 2
+push 13
+mul
+load
+push 12
+push 3
+push 9
+mul
+push 8
+xor
+mul
+push 3
+push 6
+mul
+push 4
+push 5
+mul
+mul
+push 9
+xor
+mul
+push 15
+xor
+sub
+push 4
+push 4
+push 5
+mul
+push 9
+add
+mul
+push 4
+push 7
+mul
+push 11
+sub
+push 4
+push 8
+mul
+mul
+push 3
+add
+mul
+sub
+sub
+push 0
+load
+push 8
+push 9
+mul
+push 7
+add
+push 4
+push 5
+mul
+push 7
+xor
+push 5
+push 9
+mul
+push 4
+push 4
+mul
+add
+mul
+mul
+xor
+push 11
+push 11
+mul
+push 11
+push 14
+mul
+mul
+xor
+sub
+push 6
+push 7
+mul
+push 8
+push 8
+mul
+push 7
+push 11
+mul
+push 6
+sub
+mul
+push 5
+add
+mul
+cmp
+and
+push 8
+load
+push 11
+push 4
+push 8
+mul
+push 6
+push 8
+mul
+push 11
+add
+mul
+push 1
+add
+mul
+sub
+push 11
+push 9
+push 2
+push 6
+push 9
+mul
+push 13
+sub
+mul
+push 15
+sub
+mul
+push 4
+push 4
+mul
+xor
+mul
+sub
+push 13
+load
+push 5
+push 9
+mul
+push 3
+push 11
+mul
+push 10
+sub
+push 3
+push 2
+push 3
+mul
+push 13
+add
+mul
+mul
+push 14
+sub
+mul
+xor
+push 12
+push 6
+push 8
+mul
+push 5
+sub
+push 3
+push 4
+push 13
+mul
+push 9
+add
+mul
+push 8
+add
+mul
+push 8
+add
+mul
+sub
+xor
+push 6
+load
+push 8
+push 3
+push 9
+mul
+push 8
+xor
+mul
+push 15
+push 3
+push 6
+mul
+mul
+push 7
+sub
+mul
+sub
+push 8
+push 3
+push 4
+push 4
+mul
+push 15
+xor
+mul
+push 8
+push 14
+mul
+mul
+push 11
+xor
+mul
+add
+sub
+push 5
+push 5
+mul
+load
+push 7
+push 15
+mul
+push 2
+push 5
+push 5
+push 5
+mul
+mul
+push 14
+add
+mul
+push 3
+xor
+mul
+add
+push 2
+push 6
+push 11
+mul
+push 11
+xor
+mul
+push 8
+push 2
+push 2
+push 3
+mul
+push 11
+add
+mul
+push 9
+xor
+mul
+push 15
+add
+mul
+sub
+xor
+push 4
+push 6
+mul
+load
+push 4
+push 8
+push 4
+push 12
+push 4
+push 4
+mul
+mul
+push 1
+sub
+mul
+push 3
+sub
+mul
+push 9
+sub
+mul
+sub
+push 9
+push 5
+push 6
+push 6
+mul
+push 13
+sub
+push 6
+push 6
+mul
+mul
+push 1
+add
+mul
+push 8
+add
+mul
+sub
+sub
+push 4
+push 9
+push 11
+mul
+push 3
+push 7
+push 7
+mul
+push 2
+sub
+mul
+mul
+push 4
+add
+mul
+cmp
+and
+push 2
+load
+push 4
+push 8
+mul
+push 3
+push 7
+mul
+push 2
+sub
+push 5
+push 5
+push 8
+mul
+push 9
+sub
+mul
+push 4
+sub
+mul
+push 8
+sub
+mul
+add
+push 14
+push 3
+push 6
+mul
+mul
+push 14
+push 5
+push 5
+mul
+mul
+push 13
+sub
+mul
+add
+push 6
+load
+push 2
+push 2
+push 3
+push 13
+mul
+push 8
+xor
+mul
+push 9
+add
+mul
+push 11
+push 3
+push 4
+mul
+push 7
+add
+mul
+mul
+xor
+push 3
+push 7
+push 9
+mul
+push 10
+sub
+mul
+push 3
+push 10
+push 4
+push 4
+mul
+mul
+push 3
+sub
+mul
+mul
+add
+xor
+push 4
+push 7
+mul
+load
+push 6
+push 10
+mul
+push 9
+xor
+push 2
+push 13
+mul
+push 3
+sub
+push 5
+push 11
+mul
+mul
+push 4
+push 4
+mul
+sub
+mul
+add
+push 2
+push 4
+mul
+push 9
+add
+push 2
+push 12
+push 4
+push 4
+mul
+mul
+push 11
+sub
+mul
+push 15
+sub
+mul
+xor
+sub
+push 3
+push 9
+mul
+load
+push 10
+push 3
+push 9
+mul
+push 4
+sub
+mul
+push 15
+push 4
+push 8
+mul
+push 15
+sub
+mul
+push 14
+sub
+mul
+xor
+push 3
+push 6
+push 8
+mul
+push 10
+push 15
+mul
+push 7
+add
+mul
+push 1
+xor
+mul
+add
+xor
+push 1
+load
+push 2
+push 3
+push 4
+mul
+push 11
+add
+mul
+push 5
+xor
+push 8
+push 14
+push 4
+push 4
+mul
+mul
+push 15
+add
+mul
+push 1
+add
+mul
+sub
+push 11
+push 4
+push 6
+mul
+push 15
+xor
+mul
+sub
+sub
+push 5
+push 2
+push 2
+push 3
+push 4
+mul
+push 11
+add
+mul
+push 1
+add
+mul
+push 5
+sub
+mul
+push 12
+sub
+push 2
+push 5
+mul
+push 7
+add
+push 3
+push 11
+mul
+push 8
+xor
+mul
+mul
+push 8
+sub
+cmp
+and
+push 1
+load
+push 12
+push 12
+mul
+push 3
+push 6
+mul
+push 3
+push 7
+mul
+mul
+push 5
+xor
+mul
+sub
+push 13
+push 4
+push 8
+mul
+push 13
+sub
+mul
+push 3
+push 7
+push 14
+mul
+push 7
+xor
+mul
+mul
+xor
+push 3
+load
+push 5
+push 5
+push 5
+mul
+push 4
+push 4
+mul
+push 4
+push 7
+mul
+mul
+push 15
+add
+mul
+push 12
+add
+mul
+sub
+push 10
+push 13
+push 3
+push 7
+mul
+mul
+push 10
+sub
+mul
+push 9
+sub
+sub
+add
+push 11
+load
+push 2
+push 11
+mul
+push 15
+add
+push 3
+push 4
+push 7
+mul
+push 9
+sub
+mul
+mul
+xor
+push 2
+push 3
+push 13
+mul
+push 8
+xor
+mul
+push 7
+xor
+push 5
+push 8
+push 10
+mul
+push 9
+xor
+mul
+push 4
+add
+mul
+xor
+add
+push 6
+load
+push 5
+push 8
+mul
+push 1
+add
+push 2
+push 4
+push 6
+mul
+push 15
+xor
+mul
+push 4
+push 13
+mul
+mul
+push 7
+xor
+mul
+sub
+push 5
+push 5
+mul
+push 4
+push 4
+mul
+push 5
+push 11
+mul
+push 4
+add
+mul
+push 3
+sub
+mul
+xor
+sub
+push 2
+push 11
+mul
+load
+push 14
+push 14
+mul
+push 11
+push 5
+push 5
+mul
+mul
+push 2
+add
+mul
+xor
+push 10
+push 4
+push 4
+mul
+mul
+push 4
+push 4
+mul
+push 2
+push 11
+mul
+mul
+push 5
+sub
+mul
+sub
+xor
+push 2
+push 8
+push 11
+mul
+push 9
+add
+mul
+push 15
+push 5
+push 5
+mul
+mul
+push 8
+xor
+mul
+cmp
+and
+push 3
+load
+push 5
+push 8
+mul
+push 1
+add
+push 2
+push 13
+push 15
+mul
+push 14
+sub
+mul
+push 5
+add
+mul
+add
+push 2
+push 8
+push 9
+mul
+push 11
+xor
+mul
+push 3
+push 8
+push 2
+push 3
+push 6
+mul
+push 3
+xor
+mul
+push 5
+sub
+mul
+push 9
+sub
+mul
+push 4
+push 4
+mul
+sub
+mul
+xor
+push 4
+push 6
+mul
+load
+push 15
+push 4
+push 5
+mul
+mul
+add
+push 2
+push 8
+push 4
+push 13
+mul
+push 2
+push 3
+push 5
+mul
+push 4
+push 4
+mul
+xor
+mul
+push 1
+sub
+mul
+push 5
+sub
+mul
+push 3
+add
+mul
+xor
+sub
+push 12
+load
+push 5
+push 2
+push 4
+push 4
+push 4
+mul
+push 3
+add
+push 2
+push 4
+push 7
+mul
+push 9
+sub
+mul
+mul
+push 13
+sub
+mul
+push 7
+add
+mul
+push 5
+xor
+mul
+sub
+push 10
+push 13
+mul
+push 2
+push 5
+mul
+push 9
+add
+push 4
+push 7
+mul
+mul
+push 11
+sub
+mul
+xor
+sub
+push 5
+push 5
+mul
+push 8
+sub
+load
+push 5
+push 7
+mul
+push 11
+push 5
+push 6
+mul
+push 1
+sub
+mul
+push 2
+xor
+mul
+xor
+push 12
+push 10
+push 10
+mul
+push 3
+sub
+mul
+xor
+xor
+push 3
+load
+push 11
+push 2
+push 2
+push 5
+mul
+push 9
+add
+mul
+push 9
+xor
+push 6
+push 9
+mul
+mul
+push 13
+add
+mul
+add
+push 3
+push 8
+push 10
+mul
+push 1
+sub
+mul
+push 8
+push 5
+push 6
+mul
+push 1
+xor
+mul
+mul
+xor
+add
+push 15
+push 2
+push 13
+mul
+mul
+push 1
+sub
+push 3
+push 6
+mul
+push 2
+push 13
+mul
+mul
+mul
+cmp
+and
+push 3
+push 4
+mul
+push 11
+add
+load
+push 8
+push 4
+push 4
+mul
+mul
+push 2
+push 11
+mul
+push 5
+xor
+push 2
+push 4
+mul
+push 15
+add
+mul
+push 2
+add
+mul
+xor
+push 13
+push 5
+push 5
+mul
+push 8
+sub
+mul
+push 10
+push 4
+push 7
+mul
+push 3
+xor
+mul
+mul
+xor
+push 14
+load
+push 7
+push 10
+mul
+push 3
+push 5
+push 5
+push 6
+mul
+push 11
+sub
+mul
+push 12
+add
+mul
+push 10
+xor
+mul
+xor
+push 11
+push 2
+push 13
+mul
+push 5
+push 11
+mul
+mul
+push 1
+sub
+mul
+xor
+xor
+push 5
+push 5
+mul
+load
+push 2
+push 5
+push 5
+mul
+push 3
+push 15
+push 3
+push 11
+mul
+mul
+push 8
+sub
+mul
+push 10
+add
+mul
+push 6
+add
+mul
+push 11
+xor
+add
+push 8
+push 3
+push 7
+mul
+push 10
+xor
+mul
+push 12
+push 2
+push 3
+push 6
+mul
+push 1
+sub
+mul
+push 11
+sub
+mul
+mul
+sub
+xor
+push 4
+push 7
+mul
+load
+push 4
+push 6
+push 4
+push 7
+mul
+push 11
+sub
+mul
+push 4
+push 7
+push 8
+mul
+push 3
+add
+mul
+push 15
+xor
+mul
+push 13
+add
+mul
+sub
+push 2
+push 4
+push 5
+mul
+push 9
+xor
+mul
+push 2
+push 13
+mul
+push 4
+push 5
+mul
+push 9
+xor
+mul
+push 3
+sub
+mul
+add
+sub
+push 7
+load
+push 4
+push 2
+push 4
+push 6
+mul
+push 1
+sub
+mul
+push 7
+push 2
+push 3
+mul
+push 13
+add
+mul
+mul
+push 3
+add
+mul
+add
+push 3
+push 4
+push 8
+mul
+push 3
+sub
+mul
+push 10
+push 13
+mul
+mul
+sub
+xor
+push 2
+push 2
+push 3
+push 4
+push 11
+mul
+push 7
+sub
+mul
+push 10
+sub
+mul
+push 5
+push 6
+mul
+push 11
+sub
+push 4
+push 5
+mul
+mul
+mul
+push 9
+xor
+mul
+cmp
+and
+push 2
+push 11
+mul
+load
+push 4
+push 3
+push 11
+mul
+push 4
+sub
+mul
+push 5
+push 6
+mul
+push 13
+xor
+push 3
+push 11
+mul
+mul
+push 8
+sub
+mul
+add
+push 9
+push 11
+mul
+push 2
+push 11
+mul
+push 4
+push 6
+mul
+mul
+push 7
+sub
+mul
+xor
+push 6
+load
+push 5
+push 7
+mul
+push 3
+push 8
+push 4
+push 6
+mul
+push 1
+sub
+mul
+push 7
+xor
+mul
+push 4
+xor
+mul
+add
+push 5
+push 10
+mul
+push 4
+push 7
+mul
+push 2
+push 2
+push 3
+mul
+push 13
+add
+mul
+mul
+push 3
+sub
+mul
+sub
+add
+push 2
+push 11
+mul
+push 1
+add
+load
+push 3
+push 13
+mul
+push 3
+push 13
+mul
+push 7
+push 10
+mul
+push 11
+sub
+mul
+push 8
+add
+mul
+sub
+push 2
+push 6
+push 3
+push 9
+mul
+push 10
+sub
+push 3
+push 9
+mul
+push 8
+sub
+mul
+push 12
+sub
+mul
+push 13
+add
+mul
+add
+sub
+push 14
+load
+push 3
+push 3
+push 7
+mul
+push 4
+xor
+mul
+push 2
+add
+push 2
+push 7
+mul
+push 3
+add
+push 5
+push 5
+mul
+mul
+push 4
+push 4
+mul
+sub
+mul
+push 6
+add
+sub
+push 8
+push 5
+push 6
+mul
+push 13
+xor
+mul
+push 12
+push 3
+push 9
+mul
+push 12
+xor
+mul
+push 15
+xor
+mul
+sub
+add
+push 5
+push 5
+mul
+load
+push 12
+push 7
+push 7
+mul
+push 10
+xor
+push 9
+push 11
+mul
+mul
+push 2
+sub
+mul
+add
+push 9
+push 15
+mul
+push 2
+push 8
+push 12
+mul
+push 13
+add
+mul
+mul
+add
+xor
+push 2
+push 3
+push 13
+mul
+push 10
+push 13
+mul
+push 1
+add
+mul
+push 6
+xor
+mul
+cmp
+and
+push 12
+load
+push 6
+push 13
+mul
+push 7
+push 2
+push 2
+push 4
+push 5
+mul
+push 3
+sub
+mul
+push 3
+add
+mul
+push 13
+xor
+mul
+push 10
+sub
+mul
+add
+push 4
+push 4
+push 4
+push 4
+mul
+push 3
+xor
+mul
+push 9
+sub
+mul
+push 15
+push 3
+push 7
+mul
+mul
+mul
+xor
+push 8
+load
+push 2
+push 8
+push 13
+mul
+push 9
+add
+mul
+push 3
+add
+push 13
+push 4
+push 5
+mul
+mul
+push 9
+add
+mul
+xor
+push 3
+push 6
+push 7
+mul
+push 13
+sub
+mul
+push 14
+add
+push 11
+push 2
+push 2
+push 7
+mul
+push 9
+add
+mul
+push 1
+xor
+mul
+mul
+xor
+add
+push 11
+load
+push 7
+push 12
+mul
+push 3
+push 7
+mul
+push 3
+push 9
+mul
+mul
+push 12
+xor
+mul
+add
+push 4
+push 4
+push 3
+push 9
+mul
+push 2
+add
+mul
+push 4
+push 5
+push 7
+mul
+push 6
+add
+mul
+mul
+push 15
+sub
+mul
+sub
+sub
+push 4
+push 4
+mul
+load
+push 6
+push 4
+push 4
+mul
+push 3
+xor
+mul
+push 10
+push 12
+mul
+mul
+add
+push 2
+push 2
+push 4
+push 4
+mul
+push 13
+xor
+mul
+push 9
+push 11
+mul
+push 2
+xor
+mul
+push 13
+xor
+mul
+add
+add
+push 9
+load
+push 5
+push 3
+push 11
+mul
+push 14
+add
+mul
+push 10
+push 3
+push 13
+mul
+push 8
+sub
+mul
+mul
+sub
+push 14
+push 7
+push 7
+mul
+push 5
+push 11
+mul
+push 6
+add
+mul
+push 12
+add
+mul
+sub
+sub
+push 10
+push 4
+push 4
+mul
+mul
+push 7
+push 9
+push 6
+push 6
+mul
+push 5
+sub
+mul
+push 8
+sub
+mul
+push 10
+add
+mul
+cmp
+and
+push 4
+push 7
+mul
+load
+push 10
+push 12
+mul
+push 3
+push 4
+push 11
+mul
+push 7
+xor
+mul
+mul
+sub
+push 5
+push 2
+push 5
+push 6
+mul
+push 7
+sub
+mul
+push 15
+sub
+mul
+push 7
+push 9
+push 10
+mul
+push 11
+sub
+mul
+push 4
+push 4
+mul
+xor
+mul
+sub
+push 2
+push 13
+mul
+load
+push 5
+push 2
+push 12
+push 3
+push 6
+mul
+mul
+push 7
+xor
+mul
+push 15
+xor
+mul
+sub
+push 12
+push 5
+push 5
+mul
+push 6
+sub
+mul
+push 4
+push 5
+mul
+push 3
+sub
+push 5
+push 5
+mul
+push 8
+xor
+mul
+mul
+sub
+xor
+push 4
+load
+push 10
+push 11
+push 13
+mul
+push 14
+add
+mul
+xor
+push 8
+push 3
+push 6
+mul
+push 5
+xor
+mul
+push 10
+push 2
+push 5
+mul
+push 9
+add
+mul
+mul
+add
+sub
+push 5
+push 5
+mul
+push 4
+xor
+load
+push 6
+push 5
+push 5
+push 7
+mul
+push 6
+sub
+push 5
+push 8
+mul
+push 7
+add
+mul
+push 4
+add
+mul
+push 12
+sub
+mul
+xor
+push 11
+push 13
+mul
+push 5
+push 3
+push 13
+mul
+push 2
+xor
+mul
+mul
+add
+sub
+push 11
+load
+push 10
+push 3
+push 6
+mul
+push 3
+xor
+mul
+push 7
+xor
+push 2
+push 10
+push 10
+mul
+push 13
+add
+mul
+push 3
+sub
+mul
+sub
+push 2
+push 2
+push 2
+push 13
+mul
+push 7
+xor
+mul
+push 1
+xor
+mul
+push 15
+push 2
+push 11
+mul
+mul
+push 7
+add
+mul
+push 15
+xor
+sub
+sub
+push 5
+push 13
+mul
+push 13
+push 3
+push 6
+mul
+mul
+push 5
+sub
+mul
+cmp
+and
+push 4
+load
+push 5
+push 2
+push 11
+mul
+push 1
+add
+mul
+push 5
+push 2
+push 11
+mul
+push 9
+xor
+mul
+mul
+sub
+push 3
+push 6
+push 8
+mul
+push 12
+push 6
+push 6
+mul
+push 13
+sub
+mul
+push 1
+add
+mul
+push 13
+xor
+mul
+add
+push 7
+load
+push 4
+push 2
+push 7
+push 12
+mul
+push 5
+push 2
+push 4
+push 5
+mul
+push 7
+xor
+mul
+push 15
+sub
+mul
+push 2
+xor
+mul
+push 5
+add
+mul
+push 11
+xor
+mul
+xor
+push 6
+push 7
+mul
+push 4
+push 5
+mul
+push 2
+push 4
+push 8
+mul
+push 13
+sub
+mul
+mul
+push 1
+xor
+mul
+xor
+xor
+push 6
+load
+push 2
+push 2
+push 2
+push 4
+push 5
+mul
+push 9
+add
+mul
+push 11
+sub
+mul
+push 11
+push 4
+push 13
+mul
+push 5
+sub
+mul
+mul
+push 13
+add
+mul
+add
+push 8
+push 14
+mul
+push 1
+add
+push 4
+push 2
+push 7
+push 7
+mul
+push 4
+add
+mul
+push 9
+sub
+mul
+push 1
+add
+mul
+sub
+xor
+push 9
+load
+push 2
+push 5
+push 15
+mul
+push 2
+sub
+mul
+push 4
+push 8
+push 9
+mul
+push 11
+xor
+mul
+mul
+sub
+push 5
+push 8
+mul
+push 3
+xor
+push 3
+push 4
+push 5
+mul
+push 3
+add
+mul
+mul
+sub
+add
+push 12
+load
+push 4
+push 4
+push 11
+mul
+push 7
+push 7
+push 10
+mul
+push 1
+xor
+mul
+push 10
+sub
+mul
+push 5
+add
+mul
+xor
+push 2
+push 11
+push 13
+mul
+push 3
+push 5
+push 13
+mul
+push 4
+sub
+mul
+mul
+push 8
+xor
+mul
+sub
+add
+push 3
+push 5
+push 5
+mul
+push 12
+add
+mul
+push 2
+push 5
+push 6
+mul
+push 11
+sub
+mul
+push 9
+sub
+push 2
+push 5
+push 5
+mul
+push 8
+xor
+mul
+mul
+push 11
+add
+mul
+cmp
+and
+push 4
+push 6
+mul
+push 9
+xor
+load
+push 5
+push 15
+mul
+push 2
+sub
+push 3
+push 7
+mul
+push 2
+xor
+push 6
+push 7
+mul
+push 5
+sub
+mul
+mul
+xor
+push 7
+push 9
+mul
+push 13
+push 2
+push 5
+mul
+push 13
+add
+mul
+push 6
+sub
+mul
+xor
+push 12
+load
+push 8
+push 11
+mul
+push 13
+add
+push 4
+push 5
+push 7
+mul
+push 12
+xor
+mul
+push 5
+add
+mul
+sub
+push 5
+push 2
+push 3
+push 9
+mul
+push 12
+xor
+mul
+push 15
+sub
+mul
+push 12
+xor
+push 3
+push 2
+push 4
+push 13
+mul
+push 9
+add
+mul
+push 9
+add
+mul
+push 4
+sub
+mul
+sub
+add
+push 2
+push 13
+mul
+load
+push 6
+push 9
+mul
+push 1
+sub
+push 5
+push 4
+push 7
+mul
+push 13
+xor
+mul
+mul
+sub
+push 5
+push 2
+push 4
+push 8
+mul
+push 9
+sub
+mul
+push 1
+add
+mul
+push 13
+push 3
+push 9
+mul
+mul
+mul
+sub
+sub
+push 2
+push 13
+mul
+load
+push 4
+push 4
+mul
+push 3
+push 13
+mul
+push 8
+sub
+push 6
+push 8
+mul
+mul
+push 5
+add
+mul
+xor
+push 4
+push 6
+push 8
+mul
+push 11
+push 12
+mul
+push 13
+xor
+mul
+push 5
+sub
+mul
+xor
+add
+push 6
+load
+push 3
+push 9
+push 4
+push 14
+push 6
+push 10
+mul
+push 9
+xor
+mul
+push 1
+xor
+mul
+push 7
+xor
+mul
+push 8
+sub
+mul
+sub
+push 9
+push 2
+push 7
+mul
+push 9
+add
+mul
+push 4
+push 8
+mul
+push 13
+sub
+push 4
+push 5
+mul
+push 1
+sub
+mul
+mul
+sub
+sub
+push 13
+push 5
+push 7
+mul
+push 6
+sub
+push 4
+push 6
+mul
+push 5
+push 5
+mul
+mul
+push 1
+add
+mul
+push 2
+add
+mul
+cmp
+and
+push 3
+push 6
+mul
+load
+push 12
+push 3
+push 6
+mul
+mul
+push 4
+push 8
+push 9
+mul
+push 11
+xor
+mul
+mul
+xor
+push 15
+push 2
+push 13
+push 14
+mul
+push 9
+sub
+mul
+push 1
+xor
+mul
+xor
+push 4
+push 4
+mul
+load
+push 7
+push 2
+push 8
+push 3
+push 4
+mul
+push 7
+add
+push 5
+push 9
+mul
+mul
+push 4
+push 4
+mul
+sub
+mul
+push 11
+sub
+mul
+push 3
+sub
+mul
+sub
+push 4
+push 7
+mul
+push 3
+push 11
+mul
+push 4
+push 11
+mul
+mul
+push 13
+sub
+mul
+xor
+sub
+push 3
+push 9
+mul
+load
+push 2
+push 2
+push 2
+push 3
+mul
+push 13
+add
+mul
+push 5
+add
+mul
+push 7
+push 3
+push 4
+push 5
+mul
+push 3
+xor
+mul
+push 2
+xor
+mul
+push 12
+xor
+mul
+sub
+push 5
+push 4
+push 7
+mul
+push 11
+sub
+mul
+push 4
+add
+push 4
+push 6
+push 5
+push 8
+mul
+push 11
+sub
+mul
+push 11
+sub
+mul
+push 15
+xor
+mul
+add
+xor
+push 4
+push 4
+mul
+push 3
+add
+load
+push 3
+push 2
+push 7
+mul
+push 5
+add
+mul
+push 4
+push 7
+mul
+push 5
+push 7
+mul
+mul
+push 3
+xor
+mul
+add
+push 5
+push 4
+push 11
+mul
+push 5
+xor
+mul
+push 15
+push 4
+push 4
+mul
+mul
+push 7
+sub
+mul
+add
+add
+push 10
+load
+push 4
+push 4
+push 11
+mul
+push 3
+sub
+mul
+push 8
+push 5
+push 6
+mul
+push 7
+sub
+mul
+push 7
+xor
+mul
+sub
+push 5
+push 6
+push 10
+mul
+push 9
+xor
+mul
+push 7
+push 4
+push 8
+mul
+push 11
+add
+mul
+mul
+add
+xor
+push 5
+push 5
+push 5
+mul
+mul
+push 12
+xor
+push 6
+push 6
+push 5
+push 15
+mul
+push 4
+xor
+mul
+push 9
+xor
+mul
+push 3
+xor
+mul
+cmp
+and
+push 4
+push 4
+mul
+push 13
+add
+load
+push 7
+push 11
+mul
+push 6
+sub
+push 8
+push 4
+push 4
+mul
+mul
+mul
+sub
+push 9
+push 4
+push 5
+mul
+push 1
+sub
+mul
+push 2
+push 11
+push 4
+push 4
+mul
+mul
+push 3
+add
+mul
+push 15
+add
+mul
+push 4
+push 4
+mul
+xor
+sub
+push 14
+load
+push 2
+push 2
+push 2
+push 3
+mul
+push 11
+add
+mul
+push 9
+add
+mul
+push 2
+push 4
+mul
+push 15
+add
+push 4
+push 7
+mul
+mul
+push 9
+add
+mul
+add
+push 4
+push 8
+mul
+push 2
+push 3
+mul
+push 11
+add
+push 3
+push 4
+push 7
+mul
+push 13
+xor
+mul
+push 6
+xor
+mul
+push 6
+add
+mul
+xor
+sub
+push 5
+load
+push 8
+push 4
+push 2
+push 2
+push 3
+push 6
+mul
+push 2
+push 11
+mul
+mul
+push 9
+xor
+mul
+push 9
+sub
+mul
+push 11
+add
+mul
+push 1
+xor
+mul
+add
+push 4
+push 7
+mul
+push 14
+push 14
+mul
+push 1
+xor
+mul
+sub
+sub
+push 14
+load
+push 15
+push 2
+push 4
+mul
+push 11
+add
+mul
+push 2
+push 7
+push 2
+push 7
+mul
+push 5
+add
+mul
+push 4
+push 4
+mul
+add
+mul
+mul
+add
+push 6
+push 2
+push 3
+push 5
+mul
+push 4
+add
+mul
+push 7
+sub
+push 3
+push 6
+push 10
+mul
+push 1
+sub
+mul
+push 2
+add
+mul
+push 8
+add
+mul
+sub
+add
+push 5
+push 6
+mul
+push 7
+sub
+load
+push 9
+push 3
+push 6
+mul
+push 1
+sub
+mul
+push 2
+push 3
+push 5
+push 6
+mul
+push 1
+xor
+mul
+push 8
+add
+mul
+mul
+add
+push 3
+push 2
+push 6
+push 11
+mul
+push 8
+push 4
+push 8
+mul
+push 1
+sub
+mul
+push 3
+add
+mul
+push 13
+sub
+mul
+push 1
+xor
+mul
+xor
+add
+push 5
+push 7
+mul
+push 4
+push 4
+mul
+push 2
+push 3
+push 7
+mul
+push 2
+sub
+mul
+push 3
+xor
+mul
+push 1
+xor
+mul
+cmp
+and
+push 8
+load
+push 5
+push 7
+mul
+push 3
+push 8
+push 5
+push 8
+mul
+push 3
+xor
+mul
+push 9
+xor
+mul
+push 2
+xor
+mul
+sub
+push 7
+push 15
+mul
+push 4
+add
+push 4
+push 4
+mul
+push 5
+push 7
+mul
+push 6
+add
+mul
+push 5
+xor
+mul
+add
+push 9
+load
+push 9
+push 10
+mul
+push 11
+add
+push 3
+push 4
+push 8
+mul
+push 15
+add
+mul
+mul
+sub
+push 13
+push 4
+push 4
+mul
+mul
+push 4
+push 3
+push 3
+push 5
+mul
+push 14
+add
+mul
+push 2
+add
+mul
+mul
+xor
+sub
+push 15
+load
+push 5
+push 3
+push 9
+mul
+push 4
+sub
+mul
+push 3
+push 5
+push 8
+mul
+push 7
+add
+mul
+mul
+sub
+push 15
+push 2
+push 2
+push 5
+push 3
+push 11
+mul
+push 10
+add
+mul
+push 4
+sub
+mul
+push 1
+sub
+mul
+push 15
+sub
+mul
+xor
+xor
+push 3
+push 9
+mul
+load
+push 7
+push 12
+mul
+push 8
+push 11
+mul
+mul
+sub
+push 3
+push 4
+push 5
+mul
+push 3
+xor
+mul
+push 2
+xor
+push 4
+push 4
+mul
+push 1
+add
+push 7
+push 11
+mul
+mul
+push 6
+sub
+mul
+xor
+xor
+push 11
+load
+push 3
+push 6
+mul
+push 5
+add
+push 2
+push 13
+push 5
+push 11
+mul
+mul
+push 14
+sub
+mul
+push 3
+sub
+mul
+add
+push 4
+push 4
+push 4
+mul
+push 15
+add
+mul
+push 5
+push 7
+push 9
+mul
+push 4
+push 4
+mul
+sub
+mul
+push 6
+add
+mul
+add
+add
+push 7
+push 13
+mul
+push 5
+push 7
+mul
+push 12
+sub
+push 3
+push 2
+push 3
+mul
+push 13
+add
+mul
+mul
+push 8
+sub
+mul
+cmp
+and
+push 3
+load
+push 3
+push 8
+push 6
+push 6
+mul
+push 2
+push 4
+push 5
+mul
+push 11
+add
+mul
+mul
+push 5
+add
+mul
+push 13
+add
+mul
+sub
+push 4
+push 3
+push 11
+mul
+push 4
+sub
+mul
+push 12
+push 7
+push 7
+mul
+push 12
+xor
+mul
+push 13
+sub
+mul
+sub
+push 9
+load
+push 2
+push 4
+push 4
+mul
+push 13
+xor
+mul
+push 4
+push 3
+push 3
+mul
+push 8
+add
+mul
+mul
+sub
+push 4
+push 3
+push 6
+mul
+push 15
+xor
+mul
+push 2
+push 7
+mul
+push 9
+add
+push 3
+push 11
+mul
+mul
+push 2
+sub
+mul
+sub
+xor
+push 8
+load
+push 2
+push 7
+push 12
+mul
+push 2
+push 7
+push 10
+mul
+push 1
+xor
+mul
+mul
+push 11
+xor
+mul
+sub
+push 5
+push 13
+mul
+push 2
+push 5
+mul
+push 9
+add
+push 8
+push 8
+mul
+push 11
+sub
+mul
+push 10
+sub
+mul
+add
+sub
+push 10
+load
+push 5
+push 9
+mul
+push 12
+push 15
+mul
+push 13
+add
+mul
+sub
+push 9
+push 15
+mul
+push 9
+push 5
+push 6
+mul
+push 9
+xor
+mul
+mul
+sub
+add
+push 3
+push 7
+mul
+load
+push 5
+push 7
+mul
+push 8
+push 8
+push 8
+mul
+push 3
+sub
+mul
+push 3
+add
+mul
+sub
+push 4
+push 3
+push 3
+push 9
+mul
+push 8
+sub
+mul
+push 2
+xor
+mul
+push 13
+push 3
+push 7
+mul
+mul
+mul
+xor
+sub
+push 6
+push 2
+push 11
+mul
+push 15
+add
+mul
+push 4
+push 13
+push 2
+push 5
+mul
+push 7
+add
+mul
+push 2
+add
+mul
+push 13
+xor
+mul
+cmp
+and
+push 1
+load
+push 3
+push 5
+push 6
+mul
+push 15
+xor
+mul
+push 8
+push 2
+push 2
+push 3
+push 5
+mul
+push 8
+add
+mul
+push 3
+sub
+mul
+push 15
+xor
+mul
+push 13
+xor
+mul
+sub
+push 3
+push 7
+push 8
+mul
+push 9
+sub
+mul
+push 14
+sub
+push 4
+push 4
+mul
+push 3
+push 11
+mul
+push 8
+xor
+mul
+push 9
+sub
+mul
+add
+push 4
+push 7
+mul
+load
+push 6
+push 6
+mul
+push 4
+push 7
+mul
+push 3
+xor
+push 2
+push 2
+push 13
+mul
+push 13
+xor
+mul
+mul
+push 13
+add
+mul
+xor
+push 8
+push 13
+mul
+push 15
+sub
+push 2
+push 3
+push 3
+push 13
+mul
+push 10
+sub
+mul
+push 8
+sub
+mul
+push 9
+sub
+mul
+add
+xor
+push 3
+push 7
+mul
+push 8
+add
+load
+push 2
+push 5
+push 7
+mul
+push 6
+xor
+mul
+push 5
+add
+push 7
+push 13
+mul
+push 6
+add
+mul
+xor
+push 4
+push 13
+mul
+push 2
+push 2
+push 4
+mul
+push 9
+add
+mul
+push 5
+push 8
+mul
+mul
+push 13
+xor
+mul
+xor
+add
+push 8
+load
+push 10
+push 2
+push 5
+push 5
+mul
+push 3
+push 11
+mul
+mul
+push 4
+add
+mul
+push 5
+xor
+mul
+sub
+push 7
+push 8
+mul
+push 2
+push 4
+push 8
+mul
+push 15
+sub
+push 2
+push 3
+push 4
+mul
+push 5
+add
+mul
+mul
+push 9
+add
+mul
+push 11
+sub
+mul
+add
+add
+push 3
+push 6
+mul
+load
+push 6
+push 5
+push 9
+mul
+push 14
+sub
+mul
+push 3
+push 2
+push 3
+push 13
+mul
+push 8
+add
+mul
+push 5
+sub
+mul
+mul
+add
+push 11
+push 12
+mul
+push 13
+xor
+push 14
+push 14
+mul
+mul
+add
+add
+push 3
+push 11
+mul
+push 5
+push 13
+mul
+push 9
+push 11
+mul
+mul
+push 14
+add
+mul
+cmp
+and
+push 7
+load
+push 9
+push 9
+mul
+push 2
+add
+push 2
+push 11
+mul
+push 4
+push 11
+mul
+mul
+push 3
+add
+mul
+sub
+push 3
+push 9
+mul
+push 9
+push 4
+push 2
+push 4
+push 7
+mul
+push 9
+sub
+mul
+push 9
+xor
+mul
+push 3
+xor
+mul
+push 10
+sub
+mul
+sub
+push 2
+load
+push 4
+push 5
+mul
+push 3
+push 4
+push 4
+mul
+push 4
+push 4
+mul
+mul
+push 13
+xor
+mul
+push 4
+push 4
+mul
+xor
+mul
+sub
+push 2
+push 2
+push 7
+push 7
+mul
+push 12
+sub
+mul
+push 5
+xor
+mul
+push 9
+add
+push 3
+push 5
+push 15
+mul
+push 8
+add
+mul
+mul
+xor
+sub
+push 12
+load
+push 4
+push 5
+push 9
+mul
+push 6
+xor
+mul
+push 7
+push 5
+push 11
+mul
+push 12
+sub
+mul
+mul
+add
+push 10
+push 4
+push 4
+mul
+mul
+push 7
+push 3
+push 5
+mul
+push 4
+push 4
+mul
+add
+mul
+mul
+xor
+sub
+push 2
+push 13
+mul
+load
+push 2
+push 6
+push 11
+mul
+push 7
+sub
+mul
+push 7
+push 2
+push 4
+push 7
+mul
+push 5
+sub
+mul
+push 11
+xor
+mul
+mul
+add
+push 7
+push 7
+mul
+push 8
+push 4
+push 5
+mul
+push 11
+xor
+mul
+push 7
+sub
+mul
+add
+add
+push 3
+push 9
+mul
+load
+push 2
+push 5
+push 5
+push 5
+mul
+push 6
+sub
+mul
+push 6
+xor
+mul
+push 7
+xor
+push 3
+push 5
+push 5
+push 5
+mul
+mul
+push 4
+push 4
+mul
+sub
+mul
+mul
+sub
+push 7
+push 5
+push 5
+mul
+mul
+push 15
+push 15
+mul
+mul
+sub
+xor
+push 4
+push 4
+push 4
+push 8
+mul
+push 13
+sub
+mul
+push 3
+xor
+push 5
+push 5
+push 11
+mul
+push 10
+xor
+mul
+mul
+push 12
+xor
+mul
+cmp
+and
+push 10
+load
+push 4
+push 3
+push 5
+push 5
+mul
+push 6
+xor
+mul
+push 14
+add
+push 10
+push 11
+mul
+mul
+push 7
+add
+mul
+add
+push 6
+push 7
+mul
+push 2
+push 11
+mul
+push 2
+push 11
+mul
+mul
+push 7
+add
+mul
+sub
+push 11
+load
+push 3
+push 6
+mul
+push 3
+push 4
+push 4
+mul
+push 1
+add
+mul
+push 7
+push 13
+mul
+mul
+push 2
+add
+mul
+push 5
+add
+xor
+push 5
+push 6
+mul
+push 6
+push 6
+push 6
+push 10
+mul
+push 1
+sub
+mul
+push 13
+add
+mul
+push 1
+add
+mul
+xor
+add
+push 3
+push 9
+mul
+load
+push 5
+push 9
+mul
+push 2
+xor
+push 3
+push 14
+push 2
+push 11
+mul
+mul
+push 7
+xor
+mul
+push 2
+sub
+mul
+push 14
+add
+add
+push 11
+push 4
+push 7
+mul
+push 1
+xor
+push 4
+push 5
+push 6
+mul
+push 13
+sub
+mul
+push 3
+add
+mul
+push 10
+add
+mul
+xor
+sub
+push 5
+load
+push 4
+push 11
+mul
+push 6
+push 7
+mul
+push 1
+sub
+push 4
+push 13
+mul
+mul
+push 11
+xor
+mul
+sub
+push 4
+push 4
+push 5
+push 11
+mul
+push 4
+push 3
+push 5
+mul
+push 2
+add
+mul
+mul
+push 1
+sub
+mul
+push 5
+sub
+mul
+push 13
+sub
+add
+sub
+push 6
+load
+push 9
+push 13
+mul
+push 4
+push 5
+mul
+push 3
+add
+push 4
+push 7
+mul
+mul
+push 13
+sub
+mul
+xor
+push 9
+push 3
+push 9
+mul
+mul
+push 3
+push 4
+push 3
+push 6
+mul
+push 3
+xor
+mul
+push 11
+add
+mul
+push 14
+add
+mul
+add
+xor
+push 10
+push 3
+push 9
+mul
+push 4
+add
+mul
+push 4
+push 5
+mul
+push 5
+push 5
+mul
+mul
+push 13
+sub
+mul
+cmp
+and
