@@ -1,0 +1,102 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "teenyvault.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Files",
+      "Inputs",
+      "teenyvault.apk"
+    ],
+    [
+      "Source code",
+      "teenyvault.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "teenyvault.apk"
+    ],
+    [
+      "example.vaultchallenge",
+      "com",
+      "Source code",
+      "teenyvault.apk"
+    ],
+    [
+      "com.example.vaultchallenge.MainActivity",
+      "example.vaultchallenge",
+      "com",
+      "Source code",
+      "teenyvault.apk"
+    ],
+    [
+      "Resources",
+      "teenyvault.apk"
+    ],
+    [
+      "lib",
+      "Resources",
+      "teenyvault.apk"
+    ],
+    [
+      "x86_64",
+      "lib",
+      "Resources",
+      "teenyvault.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.example.vaultchallenge.R",
+      "subPath": "java",
+      "caret": 360891,
+      "view": {
+        "x": 0,
+        "y": 149794
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.example.vaultchallenge.MainActivity",
+      "subPath": "java",
+      "caret": 323,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "lib/x86_64/libnative-lib.so",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    }
+  ],
+  "cacheDir": "C:\\Users\\flocto\\AppData\\Local\\skylot\\jadx\\cache\\projects\\teenyvault-46c05e442f868f774630f5091a08d3bc",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}
