@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkWire | Manager Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            black: '#0B0B0F',
+                            darker: '#151521',
+                            dark: '#1C1C2B',
+                            primary: '#FF2E63',
+                            secondary: '#00FFC6',
+                            accent: '#892CDC',
+                            blue: '#2DE2E6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://unpkg.com/lucide-static@0.344.0/font/lucide.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-cyber-black">
+    <div class="flex h-screen">
+        <div th:replace="layout/sidebar :: sidebar(role='MANAGER')"></div>
+
+        <div class="flex-1 flex flex-col overflow-hidden">
+            <header th:replace="layout/header :: header"></header>
+
+            <main class="flex-1 overflow-y-auto bg-cyber-black p-6">
+                <div class="max-w-7xl mx-auto">
+                    <h1 class="text-2xl font-semibold text-gray-100">Dashboard</h1>
+                    <p class="mt-1 text-sm text-gray-400">Welcome back! Here's what's happening with your system.</p>
+
+                    <div class="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                        <div class="bg-cyber-darker p-6 rounded-lg shadow-md border border-cyber-dark flex flex-col justify-between">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <p class="text-sm font-medium text-gray-400">Total Reports</p>
+                                    <p class="mt-1 text-3xl font-semibold text-gray-100">128</p>
+                                </div>
+                                <div class="p-3 rounded-full bg-cyber-blue/10 text-cyber-blue">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="mt-4 flex items-center text-sm text-green-400">
+                                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 15l7-7 7 7"/>
+                                </svg>
+                                <span>12% vs last month</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-cyber-darker p-6 rounded-lg shadow-md border border-cyber-dark flex flex-col justify-between">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <p class="text-sm font-medium text-gray-400">Pending Review</p>
+                                    <p class="mt-1 text-3xl font-semibold text-gray-100">12</p>
+                                </div>
+                                <div class="p-3 rounded-full bg-cyber-secondary/10 text-cyber-secondary">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="mt-4 flex items-center text-sm text-red-400">
+                                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"/>
+                                </svg>
+                                <span>5% vs last month</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-cyber-darker p-6 rounded-lg shadow-md border border-cyber-dark flex flex-col justify-between">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <p class="text-sm font-medium text-gray-400">Approved</p>
+                                    <p class="mt-1 text-3xl font-semibold text-gray-100">104</p>
+                                </div>
+                                <div class="p-3 rounded-full bg-green-400/10 text-green-400">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="mt-4 flex items-center text-sm text-green-400">
+                                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 15l7-7 7 7"/>
+                                </svg>
+                                <span>18% vs last month</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-cyber-darker p-6 rounded-lg shadow-md border border-cyber-dark flex flex-col justify-between">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <p class="text-sm font-medium text-gray-400">Rejected</p>
+                                    <p class="mt-1 text-3xl font-semibold text-gray-100">12</p>
+                                </div>
+                                <div class="p-3 rounded-full bg-cyber-primary/10 text-cyber-primary">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M6 18L18 6M6 6l12 12"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="mt-4 flex items-center text-sm text-gray-400">
+                                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M18 12H6"/>
+                                </svg>
+                                <span>No change</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                        <div class="bg-cyber-darker p-6 rounded-lg shadow-lg border border-cyber-dark">
+                            <h3 class="text-lg font-medium text-gray-100">Monthly Report Submissions</h3>
+                            <div class="mt-4 h-72">
+                                <canvas id="monthlyReportsChart"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="bg-cyber-darker p-6 rounded-lg shadow-lg border border-cyber-dark">
+                            <h3 class="text-lg font-medium text-gray-100">Report Status Distribution</h3>
+                            <div class="mt-4 h-72">
+                                <canvas id="statusDistributionChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <div class="bg-cyber-darker p-6 rounded-lg shadow-lg border border-cyber-dark">
+                            <h3 class="text-lg font-medium text-gray-100">Recent Activity</h3>
+                            <div class="mt-6 space-y-6">
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <div class="h-10 w-10 bg-cyber-primary rounded-full flex items-center justify-center ring-4 ring-cyber-darker">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M16 12l-4-4m0 0l-4 4m4-4v12" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-300">
+                                            Report uploaded by <span class="font-semibold text-cyber-secondary">Michael Chen</span>
+                                        </p>
+                                        <p class="text-xs text-gray-500 mt-1">10 minutes ago</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <div class="h-10 w-10 bg-green-500 rounded-full flex items-center justify-center ring-4 ring-cyber-darker">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-300">
+                                            Report <span class="font-semibold text-cyber-secondary">Q1 Financials</span> approved
+                                        </p>
+                                        <p class="text-xs text-gray-500 mt-1">2 hours ago</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <div class="h-10 w-10 bg-red-600 rounded-full flex items-center justify-center ring-4 ring-cyber-darker">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-300">
+                                            Report <span class="font-semibold text-cyber-secondary">Asset Audit</span> rejected
+                                        </p>
+                                        <p class="text-xs text-gray-500 mt-1">Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        const monthlyCtx = document.getElementById('monthlyReportsChart').getContext('2d');
+        new Chart(monthlyCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                datasets: [{
+                    label: 'Reports',
+                    data: [12, 19, 14, 22, 15, 18, 28],
+                    backgroundColor: '#FF2E63',
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        ticks: {
+                            color: '#9CA3AF'
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false
+                        },
+                        ticks: {
+                            color: '#9CA3AF'
+                        }
+                    }
+                }
+            }
+        });
+
+        const statusCtx = document.getElementById('statusDistributionChart').getContext('2d');
+        new Chart(statusCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Approved', 'Pending', 'Rejected'],
+                datasets: [{
+                    data: [104, 12, 12],
+                    backgroundColor: ['#00FFC6', '#2DE2E6', '#FF2E63'],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#9CA3AF'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

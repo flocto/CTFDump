@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkWire | Settings</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            black: '#0B0B0F',
+                            darker: '#151521',
+                            dark: '#1C1C2B',
+                            primary: '#FF2E63',
+                            secondary: '#00FFC6',
+                            accent: '#892CDC',
+                            blue: '#2DE2E6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://unpkg.com/lucide-static@0.344.0/font/lucide.css" rel="stylesheet">
+</head>
+<body class="bg-cyber-black">
+<div class="flex h-screen">
+    <div th:replace="layout/sidebar :: sidebar(role=${session.user?.role?.name() == 'ROLE_EMPLOYEE' ? 'EMPLOYEE' : 'MANAGER'})"></div>
+
+    <div class="flex-1 flex flex-col overflow-hidden">
+        <header th:replace="layout/header :: header"></header>
+
+        <main class="flex-1 overflow-y-auto bg-cyber-black p-6">
+            <div class="max-w-2xl mx-auto">
+                <h1 class="text-2xl font-semibold text-gray-100 text-center">Change Password</h1>
+                <p class="mt-1 text-sm text-gray-400 text-center">Secure your account by updating your password.</p>
+
+                <form action="/settings" method="POST" class="mt-6 space-y-8">
+                    <div class="bg-cyber-darker p-6 rounded-lg shadow-lg border border-cyber-dark">
+                        <div class="grid grid-cols-1 gap-6">
+                            <div>
+                                <label for="currentPassword" class="block text-sm font-medium text-gray-300">Current Password</label>
+                                <input type="password" id="currentPassword" name="currentPassword" placeholder="Enter current password" class="mt-1 block w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 focus:border-cyber-primary focus:ring focus:ring-cyber-primary px-4 py-2">
+                            </div>
+                            <div>
+                                <label for="newPassword" class="block text-sm font-medium text-gray-300">New Password</label>
+                                <input type="password" id="newPassword" name="newPassword" placeholder="Enter new password" class="mt-1 block w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 focus:border-cyber-primary focus:ring focus:ring-cyber-primary px-4 py-2">
+                            </div>
+                            <div>
+                                <label for="confirmPassword" class="block text-sm font-medium text-gray-300">Confirm New Password</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm new password" class="mt-1 block w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 focus:border-cyber-primary focus:ring focus:ring-cyber-primary px-4 py-2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center">
+                        <button type="submit" class="px-6 py-2 bg-cyber-primary text-white text-sm font-medium rounded-md hover:bg-cyber-primary/90 focus:outline-none focus:ring-2 focus:ring-cyber-primary focus:ring-offset-2">
+                            Save Password
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>

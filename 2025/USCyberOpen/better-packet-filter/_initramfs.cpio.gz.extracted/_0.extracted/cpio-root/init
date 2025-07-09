@@ -1,0 +1,25 @@
+#!/bin/busybox sh
+
+/bin/busybox --install -s /bin
+mount -t proc none /proc
+mount -t sysfs none /sys
+
+chmod 400 /flag.txt
+chown 0.0 /
+chown 0.0 /*
+chown 0.0 -R /bin
+chown 0.0 -R /etc
+chown 0.0 -R /lib
+
+for f in $(ls /lib/modules/*.ko); do
+   insmod $f
+done
+
+cat <<EOF
+Boot took $(/bin/cut -d' ' -f1 /proc/uptime) seconds
+
+Welcome to SVUSCG
+tip: Run "stty -echo"
+EOF
+
+exec su -l ctf

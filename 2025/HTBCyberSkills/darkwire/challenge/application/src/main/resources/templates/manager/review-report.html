@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:thymes="http://www.thymeleaf.org/extras/java8time">
+<head>
+    <meta charset="UTF-8">
+    <title>DarkWire | Review Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            black: '#0B0B0F',
+                            darker: '#151521',
+                            dark: '#1C1C2B',
+                            primary: '#FF2E63',
+                            secondary: '#00FFC6',
+                            accent: '#892CDC',
+                            blue: '#2DE2E6'
+                        }
+                    }
+                }
+            }
+        };
+        </script>
+    </script>
+</head>
+<body class="bg-cyber-black text-white">
+<div class="flex h-screen">
+    <aside th:replace="layout/sidebar :: sidebar(role='MANAGER')"></aside>
+
+    <div class="flex-1 flex flex-col overflow-hidden">
+        <header th:replace="layout/header :: header"></header>
+
+        <main class="flex-1 overflow-y-auto p-8 bg-cyber-black">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold mb-6 text-cyber-blue">Review Report</h1>
+
+                <div class="bg-cyber-darker p-6 rounded-lg border border-cyber-dark shadow-lg">
+                    <h2 class="text-2xl font-semibold text-gray-100 mb-2" th:text="${report.title}">Report Title</h2>
+                    <p class="text-gray-400 mb-4" th:text="${report.description}">Report description here...</p>
+
+                    <div class="grid grid-cols-2 gap-x-12 gap-y-4 text-sm text-gray-300">
+                        <p><strong class="text-cyber-secondary">Uploaded By:</strong> <span th:text="${report.user.fullName}"></span></p>
+                        <p><strong class="text-cyber-secondary">Department:</strong> <span th:text="${report.department}"></span></p>
+                        <p><strong class="text-cyber-secondary">Uploaded On:</strong> <span th:text="${#temporals.format(report.uploadedAt, 'yyyy-MM-dd')}"></span></p>
+                        <p><strong class="text-cyber-secondary">File Type:</strong> <span th:text="${report.fileType}"></span></p>
+                        <p><strong class="text-cyber-secondary">Status:</strong> <span th:text="${report.status}"></span></p>
+                    </div>
+
+                    <div class="mt-6">
+                        <a th:href="@{'/reports/download/' + ${report.id}}"
+                           class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md bg-cyber-primary hover:bg-cyber-primary/90 text-white">
+                            <i class="lucide-download mr-2"></i> Download Report
+                        </a>
+                    </div>
+
+                    <form th:action="@{'/manager/reports/review/' + ${report.id}}" method="post" class="mt-6 flex gap-4">
+                        <button type="submit" name="action" value="approve"
+                                class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md shadow-sm font-medium">
+                            Approve
+                        </button>
+                        <button type="submit" name="action" value="reject"
+                                class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md shadow-sm font-medium">
+                            Reject
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>DarkWire | All Reports</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cyber: {
+              black: '#0B0B0F',
+              darker: '#151521',
+              dark: '#1C1C2B',
+              primary: '#FF2E63',
+              secondary: '#00FFC6',
+              accent: '#892CDC',
+              blue: '#2DE2E6'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-cyber-black text-white min-h-screen">
+<div class="flex h-screen">
+  <div th:replace="layout/sidebar :: sidebar(role='MANAGER')"></div>
+
+
+  <div class="flex-1 flex flex-col overflow-hidden">
+    <header th:replace="layout/header :: header"></header>
+
+    <main class="flex-1 overflow-y-auto p-8">
+      <div class="max-w-7xl mx-auto">
+        <h1 class="text-2xl font-semibold text-gray-100 mb-4">All Submitted Reports</h1>
+
+        <div class="overflow-x-auto rounded-lg shadow border border-cyber-dark bg-cyber-darker">
+          <table class="min-w-full text-sm divide-y divide-cyber-dark">
+            <thead>
+            <tr class="text-xs text-gray-400 uppercase">
+              <th class="px-6 py-3 text-left">Title</th>
+              <th class="px-6 py-3 text-left">Uploaded By</th>
+              <th class="px-6 py-3 text-left">Department</th>
+              <th class="px-6 py-3 text-left">Status</th>
+              <th class="px-6 py-3 text-left">Uploaded At</th>
+              <th class="px-6 py-3 text-left">Actions</th>
+            </tr>
+            </thead>
+            <tbody class="divide-y divide-cyber-dark" th:if="${reports}">
+            <tr th:each="report : ${reports}" class="hover:bg-cyber-dark/40">
+              <td class="px-6 py-4 font-medium text-cyber-secondary" th:text="${report.title}">Report Title</td>
+              <td class="px-6 py-4" th:text="${report.user.fullName}">Uploader</td>
+              <td class="px-6 py-4" th:text="${report.department}">Department</td>
+              <td class="px-6 py-4">
+                <span th:text="${report.status}" th:classappend="${report.status == T(com.darkwire.model.ReportStatus).APPROVED} ? 'text-green-400' : (${report.status == T(com.darkwire.model.ReportStatus).REJECTED} ? 'text-red-400' : 'text-yellow-400')" 
+                class="text-xs font-medium">
+              </span>      
+              </td>
+              <td class="px-6 py-4" th:text="${#temporals.format(report.uploadedAt, 'yyyy-MM-dd HH:mm')}">2025-01-01</td>
+              <td class="px-6 py-4">
+                <a th:href="@{'/manager/reports/review/' + ${report.id}}"
+                   class="inline-flex items-center px-3 py-1.5 text-sm rounded-md bg-cyber-primary hover:bg-cyber-primary/90 text-white font-medium">
+                  Review
+                </a>
+              </td>
+            </tr>
+            </tbody>
+            <tbody th:if="${#lists.isEmpty(reports)}">
+            <tr>
+              <td colspan="6" class="text-center py-6 text-gray-400">No reports submitted yet.</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>

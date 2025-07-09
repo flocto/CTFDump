@@ -1,0 +1,163 @@
+    000: load_const     0x00
+    002: dup            
+    003: dup            
+    004: dup            
+    005: dup            
+    006: store_mem      0x02
+    008: store_mem      0x20
+    00a: store_mem      0x21
+    00c: store_mem      0x22
+    00e: store_mem      0x23
+    010: load_mem       0x08
+    012: load_const     0x01
+    014: rotate_left    
+    015: store_mem      0x12
+        017: read_input     
+        018: load_const     0xff
+        01a: bitwise_and    
+        01b: store_mem      0x10
+        01d: load_mem       0x10
+        01f: load_const     '0'
+        021: jlt            FAIL
+        023: load_mem       0x10
+        025: load_const     '9'
+        027: jgt            FAIL
+        029: load_const     '0'
+        02b: load_mem       0x10
+        02d: subtract       
+        02e: store_mem      0x10
+        030: read_input     
+        031: load_const     0xff
+        033: bitwise_and    
+        034: store_mem      0x11
+        036: load_mem       0x11
+        038: load_const     '0'
+        03a: jlt            FAIL
+        03c: load_mem       0x11
+        03e: load_const     '9'
+        040: jgt            FAIL
+        042: load_const     '0'
+        044: load_mem       0x11
+        046: subtract       
+        047: store_mem      0x11
+        049: load_mem       0x10
+        04b: load_const     0x0a
+        04d: mul            
+        04e: load_mem       0x11
+        050: add            
+        051: load_const     0x01
+        053: rotate_left    
+        054: dup            
+        055: load_mem       0x12
+        057: bitwise_and    
+        058: load_const     0x00
+        05a: jne            FAIL
+        05c: load_mem       0x12
+        05e: bitwise_or     
+        05f: store_mem      0x12
+        061: load_mem       0x02
+        063: load_const     0x01
+        065: add            
+        066: dup            
+        067: store_mem      0x02
+        069: load_const     0x09
+        06b: jlt            0x17
+    06d: load_const     0x00
+    06f: store_mem      0x02
+        071: load_mem       0x02
+        073: load_mem       0x12
+        075: rotate_right   
+        076: load_const     0x01
+        078: bitwise_and    
+        079: load_const     0x00
+        07b: jeq            0xf4
+        07d: load_const     0x0a
+        07f: load_mem       0x02
+        081: sub_4d19       
+        082: store_mem      0x03
+        084: load_const     0x0a
+        086: load_mem       0x02
+        088: sub_5e14       
+        089: store_mem      0x04
+        08b: load_mem       0x04
+        08d: load_mem       0x03
+        08f: subtract       
+        090: load_const     0x09
+        092: add            
+        093: store_mem      0x05
+        095: load_mem       0x03
+        097: load_mem       0x04
+        099: add            
+        09a: store_mem      0x06
+        09c: load_mem       0x03
+        09e: load_mem       0x20
+        0a0: rotate_right   
+        0a1: load_const     0x01
+        0a3: bitwise_and    
+        0a4: load_const     0x01
+        0a6: jeq            FAIL
+        0a8: load_mem       0x04
+        0aa: load_mem       0x21
+        0ac: rotate_right   
+        0ad: load_const     0x01
+        0af: bitwise_and    
+        0b0: load_const     0x01
+        0b2: jeq            FAIL
+        0b4: load_mem       0x05
+        0b6: load_mem       0x22
+        0b8: rotate_right   
+        0b9: load_const     0x01
+        0bb: bitwise_and    
+        0bc: load_const     0x01
+        0be: jeq            FAIL
+        0c0: load_mem       0x06
+        0c2: load_mem       0x23
+        0c4: rotate_right   
+        0c5: load_const     0x01
+        0c7: bitwise_and    
+        0c8: load_const     0x01
+        0ca: jeq            FAIL
+        0cc: load_mem       0x03
+        0ce: load_const     0x01
+        0d0: rotate_left    
+        0d1: load_mem       0x20
+        0d3: bitwise_or     
+        0d4: store_mem      0x20
+        0d6: load_mem       0x04
+        0d8: load_const     0x01
+        0da: rotate_left    
+        0db: load_mem       0x21
+        0dd: bitwise_or     
+        0de: store_mem      0x21
+        0e0: load_mem       0x05
+        0e2: load_const     0x01
+        0e4: rotate_left    
+        0e5: load_mem       0x22
+        0e7: bitwise_or     
+        0e8: store_mem      0x22
+        0ea: load_mem       0x06
+        0ec: load_const     0x01
+        0ee: rotate_left    
+        0ef: load_mem       0x23
+        0f1: bitwise_or     
+        0f2: store_mem      0x23
+        0f4: load_mem       0x02
+        0f6: load_const     0x01
+        0f8: add            
+        0f9: dup            
+        0fa: store_mem      0x02
+        0fc: load_const     0x64
+        0fe: jlt            0x71
+    100: load_mem       0x08
+    102: load_const     0x01
+    104: add            
+    105: dup            
+    106: store_mem      0x08
+    108: load_const     0x64
+    10a: jlt            0x00
+10c: load_mem       0x01
+10e: system         
+10f: exit           
+110: load_mem       0x00
+112: print          
+113: exit           

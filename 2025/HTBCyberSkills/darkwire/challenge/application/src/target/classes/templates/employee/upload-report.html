@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            black: '#0B0B0F',
+                            darker: '#151521',
+                            dark: '#1C1C2B',
+                            primary: '#FF2E63',
+                            secondary: '#00FFC6',
+                            accent: '#892CDC',
+                            blue: '#2DE2E6',
+                            light: '#2A2A3A'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://unpkg.com/lucide-static@0.344.0/font/lucide.css" rel="stylesheet">
+</head>
+<body class="bg-cyber-black text-white">
+<div class="flex h-screen">
+    <aside th:replace="~{layout/sidebar :: sidebar(role='EMPLOYEE')}"></aside>
+
+    
+    <div class="flex-1 flex flex-col overflow-hidden">
+        <header th:replace="~{layout/header}"></header>
+
+        <main class="flex-1 overflow-y-auto p-8 bg-cyber-black">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold mb-6 text-cyber-blue">Upload Report</h1>
+
+                <form th:action="@{/employee/upload-report}" method="post" enctype="multipart/form-data"
+                      class="bg-cyber-dark p-6 rounded-lg shadow-lg border border-cyber-light space-y-6">
+                    
+                    <div>
+                        <label for="title" class="block text-sm font-medium text-gray-300 mb-1">Report Title</label>
+                        <input type="text" name="title" id="title" required
+                               class="w-full rounded-md bg-cyber-darker border border-cyber-dark text-gray-100 p-2 focus:ring-2 focus:ring-cyber-primary" />
+                    </div>
+
+                    <div>
+                        <label for="department" class="block text-sm font-medium text-gray-300 mb-1">Department</label>
+                        <select name="department" id="department"
+                                class="w-full rounded-md bg-cyber-darker border border-cyber-dark text-gray-100 p-2 focus:ring-2 focus:ring-cyber-primary">
+                            <option value="Accounting">Accounting</option>
+                            <option value="Finance" selected>Finance</option>
+                            <option value="Investments">Investments</option>
+                            <option value="Legal">Legal</option>
+                            <option value="Operations">Operations</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="description" class="block text-sm font-medium text-gray-300 mb-1">Description</label>
+                        <textarea name="description" id="description" rows="3" required
+                                  class="w-full rounded-md bg-cyber-darker border border-cyber-dark text-gray-100 p-2 focus:ring-2 focus:ring-cyber-primary"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="file" class="block text-sm font-medium text-gray-300 mb-1">Report File</label>
+                        <input type="file" name="file" id="file" required accept=".csv,.pdf,.xlsx"
+                               class="w-full rounded-md bg-cyber-darker border border-cyber-dark text-gray-100 p-2 focus:ring-2 focus:ring-cyber-primary" />
+                    </div>
+
+                    <div class="flex justify-end">
+                        <button type="submit"
+                                class="bg-cyber-primary hover:bg-cyber-primary/90 text-white font-semibold px-6 py-2 rounded-md shadow-md transition">
+                            Upload Report
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>

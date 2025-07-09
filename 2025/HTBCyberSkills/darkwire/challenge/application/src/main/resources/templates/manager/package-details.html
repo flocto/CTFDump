@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Darkwire | Package Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            black: '#0B0B0F',
+                            darker: '#151521',
+                            dark: '#1C1C2B',
+                            primary: '#FF2E63',
+                            secondary: '#00FFC6',
+                            accent: '#892CDC',
+                            blue: '#2DE2E6',
+                            light: '#2A2A3A'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-cyber-black text-gray-100">
+<div class="flex h-screen">
+    <aside th:replace="~{layout/sidebar :: sidebar(role='MANAGER')}"></aside>
+
+    <div class="flex-1 flex flex-col overflow-hidden">
+        <header th:replace="layout/header :: header"></header>
+
+        <main class="flex-1 overflow-y-auto p-6">
+            <div class="max-w-5xl mx-auto">
+                <h1 class="text-2xl font-semibold mb-4">Installed Packages</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-cyber-light p-5 rounded-lg border border-cyber-dark" th:each="pkg : ${packages}">
+                        <div class="flex justify-between items-center mb-2">
+                            <div>
+                                <h2 class="text-lg font-bold text-gray-100" th:text="${pkg.name}">Package Name</h2>
+                                <p class="text-sm text-gray-400" th:text="'Version ' + ${pkg.version}">v1.0</p>
+                            </div>
+                            <span class="px-2 py-1 text-xs font-semibold rounded-full"
+                                  th:classappend="${pkg.active} ? 'bg-green-500 text-white' : 'bg-red-500 text-white'"
+                                  th:text="${pkg.active} ? 'Active' : 'Inactive'">
+                                Active
+                            </span>
+                        </div>
+                        <p class="text-sm text-gray-300 mb-3" th:text="${pkg.description}">Description here...</p>
+                        <div class="flex justify-between text-sm text-gray-400">
+                            <span th:text="'Uploaded by: ' + ${pkg.uploadedBy.fullName}"></span>
+                            <span th:text="${#temporals.format(pkg.uploadedAt, 'yyyy-MM-dd HH:mm')}">2025-04-22</span>
+                        </div>
+                        <div class="mt-4 flex justify-end space-x-2">
+                            <form th:action="@{/manager/packages/toggle/{id}(id=${pkg.id})}" method="post">
+                                <button type="submit"
+                                        class="text-sm px-3 py-1 rounded bg-cyber-primary text-white hover:bg-cyber-primary/90"
+                                        th:text="${pkg.active} ? 'Deactivate' : 'Activate'">
+                                    Toggle
+                                </button>
+                            </form>
+                            <form th:action="@{/manager/packages/delete/{id}(id=${pkg.id})}" method="post">
+                                <button type="submit"
+                                        class="text-sm px-3 py-1 rounded bg-red-600 text-white hover:bg-red-700">
+                                    Delete
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div th:if="${packages.isEmpty()}" class="text-center mt-10 text-gray-400">
+                    <p>No packages uploaded yet.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>

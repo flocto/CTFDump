@@ -1,0 +1,17 @@
+
+grant codeBase "file:/app/java/-" {
+
+    /* ---------- network & web ----------- */
+    permission java.net.SocketPermission "*", "connect,resolve,listen,accept";
+
+    /* ---------- reflection Spring likes --*/
+    permission java.lang.reflect.ReflectPermission "suppressAccessChecks";
+    permission java.lang.RuntimePermission  "accessDeclaredMembers";
+    permission java.lang.RuntimePermission  "getenv.*";
+    permission java.util.PropertyPermission "*", "read";
+
+    /* ---------- Allow read and create permissions for /app/java ---------- */
+    permission java.io.FilePermission "/app/java/-", "read,write,create,delete";
+
+    /* ---------- intentionally *NO*  FilePermission "execute" ------------ */
+}

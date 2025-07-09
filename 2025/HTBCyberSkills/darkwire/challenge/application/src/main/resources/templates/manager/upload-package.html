@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Package</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            black: '#0B0B0F',
+                            darker: '#151521',
+                            dark: '#1C1C2B',
+                            primary: '#FF2E63',
+                            secondary: '#00FFC6',
+                            accent: '#892CDC',
+                            blue: '#2DE2E6',
+                            light: '#2A2A3A'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-cyber-black text-gray-100">
+<div class="flex h-screen">
+    <aside th:replace="layout/sidebar :: sidebar(role='MANAGER')"></aside>
+
+    <div class="flex-1 flex flex-col overflow-hidden">
+        <header th:replace="layout/header :: header"></header>
+
+        <main class="flex-1 overflow-y-auto p-6">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="text-2xl font-semibold mb-4">Upload New Package</h1>
+
+                <form th:action="@{/manager/packages/upload}" method="post" enctype="multipart/form-data"
+                    class="bg-cyber-light p-6 rounded-lg shadow-lg border border-cyber-dark space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Package Name</label>
+                        <input type="text" name="name" required
+                            class="w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 p-2" placeholder="Enter package name">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Package Version</label>
+                        <input type="text" name="version" required
+                            class="w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 p-2" placeholder="Enter package version">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Package Type</label>
+                        <select name="type" required
+                                class="w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 p-2">
+                            <option value="">Select type...</option>
+                            <option value="analysis">Analysis</option>
+                            <option value="security">Security</option>
+                            <option value="utility">Utility</option>
+                            <option value="integration">Integration</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Package ZIP File</label>
+                        <input type="file" name="file" required accept=".zip"
+                            class="w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 p-2">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Description</label>
+                        <textarea name="description" rows="3"
+                                class="w-full rounded-md bg-cyber-dark border border-cyber-dark text-gray-300 p-2"
+                                placeholder="Optional package description..."></textarea>
+                    </div>
+                    <div class="flex justify-end space-x-4">
+                        <a href="/manager/packages" class="text-sm text-cyber-secondary hover:text-cyber-primary">Cancel</a>
+                        <button type="submit"
+                                class="bg-cyber-primary text-white px-4 py-2 rounded hover:bg-cyber-primary/90">
+                            Upload Package
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DarkWire | Register</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cyber: {
+              black: '#0B0B0F',
+              darker: '#151521',
+              dark: '#1C1C2B',
+              primary: '#FF2E63',
+              secondary: '#00FFC6',
+              accent: '#892CDC',
+              blue: '#2DE2E6'
+            }
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-cyber-black">
+  <div class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div class="w-full max-w-md space-y-8">
+      <div class="flex justify-center">
+        <i data-lucide="shield-alert" class="h-12 w-12 text-cyber-primary"></i>
+      </div>
+      <h2 class="mt-6 text-center text-3xl font-extrabold text-cyber-secondary">Create Account</h2>
+      <p class="mt-2 text-center text-sm text-gray-400">Join Task Force Phoenix</p>
+
+      <div class="mt-8 bg-cyber-darker py-8 px-4 shadow-lg shadow-cyber-primary/20 sm:rounded-lg sm:px-10 border border-cyber-dark">
+        <form method="POST" action="/register" class="space-y-6">
+          <div th:if="${error}" class="rounded-md bg-red-900/30 border border-red-500/50 p-4">
+            <p class="text-sm text-red-300" th:text="${error}"></p>
+          </div>
+          <div th:if="${success}" class="rounded-md bg-green-900/30 border border-green-500/50 p-4">
+            <p class="text-sm text-green-300" th:text="${success}"></p>
+          </div>
+
+          <div>
+            <label for="username" class="block text-sm font-medium text-gray-300">Username</label>
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <i data-lucide="user" class="text-gray-400 w-5 h-5"></i>
+              </div>
+              <input id="username" name="username" type="text" required
+                class="block w-full pl-10 py-2 bg-cyber-dark border border-cyber-dark rounded-md shadow-sm text-gray-300 focus:outline-none focus:ring-cyber-primary focus:border-cyber-primary"
+                placeholder="Choose a username" />
+            </div>
+          </div>
+
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <i data-lucide="mail" class="text-gray-400 w-5 h-5"></i>
+              </div>
+              <input id="email" name="email" type="email" required
+                class="block w-full pl-10 py-2 bg-cyber-dark border border-cyber-dark rounded-md shadow-sm text-gray-300 focus:outline-none focus:ring-cyber-primary focus:border-cyber-primary"
+                placeholder="your.email@example.com" />
+            </div>
+          </div>
+
+          <div>
+            <label for="fullName" class="block text-sm font-medium text-gray-300">Full Name</label>
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <i data-lucide="user-round" class="text-gray-400 w-5 h-5"></i>
+              </div>
+              <input id="fullName" name="fullName" type="text" required
+                class="block w-full pl-10 py-2 bg-cyber-dark border border-cyber-dark rounded-md shadow-sm text-gray-300 focus:outline-none focus:ring-cyber-primary focus:border-cyber-primary"
+                placeholder="John Doe" />
+            </div>
+          </div>
+
+          <div>
+            <label for="department" class="block text-sm font-medium text-gray-300">Department</label>
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <i data-lucide="building" class="text-gray-400 w-5 h-5"></i>
+              </div>
+              <select id="department" name="department" required
+                class="block w-full pl-10 py-2 bg-cyber-dark border border-cyber-dark rounded-md shadow-sm text-gray-300 focus:outline-none focus:ring-cyber-primary focus:border-cyber-primary">
+                <option value="Accounting">Accounting</option>
+                <option value="Finance">Finance</option>
+                <option value="Operations">Operations</option>
+                <option value="Legal">Legal</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="password" class="block text-sm font-medium text-gray-300">Password</label>
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <i data-lucide="lock" class="text-gray-400 w-5 h-5"></i>
+              </div>
+              <input id="password" name="password" type="password" required
+                class="block w-full pl-10 py-2 bg-cyber-dark border border-cyber-dark rounded-md shadow-sm text-gray-300 focus:outline-none focus:ring-cyber-primary focus:border-cyber-primary"
+                placeholder="••••••••" />
+            </div>
+          </div>
+
+          <div>
+            <button type="submit"
+              class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-cyber-primary hover:bg-cyber-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyber-primary">
+              Create Account
+            </button>
+          </div>
+        </form>
+
+        <div class="mt-6">
+          <div class="relative">
+            <div class="absolute inset-0 flex items-center">
+              <div class="w-full border-t border-cyber-dark"></div>
+            </div>
+            <div class="relative flex justify-center text-sm">
+              <span class="px-2 bg-cyber-darker text-cyber-blue">Already have an account?</span>
+            </div>
+          </div>
+          <div class="mt-6 text-center">
+            <a href="/login" class="text-cyber-secondary hover:text-cyber-primary">Sign in instead</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
